@@ -1,0 +1,183 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 19.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2012050301   ; Serial
+			3600	     ; Refresh	 1 hours
+			1800	     ; Retry	 0.5 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	ccunix.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+;
+; shchen
+;
+90	IN	PTR	slow.ccu.edu.tw.
+91	IN	PTR	alphonse.lab.ccu.edu.tw.
+92	IN	PTR	atlas.lab.ccu.edu.tw.
+93	IN	PTR	lodoss.lab.ccu.edu.tw.
+94	IN	PTR	dnsserv.lab.ccu.edu.tw.
+95	IN	PTR	laputa.ccu.edu.tw.
+96	IN	PTR	moffice.lab.ccu.edu.tw.
+97	IN	PTR	mofficex1.ccu.edu.tw.
+98	IN	PTR	mofficex.ccu.edu.tw.
+99	IN	PTR	gmail.lab.ccu.edu.tw.
+
+;
+
+; room 312	:	21 - 45
+; director	:	46 - 50		: hp
+15	IN	PTR	director.cc.ccu.edu.tw.
+; room 319	:	51 - 80		: steve
+; room 219	:	81 - 110	: huang
+; room 121	:	111 - 150	: kuof
+; room 124	:	151 - 180	: chen
+
+; room 312
+;21	IN	PTR	chang.cc.ccu.edu.tw.
+22	IN	PTR	mars.ccu.edu.tw.
+;23	IN	PTR	mars2.ccu.edu.tw.
+;26	IN	PTR	w3.ccu.edu.tw.
+;27	IN	PTR	emba.ccu.edu.tw.
+;28	IN	PTR	info3.ccu.edu.tw.
+;29	IN	PTR	info4.ccu.edu.tw.
+;30	IN	PTR	info5.ccu.edu.tw.
+
+31	IN	PTR	taco.cc.ccu.edu.tw.
+32	IN	PTR	smart.cc.ccu.edu.tw.
+33	IN	PTR	figter.cc.ccu.edu.tw.
+34	IN	PTR	companion.cc.ccu.edu.tw.
+41	IN	PTR	phone.ccu.edu.tw.
+;45	IN	PTR	consult.ccu.edu.tw.
+;47	IN	PTR	axelrod.linux.ccu.edu.tw.
+48	IN	PTR	rts.cc.ccu.edu.tw.
+49	IN	PTR	tswang.cc.ccu.edu.tw.
+
+; room 319
+;56	IN	PTR	jsguo.cc.ccu.edu.tw.
+;57	IN	PTR	guo.cc.ccu.edu.tw.
+58	IN	PTR	amigo.cc.ccu.edu.tw.
+59	IN	PTR	huang3.cc.ccu.edu.tw.
+;60	IN	PTR	cache2.ccu.edu.tw.
+66	IN	PTR	sip.ccu.edu.tw.
+;55	IN	PTR	cache3.ccu.edu.tw.
+70	IN	PTR	lottery.ccu.edu.tw.
+;71	IN	PTR	steve71.cc.ccu.edu.tw.
+72	IN	PTR	steve72.cc.ccu.edu.tw.
+73	IN	PTR	steve73.cc.ccu.edu.tw.
+74	IN	PTR	steve74.cc.ccu.edu.tw.
+75	IN	PTR	steve75.cc.ccu.edu.tw.
+
+
+; room 219
+84	IN	PTR	ccuexchange.cc.ccu.edu.tw.
+
+
+; room 124
+156	IN	PTR	simple.lab.ccu.edu.tw.
+157	IN	PTR	gaia.lab.ccu.edu.tw.
+158	IN	PTR	chen.lab.ccu.edu.tw.
+160	IN	PTR	sparc.lab.ccu.edu.tw.
+180	IN	PTR	tek.lab.ccu.edu.tw.
+
+; room 121 
+101	IN	PTR	netgrd.cc.ccu.edu.tw.
+112	IN	PTR	robert.cc.ccu.edu.tw.
+113	IN	PTR	robert-1.cc.ccu.edu.tw.
+114	IN	PTR	harmonica.cc.ccu.edu.tw.
+116	IN	PTR	harmonicax.cc.ccu.edu.tw.
+117	IN	PTR	obione.cc.ccu.edu.tw.
+118	IN	PTR	yoda.cc.ccu.edu.tw.
+119	IN	PTR	nidalap-3.cc.ccu.edu.tw.
+120	IN	PTR	huang-1.cc.ccu.edu.tw.
+121	IN	PTR	huang-2.cc.ccu.edu.tw.
+122	IN	PTR	huang-3.cc.ccu.edu.tw.
+123	IN	PTR	victora.cc.ccu.edu.tw.
+124	IN	PTR	victora-1.cc.ccu.edu.tw.
+127	IN	PTR	tina-1.cc.ccu.edu.tw.
+128	IN	PTR	tina-2.cc.ccu.edu.tw.
+129	IN	PTR	tina-3.cc.ccu.edu.tw.
+131	IN	PTR	r121-x01.cc.ccu.edu.tw.
+132	IN	PTR	r121-x02.cc.ccu.edu.tw.
+133	IN	PTR	r121-x03.cc.ccu.edu.tw.
+134	IN	PTR	hellfire.cc.ccu.edu.tw.
+135	IN	PTR	ghosts.cc.ccu.edu.tw.
+136	IN	PTR	r121-x06.cc.ccu.edu.tw.
+139	IN	PTR	ieeksh.cc.ccu.edu.tw.
+140	IN	PTR	printsrv-2100.cc.ccu.edu.tw.
+141	IN	PTR	printsrv-5000.cc.ccu.edu.tw.
+;
+;
+
+; room 122
+185	IN	PTR	BotnetTWH.ccu.edu.tw.
+187	IN	PTR	slt.ccu.edu.tw.
+189	IN	PTR	voip.ccu.edu.tw.
+200	IN	PTR	botnet.ccu.edu.tw.
+;200	IN	PTR	voip-forum.ccu.edu.tw.
+;208	IN	PTR	welearn.cc.ccu.edu.tw.
+;208	IN	PTR	ps.ccu.edu.tw.
+;209	IN	PTR	ale.cc.ccu.edu.tw.
+;; 196	IN	PTR	ale2.cc.ccu.edu.tw.
+190	IN	PTR	ccu-nben.cc.ccu.edu.tw.
+191	IN	PTR	www.ecard.ccu.edu.tw.
+193	IN	PTR	nbenproxy.cc.ccu.edu.tw.
+;195	IN	PTR	voip.ccu.edu.tw.
+205	IN	PTR	wen205.cc.ccu.edu.tw.
+206	IN	PTR	wen206.cc.ccu.edu.tw.
+
+;
+
+;196	IN	PTR	dedu.cc.ccu.edu.tw.
+193	IN	PTR	dedu.cc.ccu.edu.tw.
+
+; room 124
+151	IN	PTR	liouyc-1.cc.ccu.edu.tw.
+152	IN	PTR	liouyc-2.cc.ccu.edu.tw.
+153	IN	PTR	teamspirit.ccu.edu.tw.
+154	IN	PTR	gdss.ccu.edu.tw.
+155	IN	PTR	liouyc-5.cc.ccu.edu.tw.
+161	IN	PTR	crh-1.cc.ccu.edu.tw.
+162	IN	PTR	crh-2.cc.ccu.edu.tw.
+163	IN	PTR	crh-3.cc.ccu.edu.tw.
+164	IN	PTR	changrh-ftp.cc.ccu.edu.tw.
+165	IN	PTR	hicsys.cc.ccu.edu.tw.
+
+;
+; room 317
+;
+204	IN	PTR	tb.ccu.edu.tw.
+207	IN	PTR	etraining.ccu.edu.tw.
+210	IN	PTR	enid.cc.ccu.edu.tw.
+211	IN	PTR	lacky.cc.ccu.edu.tw.
+212	IN	PTR	info.cc.ccu.edu.tw.
+213	IN	PTR	tychu.cc.ccu.edu.tw.
+214	IN	PTR	mingling.cc.ccu.edu.tw.
+216	IN	PTR	sheena.cc.ccu.edu.tw.
+217	IN	PTR	exchange.cc.ccu.edu.tw.
+218	IN	PTR	yukico.cc.ccu.edu.tw.
+221	IN	PTR	gardener.cc.ccu.edu.tw.
+229	IN	PTR	unixdb.cc.ccu.edu.tw.
+
+230	IN	PTR	nyc.cc.ccu.edu.tw.
+220	IN	PTR	cia.cc.ccu.edu.tw.
+;
+; lab for student
+;
+80	IN	PTR	lab80.lab.ccu.edu.tw.
+81	IN	PTR	lab81.lab.ccu.edu.tw.
+82	IN	PTR	lab82.lab.ccu.edu.tw.
+83	IN	PTR	lab83.lab.ccu.edu.tw.
+84	IN	PTR	lab84.lab.ccu.edu.tw.
+85	IN	PTR	lab85.lab.ccu.edu.tw.
+86	IN	PTR	lab86.lab.ccu.edu.tw.
+87	IN	PTR	lab87.lab.ccu.edu.tw.
+88	IN	PTR	lab88.lab.ccu.edu.tw.

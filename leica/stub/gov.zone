@@ -1,0 +1,17 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'gov.tw'   last serial 9910061
+; from 168.95.1.1   at Sat Oct  9 01:19:17 1999
+$ORIGIN tw.
+gov		IN	SOA	hntp1.hinet.net. hostmaster.hinet.net. (
+		9910081 21600 7200 3600000 86400 )
+		IN	NS	hntp3.hinet.net.
+		IN	NS	dns.hinet.net.
+		IN	NS	hntp1.hinet.net.
+; Ignoring info about hntp3.hinet.net, not in zone gov.tw.
+; $ORIGIN hinet.net.
+; hntp3		IN	A	168.95.192.2
+; Ignoring info about dns.hinet.net, not in zone gov.tw.
+; dns		IN	A	168.95.1.1
+; Ignoring info about hntp1.hinet.net, not in zone gov.tw.
+; hntp1		IN	A	168.95.192.1

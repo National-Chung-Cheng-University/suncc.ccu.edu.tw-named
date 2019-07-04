@@ -1,0 +1,51 @@
+$ORIGIN .
+$TTL 600	; 10 minutes
+79.123.140.in-addr.arpa	IN SOA	www.chem.ccu.edu.tw. root.chem.ccu.edu.tw. (
+				2010042712 ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				720000     ; expire (1 week 1 day 8 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	www.chem.ccu.edu.tw.
+$ORIGIN 79.123.140.in-addr.arpa.
+46			PTR	nhnc.chem.ccu.edu.tw.
+56			PTR	MPI.chem.ccu.edu.tw.
+57			PTR	orion.chem.ccu.edu.tw.
+58			PTR	virgo.chem.ccu.edu.tw.
+59			PTR	capricorn.chem.ccu.edu.tw.
+60			PTR	account.chem.ccu.edu.tw.
+61			PTR	Zeus.chem.ccu.edu.tw.
+62			PTR	odin.chem.ccu.edu.tw.
+63			PTR	cefiro.chem.ccu.edu.tw.
+64			PTR	parallel.chem.ccu.edu.tw.
+65			PTR	irene.chem.ccu.edu.tw.
+66			PTR	snoopy.chem.ccu.edu.tw.
+67			PTR	stargazer.chem.ccu.edu.tw.
+68			PTR	supernova.chem.ccu.edu.tw.
+69			PTR	cluster.chem.ccu.edu.tw.
+70			PTR	diesel.chem.ccu.edu.tw.
+71			PTR	juice.chem.ccu.edu.tw.
+72			PTR	sirius.chem.ccu.edu.tw.
+73			PTR	faraday.chem.ccu.edu.tw.
+74			PTR	Venus.chem.ccu.edu.tw.
+75			PTR	Athena.chem.ccu.edu.tw.
+76			PTR	Hercules.chem.ccu.edu.tw.
+77			PTR	Apollo.chem.ccu.edu.tw.
+78			PTR	kay.chem.ccu.edu.tw.
+79			PTR	Libra.chem.ccu.edu.tw.
+80			PTR	gemini.chem.ccu.edu.tw.
+81			PTR	galaxy.chem.ccu.edu.tw.
+82			PTR	NFS.chem.ccu.edu.tw.
+83			PTR	Enterprise.chem.ccu.edu.tw.
+84			PTR	Columbia.chem.ccu.edu.tw.
+85			PTR	Challenger.chem.ccu.edu.tw.
+86			PTR	webmo.chem.ccu.edu.tw.
+88			PTR	lab409.chem.ccu.edu.tw.
+89			PTR	oscar.chem.ccu.edu.tw.
+90			PTR	www.chem.ccu.edu.tw.
+91			PTR	Discovery.chem.ccu.edu.tw.
+92			PTR	Atlantis.chem.ccu.edu.tw.
+93			PTR	Titan.chem.ccu.edu.tw.
+94			PTR	Ares.chem.ccu.edu.tw.
+95			PTR	Hubble.chem.ccu.edu.tw.

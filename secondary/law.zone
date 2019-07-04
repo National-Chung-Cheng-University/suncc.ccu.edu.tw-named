@@ -1,0 +1,15 @@
+$ORIGIN .
+$TTL 3600	; 1 hour
+law.ccu.edu.tw		IN SOA	ccunix.ccu.edu.tw. root.ccunix.ccu.edu.tw. (
+				2007101701 ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	suncc.ccu.edu.tw.
+			NS	ccunix.ccu.edu.tw.
+			MX	0 ccunix.ccu.edu.tw.
+			MX	10 bbsmailer.ccu.edu.tw.
+$ORIGIN law.ccu.edu.tw.
+master2			A	140.123.193.247

@@ -1,0 +1,97 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	caac.ccu.edu.tw.
+$TTL	360000
+
+@       IN      SOA 	suncc.ccu.edu.tw.     root.suncc.ccu.edu.tw.  (
+			2012020101   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	A	140.123.27.20
+
+
+ftp		IN	A	140.123.27.30
+
+www1		IN	A	140.123.27.20
+www		IN	A	140.123.27.20
+www2		IN	A	140.123.27.21
+www3		IN	A	140.123.27.22
+decker		IN	A	140.123.27.30
+mail		IN	CNAME	decker.caac.ccu.edu.tw.
+
+passage		IN	A	140.123.27.51
+;;sslvpn		IN	A	140.123.26.149
+sslvpn		IN	A	140.123.26.146
+
+exam01		IN	A	140.123.27.101
+exam02		IN	A	140.123.27.102
+exam03		IN	A	140.123.27.103
+exam04		IN	A	140.123.27.104
+exam05		IN	A	140.123.27.105
+exam06		IN	A	140.123.27.106
+exam07		IN	A	140.123.27.107
+exam08		IN	A	140.123.27.108
+exam09		IN	A	140.123.27.109
+exam10		IN	A	140.123.27.110
+
+exam11		IN	A	140.123.27.111
+exam12		IN	A	140.123.27.112
+exam13		IN	A	140.123.27.113
+exam14		IN	A	140.123.27.114
+exam15		IN	A	140.123.27.115
+exam16		IN	A	140.123.27.116
+exam17		IN	A	140.123.27.117
+exam18		IN	A	140.123.27.118
+exam19		IN	A	140.123.27.119
+exam20		IN	A	140.123.27.120
+
+caac121		IN	A	140.123.27.121
+caac122		IN	A	140.123.27.122
+caac123		IN	A	140.123.27.123
+caac124		IN	A	140.123.27.124
+caac125		IN	A	140.123.27.125
+caac126		IN	A	140.123.27.126
+caac127		IN	A	140.123.27.127
+caac128		IN	A	140.123.27.128
+caac129		IN	A	140.123.27.129
+caac130		IN	A	140.123.27.130
+
+caac131		IN	A	140.123.27.131
+caac132		IN	A	140.123.27.132
+caac133		IN	A	140.123.27.133
+caac134		IN	A	140.123.27.134
+caac135		IN	A	140.123.27.135
+caac136		IN	A	140.123.27.136
+caac137		IN	A	140.123.27.137
+caac138		IN	A	140.123.27.138
+caac139		IN	A	140.123.27.139
+caac140		IN	A	140.123.27.140
+
+caac141		IN	A	140.123.27.141
+caac142		IN	A	140.123.27.142
+caac143		IN	A	140.123.27.143
+caac144		IN	A	140.123.27.144
+caac145		IN	A	140.123.27.145
+caac146		IN	A	140.123.27.146
+caac147		IN	A	140.123.27.147
+caac148		IN	A	140.123.27.148
+caac149		IN	A	140.123.27.149
+caac150		IN	A	140.123.27.150
+
+caac151		IN	A	140.123.27.151
+caac152		IN	A	140.123.27.152
+caac153		IN	A	140.123.27.153
+caac154		IN	A	140.123.27.154
+caac155		IN	A	140.123.27.155
+caac156		IN	A	140.123.27.156
+caac157		IN	A	140.123.27.157
+caac158		IN	A	140.123.27.158
+caac159		IN	A	140.123.27.159
+caac160		IN	A	140.123.27.160
+

@@ -1,0 +1,921 @@
+;
+;	suncc: /var/named/named.hosts
+;
+;	ccu zone hosts file for server suncc
+;
+$ORIGIN	ccu.edu.tw.
+$TTL 36000
+@		IN	SOA   	suncc.ccu.edu.tw.   root.suncc.ccu.edu.tw.  (
+			2003081806  ; Serial
+			21600	    ; Refresh	 6 hours
+			3600	    ; Retry	 1 hour
+			1209600	    ; Expire	14 days
+			172800 )    ; Minimum	 2 days
+		IN	A	163.28.100.2
+		IN	A	140.123.1.2
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	NS	outgoingx.ccu.edu.tw.
+;		IN	NS	moevax.edu.tw.
+ 		IN	MX	0  rproxy2.ccu.edu.tw.
+ 		IN	MX	5  rproxy.ccu.edu.tw.
+		IN	MX	10 relay.ccu.edu.tw.
+		IN	MX	100 relay.edu.tw.
+
+
+; Add Subdomain of ccu.edu.tw.
+ 
+ccunix		IN      NS      ccunix.ccu.edu.tw.
+                IN      NS      suncc.ccu.edu.tw.
+;		IN	MX	0  incoming.ccu.edu.tw.
+		IN	MX	0  rproxy2.ccu.edu.tw.
+		IN	MX	5  rproxy.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+adm		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+room		IN	NS	dns.room.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+
+lab		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+
+slow		IN	NS	slow.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+dialup		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+cc		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+
+ccnet		IN	NS	amigo.cc.ccu.edu.tw.
+nycnet		IN	NS	teacher.nycnet.ccu.edu.tw.
+
+cc20		IN	NS	ntsrv-hp.cc.ccu.edu.tw.
+
+webedu		IN	NS	ns.webedu.ccu.edu.tw.
+
+sw		IN	NS	sw.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+math		IN	NS	math.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+ee		IN	NS	ee.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+ipv4		IN	NS	ns.ipv6.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+ipv6		IN	NS	ns.ipv6.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+cs		IN	NS	dns.cs.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	10 140.123.101.2
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+irc		IN	NS	irc.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+linux		IN	NS	axelrod.linux.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+ray		IN	NS	axelrod.linux.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	10 axelrod.linux.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+eq		IN	NS	eq.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+avcenter	IN	NS	avcenter.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+mgt		IN	NS	mgt.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+cba		IN	NS	dns.cba.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+phy		IN	NS	phy.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+aeec		IN	NS	aeec.ccu.edu.tw.
+ 		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+psy		IN	NS	psy.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+phil		IN	NS	phil.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+me		IN	NS	dns.me.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+; modify by eintisy 2002/12/19 
+cna             IN      NS      dns.cna.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+ns              IN      NS      dns.cna.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+dorm		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	dns2.dorm.ccu.edu.tw.
+		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+
+mis		IN	NS	mis.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+chl		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+polsci		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+telcom		IN	NS	telcom.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+;	fol domain (!!!)
+apollo		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+english		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+fol		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+sport		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+lib		IN	NS	www.lib.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+crm		IN	NS	crm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+che		IN	NS	dns.che.ccu.edu.tw.
+ 		IN	NS	suncc.ccu.edu.tw.
+ 		IN	MX	20 relay.ccu.edu.tw.
+ 		IN	MX	30 relay.edu.tw.
+
+chem		IN	NS	chem.ccu.edu.tw.
+ 		IN	MX	20 relay.ccu.edu.tw.
+ 		IN	MX	30 relay.edu.tw.
+
+his		IN	NS	his.ccu.edu.tw.
+ 		IN	NS	suncc.ccu.edu.tw.
+ 		IN	MX	20 relay.ccu.edu.tw.
+ 		IN	MX	30 relay.edu.tw.
+
+ac		IN	NS	ac.ccu.edu.tw.
+ 		IN	NS	suncc.ccu.edu.tw.
+ 		IN	MX	20 relay.ccu.edu.tw.
+ 		IN	MX	30 relay.edu.tw.
+
+ba		IN	NS	ba.ccu.edu.tw.
+ 		IN	NS	suncc.ccu.edu.tw.
+ 		IN	MX	20 relay.ccu.edu.tw.
+ 		IN	MX	30 relay.edu.tw.
+
+elearning	IN	NS	dns.elearning.ccu.edu.tw.
+ 		IN	NS	suncc.ccu.edu.tw.
+ 		IN	MX	20 relay.ccu.edu.tw.
+ 		IN	MX	30 relay.edu.tw.
+
+comm		IN	NS	comm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+; admin zone groups
+
+exam		IN	NS	suncc.ccu.edu.tw.
+caac		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+
+;
+;  ccu.edu.tw zone hosts list
+;
+
+
+suncc		IN	A	140.123.1.2
+;		IN	A	140.123.5.2
+;		IN	A	140.123.7.2
+		IN	A	163.28.100.2
+		IN	MX	0   suncc.ccu.edu.tw.
+ns		IN	CNAME	suncc.ccu.edu.tw.
+dns		IN	CNAME	suncc.ccu.edu.tw.
+cso		IN	CNAME	suncc.ccu.edu.tw.
+hytelnet	IN	CNAME	suncc.ccu.edu.tw.
+suncc2		IN	CNAME	suncc.ccu.edu.tw.
+
+alumni		IN	A	140.123.26.5
+		IN	MX	0 alumni.ccu.edu.tw.
+		IN	MX	10 relay.ccu.edu.tw.
+;friend		IN	CNAME	alumni.ccu.edu.tw.
+;
+news		IN	A	140.123.5.50
+		IN	MX	0 news.ccu.edu.tw.
+
+reader		IN	A	140.123.254.11
+;		IN	A	140.123.7.11
+freebsd		IN	CNAME	reader.ccu.edu.tw.
+;
+leica		IN	A	140.123.254.3
+;		IN	A	140.123.7.3
+;		IN	A	163.28.96.3
+		IN	MX	0   leica.ccu.edu.tw.
+;ftp		IN	CNAME	leica.ccu.edu.tw.
+www2		IN	CNAME	leica.ccu.edu.tw.
+gopher		IN      CNAME   leica.ccu.edu.tw.
+gopher2		IN	CNAME	leica.ccu.edu.tw.
+leica2		IN	CNAME	leica.ccu.edu.tw.
+netlib		IN	CNAME	leica.ccu.edu.tw.
+
+ftpgate		IN	A	163.28.96.3
+		IN	MX	0 leica.ccu.edu.tw.
+
+ccuftp		IN	A	140.123.254.5
+;		IN	A	163.28.96.5
+		IN	MX	0 ccuftpgate.ccu.edu.tw.
+ftp		IN	CNAME	ccuftp.ccu.edu.tw.
+ntp		IN	CNAME	ccuftp.ccu.edu.tw.
+php		IN	CNAME	ccuftp.ccu.edu.tw.
+
+msftp		IN	A	140.123.26.1
+		IN	MX	0 msftp.ccu.edu.tw.
+
+ccuftpn		IN	A	140.123.254.6
+ccuftpn-gate	IN	A	163.28.96.6
+
+
+antivirus	IN	A	140.123.26.2
+		IN	MX	0 antivirus.ccu.edu.tw.
+ccuftpgate	IN	A	163.28.96.5
+		IN	MX	0 ccuftpgate.ccu.edu.tw.
+
+time		IN	A	140.123.254.5
+
+;hero		IN	A	140.123.1.4
+	;	IN	A	140.123.7.4
+;		IN	A	163.28.100.4
+;		IN	MX	0   hero.ccu.edu.tw.
+;www		IN	CNAME	hero.ccu.edu.tw.
+;ftp2		IN	CNAME	hero.ccu.edu.tw.
+;hero2		IN	CNAME	hero.ccu.edu.tw.
+;expo		IN	CNAME	hero.ccu.edu.tw.
+
+hero1		IN	A	140.123.5.5
+;		IN	A	140.123.3.6
+		IN	MX	0 hero1.ccu.edu.tw.
+www		IN	CNAME	hero1.ccu.edu.tw.
+
+hero11		IN	A	140.123.5.6
+
+ccuflow		IN	A	140.123.1.10
+		IN	MX	0   ccuflow.ccu.edu.tw.
+
+ccuflow1	IN	A	140.123.25.5
+		IN	MX	0   ccuflow1.ccu.edu.tw.
+
+netflow		IN	A	140.123.25.2
+		IN	MX	0   netflow.ccu.edu.tw.
+
+;sunsite		IN	A	140.123.1.7
+;		IN	A	163.28.100.7
+;		IN	A	140.123.254.7
+;		IN	A	140.123.7.7
+;		IN	MX	0   sunsite.ccu.edu.tw.
+;java		IN	CNAME	sunsite.ccu.edu.tw.
+;netra		IN	CNAME	sunsite.ccu.edu.tw.
+
+stark		IN	A	140.123.254.22
+		IN	MX	0   stark.ccu.edu.tw.
+
+laputa		IN      A       140.123.19.95
+ 		IN 	MX	0   laputa.ccu.edu.tw.  
+irc2		IN	CNAME	laputa.ccu.edu.tw.
+
+nben		IN	NS	nbenproxy.cc.ccu.edu.tw.
+
+proxy		IN      A       163.28.96.9
+ 		IN 	MX	0   proxy.ccu.edu.tw.  
+proxy-gw	IN	A	163.28.96.10
+ 		IN 	MX	0   proxy.ccu.edu.tw.  
+
+cache		IN	A	163.28.96.11
+		IN	MX	0   cache.ccu.edu.tw.
+cache-gw	IN	A	163.28.96.12
+		IN	MX	0   cache.ccu.edu.tw.
+
+cache2		IN	A	163.28.96.13
+ 		IN 	MX	0   cache2.ccu.edu.tw.  
+cache2-gw	IN	A	163.28.96.14
+ 		IN 	MX	0   cache2.ccu.edu.tw.  
+
+cache3		IN	A	163.28.96.18
+ 		IN 	MX	0   cache3.ccu.edu.tw.  
+cache3-gw	IN	A	163.28.96.19
+ 		IN 	MX	0   cache3.ccu.edu.tw.  
+
+i2cache		IN	A	140.123.5.20
+		IN	A	140.123.16.20
+i2cache-gw	IN	A	140.123.16.20
+
+ccutest		IN	A	140.123.5.10
+
+ccuproxy1	IN	A	140.123.5.14
+		IN	MX	0   ccuproxy1.ccu.edu.tw.
+ccuproxy1-gw	IN	A	140.123.5.16
+		IN	MX	0   ccuproxy1.ccu.edu.tw.
+
+ccuproxy2	IN	A	140.123.5.15
+		IN	MX	0   ccuproxy2.ccu.edu.tw.
+ccuproxy2-gw	IN	A	140.123.5.17
+		IN	MX	0   ccuproxy2.ccu.edu.tw.
+
+ccuproxy3	IN	A	140.123.5.18
+		IN	MX	0   ccuproxy3.ccu.edu.tw.
+ccuproxy3-gw	IN	A	140.123.5.19
+		IN	MX	0   ccuproxy3.ccu.edu.tw.
+
+ccuproxy4	IN	A	140.123.5.21
+		IN	MX	0   ccuproxy4.ccu.edu.tw.
+campus		IN	CNAME	ccuproxy4.ccu.edu.tw.
+
+incoming	IN	A	140.123.2.66
+		IN	MX	0  incoming.ccu.edu.tw.
+		IN	MX	10 relay.ccu.edu.tw.
+		IN	MX	20 relay.edu.tw.
+
+rproxy		IN	A	140.123.2.11
+		IN	MX	0  rproxy.ccu.edu.tw.
+		IN	MX	10 relay.ccu.edu.tw.
+		IN	MX	20 relay.edu.tw.
+
+rproxy2		IN	A	140.123.2.15
+		IN	MX	0  rproxy2.ccu.edu.tw.
+		IN	MX	5  rproxy.ccu.edu.tw.
+		IN	MX	10 relay.ccu.edu.tw.
+		IN	MX	20 relay.edu.tw.
+
+outgoingX	IN	A	140.123.5.100
+
+outgoing1	IN	A	140.123.5.101
+outgoing2	IN	A	140.123.5.102
+
+outgoing	IN	A	140.123.5.101
+		IN	A	140.123.5.102
+		IN	MX	0 outgoing.ccu.edu.tw.
+
+steve74		IN	A	140.123.19.74
+		IN	MX	0   steve74.cc.ccu.edu.tw.
+
+gdss		IN	A	140.123.19.154
+
+search		IN	A	140.123.5.30
+
+nas01		IN	A	140.123.76.25
+
+indi		IN	A	140.123.76.181
+
+ccunix		IN	A       140.123.2.5 
+		IN	MX	10  rproxy2.ccu.edu.tw.
+		IN	MX	15  rproxy.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+mail  		IN	CNAME	ccunix.ccu.edu.tw.
+
+bbs		IN	A	140.123.11.90
+		IN	MX	0   bbs.ccu.edu.tw.
+
+bbsmailer	IN	A	140.123.11.94
+		IN	MX	0   bbsmailer.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+ibmdb2.ccunix	IN	A	140.123.11.95
+printersrv	IN	CNAME	ibmdb2.ccunix.ccu.edu.tw.
+c10		IN	CNAME	ibmdb2.ccunix.ccu.edu.tw.
+
+s1		IN	A	163.28.96.1
+		IN	A	140.123.254.1
+		IN	MX	0 s1.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+dns1		IN	A	163.28.96.16
+		IN	MX	0 dns1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+dns2		IN	A	163.28.96.17
+		IN	A	140.123.254.17
+		IN	MX	0 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+mdns		IN	A	140.123.5.1
+		IN	MX	0 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+dns3		IN	CNAME	mdns.ccu.edu.tw.
+
+dns5		IN	A	163.28.100.11
+		IN	A	140.123.1.11
+		IN	MX	0 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+dns6		IN	A	163.28.100.12
+		IN	A	140.123.1.12
+		IN	MX	0 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+dns7		IN	A	163.28.100.13
+		IN	A	140.123.1.13
+		IN	MX	0 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+relay		IN	A	163.28.96.17
+		IN	MX	0   relay.ccu.edu.tw.
+		IN	MX	100 relay.edu.tw.
+
+sw		IN	A	140.123.181.1
+		IN	MX	0   sw.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+math		IN	A	140.123.62.1
+		IN	MX	0   math.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+ee		IN	A	140.123.106.13
+		IN	MX	0   ee.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+ns.ipv6		IN	A	140.123.100.1
+		IN	MX	0   ns.ipv6.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+dns.cs		IN	A	140.123.101.1
+		IN	MX	0   dns.cs.ccu.edu.tw.
+		IN	MX	10  140.123.101.2
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+axelrod.linux	IN	A	140.123.19.52
+		IN	MX	0   axelrod.linux.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+eq		IN	A	140.123.66.20
+		IN	MX	0   eq.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+mgt		IN	A	140.123.161.1
+		IN	MX	0   mgt.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+dns.cba		IN	A	140.123.176.99
+		IN	MX	0   dns.cba.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+phy		IN	A	140.123.71.9
+		IN	MX	0   phy.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+aeec		IN	A	140.123.33.110
+		IN	MX	0   aeec.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+psy		IN	A	140.123.185.50
+		IN	MX	0   psy.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+
+phil		IN	A	140.123.44.1
+		IN	MX	0   phil.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+dns.cna		IN	A	140.123.20.1
+		IN	MX	0   dns.cna.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+ns		IN	A	140.123.20.1
+		IN	MX	0   dns.cna.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+dns.me		IN	A	140.123.121.254
+		IN	MX	0   dns.me.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+avcenter	IN	A	140.123.24.66
+		IN	MX	0   avcenter.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+coco		IN	A	140.123.11.75
+
+blueseed.dorm	IN	A	140.123.11.76
+		IN	MX	0 blueseed.dorm.ccu.edu.tw.
+serv.dorm	IN	CNAME	blueseed.dorm.ccu.edu.tw.
+
+;ftp.dorm	IN	A	140.123.214.8
+;www.dorm	IN	A	140.123.214.9
+
+akira.dorm	IN	A	140.123.5.24
+
+dns.dorm	IN	A	140.123.214.9
+dns2.dorm	IN	A	140.123.214.10
+dormdns		IN	A	140.123.254.21
+dormdns2	IN	A	140.123.254.20
+
+mis		IN	A	140.123.174.12
+		IN	MX	0  mis.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+adultedu	IN	A	140.123.202.1
+		IN	MX	0  adultedu.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+dns.che		IN	A	140.123.126.208
+ 		IN	MX	0  dns.che.ccu.edu.tw.
+ 		IN	MX	20  relay.ccu.edu.tw.
+ 		IN	MX	30  relay.edu.tw.
+
+www.libauto	IN	CNAME	libauto.lib.ccu.edu.tw.
+
+www.lib		IN	A	140.123.22.213
+		IN	MX	0  www.lib.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+www.cita        IN      CNAME   iaws5.ee.ccu.edu.tw.
+www.automat	IN	CNAME	iaws5.ee.ccu.edu.tw.
+www.ciae	IN	CNAME	iaws5.ee.ccu.edu.tw.
+
+www.ebusiness	IN	CNAME	ec.cs.ccu.edu.tw.
+
+resttc.cte	IN	A	140.123.205.201
+		IN	MX	0  resttc.cte.ccu.edu.tw.
+www.cte		IN	CNAME	resttc.cte.ccu.edu.tw.
+
+webcam		IN	A	140.123.18.13
+		IN	A	203.68.254.13
+		IN	MX	0 webcam.ccu.edu.tw.
+mbone		IN	CNAME	webcam.ccu.edu.tw.
+
+bsd		IN	A	140.123.10.248
+		IN	MX	0  bsd.ccu.edu.tw.
+
+;kiki		IN	A	140.123.1.30
+CCU-MOE-7513	IN      A       140.123.1.254
+
+;kiki-org	IN	A	140.123.1.30
+
+weekly		IN	A	140.123.30.22
+
+;kiki		IN	A	140.123.30.51
+kiki1		IN	A	140.123.26.50
+kiki		IN	CNAME	kiki1.ccu.edu.tw.
+kiki2		IN	A	140.123.30.51
+
+;kiki		IN	A	140.123.30.52
+;		IN	A	140.123.30.53
+;		IN	A	140.123.30.32
+
+;kiki-backend	IN	A	140.123.30.55
+;		IN	A	140.123.30.54
+kiki-backend	IN	A	140.123.30.53
+ 		IN	A	140.123.30.52
+;		IN	A	140.123.30.32
+		IN	A	140.123.30.56
+		IN	A	140.123.30.57
+		IN	A	140.123.30.58
+		IN	A	140.123.30.59
+		IN	A	140.123.30.60
+
+athena		IN	A	140.123.30.53
+		IN	A	140.123.30.52
+		IN	A	140.123.30.51
+
+sunchaser	IN	A	140.123.30.21
+eis		IN	A	140.123.30.23
+
+english		IN	A	140.123.42.3
+		IN	MX	0  english.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+;
+ccuproxy	IN	A	140.123.5.10
+
+wgproxy	        IN	A       163.28.96.9	
+ 		IN	A	163.28.96.10
+		IN	A	163.28.96.11
+		IN	A	163.28.96.12
+		IN	A	163.28.96.13
+		IN	A	163.28.96.14
+
+polsci		IN	A	140.123.197.1
+		IN	MX	0  polsci.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+telcom		IN	A	140.123.201.1
+		IN	MX	0  telcom.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+chem		IN	A	140.123.76.213
+		IN	MX	0  chem.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+his		IN	A	140.123.41.133
+		IN	MX	0  his.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+ac		IN	A	140.123.39.11
+		IN	MX	0  ac.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+ba		IN	A	140.123.169.169
+		IN	MX	0  ba.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+irc		IN	A	140.123.103.7
+		IN	MX	0  dns.irc.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+dns.elearning	IN	A	140.123.23.2
+		IN	MX	0  dns.elearning.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+comm		IN	A	140.123.113.1
+		IN	MX	0  comm.ccu.edu.tw.
+		IN	MX	20 relay.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+
+www.mts		IN	CNAME	iaws5.ee.ccu.edu.tw.
+
+crm		IN	A	140.123.204.100
+
+mars		IN	A	140.123.19.22
+		IN	MX	0   mars.ccu.edu.tw.
+		IN	MX	20  relay.ccu.edu.tw.
+		IN	MX	30  relay.edu.tw.
+
+mars2		IN	A	140.123.19.23
+		IN	MX	0   mars2.ccu.edu.tw.
+
+;ycnet server (start)
+vpn		IN	A	140.123.9.247
+radius		IN	A	140.123.7.1
+;ycnet server (end)
+
+y2k		IN	CNAME	adonis.ccunix.ccu.edu.tw.
+
+learning	IN	A	140.123.40.180
+lll		IN	CNAME	learning.ccu.edu.tw.
+
+slow		IN	A	140.123.19.90
+;slow		IN	A	140.123.40.208
+		IN	MX	0  slow.ccu.edu.tw.
+                IN      MX      20 relay.ccu.edu.tw.
+                IN      MX      30 relay.edu.tw.
+
+w3		IN	A	140.123.19.26
+		IN	MX	0   w3.ccu.edu.tw.
+mypxy		IN	CNAME	w3.ccu.edu.tw.
+
+emba		IN	A	140.123.19.27
+		IN	MX	0   emba.ccu.edu.tw.
+
+teamspirit	IN	A	140.123.19.153
+
+edocsys		IN	A	140.123.19.164
+
+info		IN	A	163.27.69.76
+		IN	MX	0   info.ccu.edu.tw.
+info2		IN	CNAME	info.ccu.edu.tw.
+
+nuke		IN	A	140.123.173.145
+		IN	MX	0   nuke.ccu.edu.tw.
+
+;telcom server area
+;dns.telcom	IN	A	140.123.201.1
+;www.telcom	IN	A	140.123.201.2
+;its		IN	A	140.123.201.3
+;news.telcom	IN	A	140.123.201.230
+;media.telcom	IN	A	140.123.201.241
+;mail.telcom	IN	A	140.123.201.243
+;xoops.telcom	IN	A	140.123.201.246
+
+labuen.labor	IN	A	140.123.190.70
+lemel		IN	A	140.123.253.252
+cogsci		IN	A	140.123.185.199
+
+ale		IN	CNAME	ale.cc.ccu.edu.tw.
+
+etraining	IN	A	140.123.19.207
+www.etraining	IN	CNAME	etraining.ccu.edu.tw.
+
+wireless	IN	A	140.123.19.53
+ICS2000		IN	A	140.123.103.10
+
+; 網際網路研究中心
+;mozart.irc	IN	A	140.123.103.3
+;bach.irc	IN	A	140.123.103.4
+;irc		IN	A	140.123.103.7
+;www.irc		IN	CNAME	irc.ccu.edu.tw.
+welearn		IN	A	140.123.103.9
+
+;
+;military	IN	A	140.123.30.60
+
+ns.webedu	IN	A	140.123.230.1
+
+; 教務處
+register	IN	A	140.123.33.5
+academic	IN	A	140.123.33.127
+
+;緬甸同學會
+mocsa		IN	A	140.123.35.202
+
+;貴重儀器管理中心
+www.ic		IN	A	140.123.62.207
+
+;學務處
+lottery		IN	A	140.123.19.70
+
+;學務處課外活動組
+extra		IN	A	140.123.39.11
+
+;自動化研究中心
+3C		IN	A	140.123.105.44
+neuralpc20	IN	CNAME	3C.ccu.edu.tw.
+
+nano		IN	A	140.123.31.49
+spin		IN	CNAME	nano.ccu.edu.tw.
+
+;哲學系-心靈語言資訊中心
+MLI		IN	A	140.123.44.121
+mind		IN	CNAME	MLI.ccu.edu.tw.
+
+;育成中心
+pcc-server	IN	A	140.123.14.120
+ccuincubat	IN	A	140.123.14.104
+pdc-eserver	IN	A	140.123.14.130
+nrws		IN	A	140.123.14.140
+
+;生命教育網 - contact shchen
+;life-edu	IN	A	140.123.19.118
+life-edu	IN	A	140.123.26.102
+www.life-edu	IN	CNAME	life-edu.ccu.edu.tw.
+life-cluster	IN	A	140.123.26.101
+		IN	A	140.123.26.102
+		IN	A	140.123.26.103
+life01		IN	A	140.123.26.101
+life02		IN	A	140.123.26.102
+life03		IN	A	140.123.26.103
+life04		IN	A	140.123.26.104
+lifeworld	IN	A	140.123.26.110
+lifex		IN	A	140.123.26.111
+life		IN	A	140.123.254.100
+life-gw		IN	A	140.123.26.100
+
+;會計系
+actlinux	IN	A	140.123.173.244
+
+;財經法律學系
+felaw		IN	A	140.123.193.66
+
+;成教系
+adultpsylab.adultedu		IN	A	140.123.202.211
+ftp.adultedu	IN	CNAME	adultpsylab.adultedu.ccu.edu.tw.
+
+adumlw		IN	A	140.123.202.19
+colkm		IN	CNAME	adumlw.ccu.edu.tw.
+cllr		IN	CNAME	adumlw.ccu.edu.tw.
+
+;畢僑外組
+bizwant		IN	A	140.123.35.81
+
+;電機所123實驗室
+amte			IN	A	140.123.108.135
+www.amte2002		IN	CNAME	amte.ccu.edu.tw.
+www.automation		IN	CNAME	amte.ccu.edu.tw.
+www.automation2003	IN	CNAME	amte.ccu.edu.tw.
+
+; moffice 
+moffice		IN	A	140.123.19.98
+		IN	MX	0 moffice.ccu.edu.tw.
+mofficex	IN	A	140.123.19.97
+		IN	MX	10 moffice.ccu.edu.tw.
+
+; room zone to 140.123.10.251
+
+
+;圖書館
+www.cscst2003	IN	A	140.123.21.37
+
+;歷史系
+twhis		IN	A	140.123.41.71
+
+;economic
+econ		IN	A	140.123.162.1
+lkferng.econ	IN	A	140.123.162.60
+
+;polsci
+teg		IN	A	140.123.197.20
+tpsa		IN	A	140.123.197.212
+
+;science chip center
+www.soc		IN	A	140.123.110.10

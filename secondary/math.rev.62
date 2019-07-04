@@ -1,0 +1,68 @@
+$ORIGIN .
+$TTL 6400	; 1 hour 46 minutes 40 seconds
+62.123.140.in-addr.arpa	IN SOA	math.ccu.edu.tw. root.math.ccu.edu.tw. (
+				2010021201 ; serial
+				10800      ; refresh (3 hours)
+				15         ; retry (15 seconds)
+				604800     ; expire (1 week)
+				10800      ; minimum (3 hours)
+				)
+			NS	math.ccu.edu.tw.
+$ORIGIN 62.123.140.in-addr.arpa.
+1			PTR	math.ccu.edu.tw.
+			PTR	peony.math.ccu.edu.tw.
+12			PTR	lily.math.ccu.edu.tw.
+123			PTR	math412.math.ccu.edu.tw.
+125			PTR	math413.math.ccu.edu.tw.
+127			PTR	math414.math.ccu.edu.tw.
+129			PTR	math415.math.ccu.edu.tw.
+131			PTR	math416.math.ccu.edu.tw.
+132			PTR	math416b.math.ccu.edu.tw.
+133			PTR	math417.math.ccu.edu.tw.
+135			PTR	math418.math.ccu.edu.tw.
+137			PTR	math419.math.ccu.edu.tw.
+139			PTR	math420.math.ccu.edu.tw.
+141			PTR	math421.math.ccu.edu.tw.
+143			PTR	math422.math.ccu.edu.tw.
+145			PTR	math423.math.ccu.edu.tw.
+147			PTR	math424.math.ccu.edu.tw.
+149			PTR	math425.math.ccu.edu.tw.
+151			PTR	math426.math.ccu.edu.tw.
+153			PTR	math427.math.ccu.edu.tw.
+155			PTR	math428.math.ccu.edu.tw.
+157			PTR	oikos.math.ccu.edu.tw.
+159			PTR	math430.math.ccu.edu.tw.
+16			PTR	redhat.math.ccu.edu.tw.
+160			PTR	yes.math.ccu.edu.tw.
+161			PTR	math431.math.ccu.edu.tw.
+163			PTR	math432.math.ccu.edu.tw.
+165			PTR	math433.math.ccu.edu.tw.
+167			PTR	math434.math.ccu.edu.tw.
+169			PTR	math435.math.ccu.edu.tw.
+17			PTR	a3color.math.ccu.edu.tw
+171			PTR	math436.math.ccu.edu.tw.
+173			PTR	math437.math.ccu.edu.tw.
+174			PTR	math437b.math.ccu.edu.tw.
+175			PTR	math438.math.ccu.edu.tw.
+177			PTR	math439.math.ccu.edu.tw.
+179			PTR	math440.math.ccu.edu.tw.
+181			PTR	math441.math.ccu.edu.tw.
+183			PTR	math442.math.ccu.edu.tw.
+185			PTR	math443.math.ccu.edu.tw.
+187			PTR	math444.math.ccu.edu.tw.
+189			PTR	lewy.math.ccu.edu.tw.
+191			PTR	math446.math.ccu.edu.tw.
+193			PTR	math447.math.ccu.edu.tw.
+195			PTR	math448.math.ccu.edu.tw.
+197			PTR	math449.math.ccu.edu.tw.
+2			PTR	willow.math.ccu.edu.tw.
+207			PTR	ic.ccu.edu.tw
+23			PTR	titan.math.ccu.edu.tw.
+24			PTR	gauss.math.ccu.edu.tw.
+25			PTR	mei.math.ccu.edu.tw.
+28			PTR	tfc.math.ccu.edu.tw.
+3			PTR	nopam.math.ccu.edu.tw.
+32			PTR	highstat.math.ccu.edu.tw.
+5			PTR	mthmp.math.ccu.edu.tw.
+7			PTR	blog.math.ccu.edu.tw.
+9			PTR	lilac.math.ccu.edu.tw.

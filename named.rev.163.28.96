@@ -1,0 +1,36 @@
+;
+;	suncc: /var/named/named.rev
+;
+;	ccu zone reverse address hosts file for server suncc
+;
+$ORIGIN 96.28.163.in-addr.arpa.
+
+$TTL	360000
+@                       IN   SOA   suncc.ccu.edu.tw.  root.suncc.ccu.edu.tw.  (
+			2005060301 ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+;
+; reverse domain of 163.28.96.x
+;
+1   	  	IN	PTR	s1.ycrc.edu.tw.
+3		IN	PTR	ftpgate.ycrc.edu.tw.
+5		IN	PTR	ccuftpgate.ycrc.edu.tw.
+6		IN	PTR	ccuftpn-gate.ycrc.edu.tw.
+9		IN	PTR	proxy.ycrc.edu.tw.
+10		IN	PTR	cache.ycrc.edu.tw.
+11		IN	PTR	cache2.ycrc.edu.tw.
+12		IN	PTR	cache3.ycrc.edu.tw.
+13		IN	PTR	cache4.ycrc.edu.tw.
+14		IN	PTR	cache5.ycrc.edu.tw.
+15		IN	PTR	cache6.ycrc.edu.tw.
+;
+16		IN	PTR	dns1.ycrc.edu.tw.
+17		IN	PTR	dns2.ycrc.edu.tw.
+18		IN	PTR	cache7.ycrc.edu.tw.
+19		IN	PTR	cache8.ycrc.edu.tw.

@@ -1,0 +1,458 @@
++++ Memory Statistics Dump +++ (966373065) Wed Aug 16 04:57:45 2000
+38442	time since boot (secs)
+3405	time since reset (secs)
+++ Memory Statistics ++
+      3:       19867 gets,           7 rem
+      4:       28569 gets,           0 rem (1 bl, 1017 ff)
+      5:       13351 gets,           2 rem
+      6:       10168 gets,          84 rem
+      7:        1805 gets,          24 rem
+      8:      937586 gets,          62 rem (1 bl, 340 ff)
+      9:       59306 gets,          27 rem
+     10:        9531 gets,          14 rem
+     11:       12538 gets,          17 rem
+     12:     1637317 gets,         198 rem (2 bl, 426 ff)
+     13:      136544 gets,          12 rem
+     14:       93679 gets,          15 rem
+     15:       59629 gets,           3 rem
+     16:      572160 gets,       10807 rem (53 bl, 2731 ff)
+     17:      168162 gets,          48 rem
+     18:      358851 gets,          37 rem
+     19:      321148 gets,          88 rem
+     20:     1148847 gets,         592 rem (6 bl, 459 ff)
+     21:       68024 gets,          23 rem
+     22:      195706 gets,          31 rem
+     23:      675265 gets,        7322 rem
+     24:      121752 gets,       71217 rem (463 bl, 117 ff)
+     25:      240538 gets,      128418 rem
+     26:      203041 gets,        5168 rem
+     27:      882892 gets,        3755 rem
+     28:     1226556 gets,        4114 rem (969 bl, 19 ff)
+     29:      128211 gets,        2957 rem
+     30:      185612 gets,        2078 rem
+     31:       87816 gets,        1080 rem
+     32:       23572 gets,         862 rem (64 bl, 1215 ff)
+     33:        6644 gets,         470 rem
+     34:        5243 gets,         330 rem
+     35:      218792 gets,         203 rem
+     36:      271016 gets,       21046 rem (215 bl, 2246 ff)
+     37:        4469 gets,          97 rem
+     38:        3516 gets,         230 rem
+     39:        3271 gets,          59 rem
+     40:        3008 gets,          69 rem (5 bl, 55 ff)
+     41:        1526 gets,          49 rem
+     42:       18336 gets,         358 rem
+     43:       19192 gets,         857 rem
+     44:       65461 gets,        1012 rem (29 bl, 421 ff)
+     45:      110114 gets,        1458 rem
+     46:       87829 gets,        2981 rem
+     47:       42743 gets,        3623 rem
+     48:      243106 gets,        3220 rem (134 bl, 108 ff)
+     49:       23690 gets,        3527 rem
+     50:       39150 gets,        4585 rem
+     51:       18329 gets,        3642 rem
+     52:       21105 gets,        6611 rem (236 bl, 43 ff)
+     53:       11729 gets,        4314 rem
+     54:       10347 gets,        5309 rem
+     55:       10381 gets,        7123 rem
+     56:        7844 gets,        5632 rem (307 bl, 33 ff)
+     57:       10370 gets,        7835 rem
+     58:        5744 gets,        4219 rem
+     59:        6286 gets,        3082 rem
+     60:        4222 gets,        3967 rem (281 bl, 5 ff)
+     61:        1857 gets,        1427 rem
+     62:        2161 gets,         991 rem
+     63:        1064 gets,         966 rem
+     64:        1582 gets,        1430 rem (76 bl, 50 ff)
+     65:        1003 gets,         969 rem
+     66:         663 gets,         453 rem
+     67:         441 gets,         424 rem
+     68:        6904 gets,        1012 rem (48 bl, 22 ff)
+     69:         863 gets,         854 rem
+     70:        1085 gets,         478 rem
+     71:          69 gets,          28 rem
+     72:       14548 gets,         207 rem (28 bl, 1 ff)
+     73:          20 gets,           6 rem
+     74:          32 gets,           4 rem
+     75:         268 gets,          11 rem
+     76:         771 gets,          15 rem (1 bl, 17 ff)
+     77:         129 gets,          44 rem
+     78:          26 gets,           8 rem
+     79:        1087 gets,          19 rem
+     80:          34 gets,           6 rem (2 bl, 25 ff)
+     81:         562 gets,          20 rem
+     82:        3417 gets,          17 rem
+     83:        4456 gets,          17 rem
+     84:        5271 gets,          24 rem (2 bl, 18 ff)
+     85:        3030 gets,         144 rem
+     86:        5196 gets,          54 rem
+     87:       21331 gets,         118 rem
+     88:       12883 gets,          89 rem (9 bl, 9 ff)
+     89:       16726 gets,         127 rem
+     90:        8613 gets,         270 rem
+     91:        7695 gets,         165 rem
+     92:        6058 gets,         118 rem (23 bl, 332 ff)
+     93:       18841 gets,         353 rem
+     94:        1651 gets,         403 rem
+     95:       16103 gets,         112 rem
+     96:       12092 gets,         589 rem (50 bl, 643 ff)
+     97:        7674 gets,          89 rem
+     98:        2336 gets,         136 rem
+     99:        5587 gets,         503 rem
+    100:        1576 gets,          31 rem (26 bl, 281 ff)
+    101:        1236 gets,         101 rem
+    102:        5446 gets,        3246 rem
+    103:        7368 gets,        2411 rem
+    104:        5775 gets,        2310 rem (207 bl, 5 ff)
+    105:        3699 gets,          36 rem
+    106:        6073 gets,        5742 rem
+    107:        5391 gets,        4863 rem
+    108:       15018 gets,       13714 rem (659 bl, 28 ff)
+    109:       17682 gets,       14483 rem
+    110:        9852 gets,        9565 rem
+    111:        7061 gets,        6620 rem
+    112:        2975 gets,        2174 rem (913 bl, 26 ff)
+    113:        2907 gets,        1759 rem
+    114:        7989 gets,        5950 rem
+    115:        7726 gets,        7487 rem
+    116:       15193 gets,       14663 rem (854 bl, 31 ff)
+    117:       10326 gets,        9998 rem
+    118:        2004 gets,        1646 rem
+    119:        1231 gets,        1174 rem
+    120:       13340 gets,        5047 rem (526 bl, 19 ff)
+    121:        1449 gets,        1382 rem
+    122:        3384 gets,        2965 rem
+    123:        1572 gets,        1547 rem
+    124:        3469 gets,        3179 rem (275 bl, 2 ff)
+    125:        3430 gets,        3145 rem
+    126:        3492 gets,        3329 rem
+    127:        1174 gets,         653 rem
+    128:         459 gets,         205 rem (230 bl, 28 ff)
+    129:         545 gets,         281 rem
+    130:         370 gets,         307 rem
+    131:         491 gets,         467 rem
+    132:          78 gets,           1 rem (45 bl, 339 ff)
+    133:         302 gets,         293 rem
+    134:          14 gets,           2 rem
+    135:           4 gets,           0 rem
+    136:         254 gets,         250 rem (19 bl, 25 ff)
+    137:         836 gets,           9 rem
+    139:           5 gets,           1 rem
+    140:        5624 gets,         313 rem (12 bl, 25 ff)
+    141:           6 gets,           0 rem
+    143:          14 gets,           1 rem
+    144:       28430 gets,           1 rem (1 bl, 26 ff)
+    146:           1 gets,           0 rem
+    147:           4 gets,           3 rem
+    151:           2 gets,           0 rem
+    153:           1 gets,           1 rem
+    155:           1 gets,           0 rem
+    157:          63 gets,          12 rem
+    158:         770 gets,         723 rem
+    159:           6 gets,           0 rem
+    160:        2176 gets,        1991 rem (110 bl, 24 ff)
+    161:        3189 gets,        3008 rem
+    163:           1 gets,           0 rem
+    165:           1 gets,           0 rem
+    168:        3151 gets,           1 rem (1 bl, 23 ff)
+    174:           1 gets,           0 rem
+    175:           1 gets,           0 rem
+    176:          11 gets,           0 rem (1 bl, 23 ff)
+    177:           1 gets,           0 rem
+    178:           1 gets,           0 rem
+    179:           4 gets,           0 rem
+    184:         135 gets,           1 rem (1 bl, 21 ff)
+    187:           1 gets,           0 rem
+    188:          64 gets,           0 rem (1 bl, 21 ff)
+    189:           2 gets,           0 rem
+    190:         239 gets,           0 rem
+    192:       15739 gets,           1 rem (1 bl, 20 ff)
+    200:          42 gets,           0 rem (1 bl, 20 ff)
+    204:           3 gets,           0 rem (1 bl, 20 ff)
+    206:          15 gets,           0 rem
+    208:         235 gets,           0 rem (1 bl, 19 ff)
+    210:          26 gets,           0 rem
+    216:        2209 gets,           0 rem (1 bl, 18 ff)
+    240:       10174 gets,           0 rem (1 bl, 17 ff)
+    243:           3 gets,           0 rem
+    247:           2 gets,           0 rem
+    248:           1 gets,           0 rem (1 bl, 16 ff)
+    249:          36 gets,           0 rem
+    250:           3 gets,           0 rem
+    251:          20 gets,           0 rem
+    253:           9 gets,           0 rem
+    254:           1 gets,           0 rem
+    255:           3 gets,           0 rem
+    256:           2 gets,           2 rem (1 bl, 14 ff)
+    264:        1645 gets,           0 rem (1 bl, 15 ff)
+    266:           4 gets,           0 rem
+    282:          11 gets,           0 rem
+    283:          81 gets,           0 rem
+    288:        1033 gets,           0 rem (1 bl, 14 ff)
+    312:         424 gets,           0 rem (1 bl, 13 ff)
+    318:          11 gets,           0 rem
+    322:           1 gets,           0 rem
+    324:        2233 gets,           0 rem (1 bl, 12 ff)
+    332:           1 gets,           0 rem (1 bl, 12 ff)
+    336:         410 gets,           0 rem (1 bl, 12 ff)
+    347:           1 gets,           0 rem
+    348:           5 gets,           0 rem (1 bl, 11 ff)
+    360:         340 gets,           0 rem (1 bl, 11 ff)
+    384:         275 gets,           0 rem (1 bl, 10 ff)
+    408:         164 gets,           0 rem (1 bl, 10 ff)
+    410:           1 gets,           0 rem
+    432:         148 gets,           0 rem (1 bl, 9 ff)
+    452:           1 gets,           0 rem (1 bl, 9 ff)
+    456:         126 gets,           0 rem (1 bl, 8 ff)
+    460:         938 gets,         875 rem (110 bl, 5 ff)
+    480:         172 gets,           0 rem (1 bl, 8 ff)
+    500:           1 gets,           0 rem (1 bl, 8 ff)
+    504:          63 gets,           0 rem (1 bl, 8 ff)
+    512:       67628 gets,           4 rem (25 bl, 196 ff)
+    528:         136 gets,           0 rem (1 bl, 7 ff)
+    552:         100 gets,           0 rem (1 bl, 7 ff)
+    570:           3 gets,           0 rem
+    573:           1 gets,           0 rem
+    576:          69 gets,           0 rem (1 bl, 7 ff)
+    578:           1 gets,           0 rem
+    600:          16 gets,           0 rem (1 bl, 6 ff)
+    624:          33 gets,           0 rem (1 bl, 6 ff)
+    648:          11 gets,           0 rem (1 bl, 6 ff)
+    672:           6 gets,           0 rem (1 bl, 6 ff)
+    684:        1917 gets,           0 rem (1 bl, 5 ff)
+    768:           9 gets,           0 rem (1 bl, 5 ff)
+    804:      435802 gets,          19 rem (283 bl, 1396 ff)
+    990:          65 gets,           0 rem
+   1040:           1 gets,           1 rem (1 bl, 2 ff)
+>= 1100:        1998 gets,          24 rem
+-- Memory Statistics --
+--- Memory Statistics Dump --- (966373065) Wed Aug 16 04:57:45 2000
++++ Memory Statistics Dump +++ (966373068) Wed Aug 16 04:57:48 2000
+38445	time since boot (secs)
+3408	time since reset (secs)
+++ Memory Statistics ++
+      3:       19867 gets,           7 rem
+      4:       28569 gets,           0 rem (1 bl, 1017 ff)
+      5:       13351 gets,           2 rem
+      6:       10168 gets,          84 rem
+      7:        1805 gets,          24 rem
+      8:      937636 gets,          62 rem (1 bl, 340 ff)
+      9:       59306 gets,          27 rem
+     10:        9531 gets,          14 rem
+     11:       12538 gets,          17 rem
+     12:     1637398 gets,         198 rem (2 bl, 426 ff)
+     13:      136546 gets,          12 rem
+     14:       93679 gets,          15 rem
+     15:       59629 gets,           3 rem
+     16:      572167 gets,       10804 rem (53 bl, 2734 ff)
+     17:      168175 gets,          48 rem
+     18:      358857 gets,          37 rem
+     19:      321148 gets,          88 rem
+     20:     1148854 gets,         591 rem (6 bl, 460 ff)
+     21:       68024 gets,          23 rem
+     22:      195741 gets,          33 rem
+     23:      675308 gets,        7321 rem
+     24:      121764 gets,       71220 rem (463 bl, 113 ff)
+     25:      240570 gets,      128436 rem
+     26:      203046 gets,        5169 rem
+     27:      882906 gets,        3758 rem
+     28:     1226617 gets,        4114 rem (970 bl, 143 ff)
+     29:      128223 gets,        2957 rem
+     30:      185635 gets,        2078 rem
+     31:       87816 gets,        1080 rem
+     32:       23572 gets,         862 rem (64 bl, 1215 ff)
+     33:        6644 gets,         470 rem
+     34:        5243 gets,         330 rem
+     35:      218792 gets,         203 rem
+     36:      271038 gets,       21046 rem (215 bl, 2246 ff)
+     37:        4469 gets,          97 rem
+     38:        3516 gets,         230 rem
+     39:        3271 gets,          59 rem
+     40:        3008 gets,          69 rem (5 bl, 55 ff)
+     41:        1526 gets,          49 rem
+     42:       18340 gets,         361 rem
+     43:       19192 gets,         857 rem
+     44:       65465 gets,        1012 rem (29 bl, 418 ff)
+     45:      110131 gets,        1458 rem
+     46:       87829 gets,        2981 rem
+     47:       42744 gets,        3623 rem
+     48:      243127 gets,        3220 rem (134 bl, 108 ff)
+     49:       23690 gets,        3527 rem
+     50:       39150 gets,        4585 rem
+     51:       18329 gets,        3642 rem
+     52:       21113 gets,        6611 rem (236 bl, 43 ff)
+     53:       11733 gets,        4315 rem
+     54:       10358 gets,        5311 rem
+     55:       10385 gets,        7127 rem
+     56:        7844 gets,        5632 rem (307 bl, 26 ff)
+     57:       10370 gets,        7835 rem
+     58:        5744 gets,        4219 rem
+     59:        6286 gets,        3082 rem
+     60:        4222 gets,        3967 rem (281 bl, 5 ff)
+     61:        1857 gets,        1427 rem
+     62:        2161 gets,         991 rem
+     63:        1064 gets,         966 rem
+     64:        1582 gets,        1430 rem (76 bl, 50 ff)
+     65:        1003 gets,         969 rem
+     66:         663 gets,         453 rem
+     67:         441 gets,         424 rem
+     68:        6906 gets,        1012 rem (48 bl, 22 ff)
+     69:         863 gets,         854 rem
+     70:        1086 gets,         478 rem
+     71:          69 gets,          28 rem
+     72:       14548 gets,         207 rem (28 bl, 1 ff)
+     73:          20 gets,           6 rem
+     74:          32 gets,           4 rem
+     75:         268 gets,          11 rem
+     76:         771 gets,          15 rem (1 bl, 17 ff)
+     77:         129 gets,          44 rem
+     78:          26 gets,           8 rem
+     79:        1087 gets,          19 rem
+     80:          34 gets,           6 rem (2 bl, 25 ff)
+     81:         562 gets,          20 rem
+     82:        3417 gets,          17 rem
+     83:        4468 gets,          17 rem
+     84:        5271 gets,          24 rem (2 bl, 18 ff)
+     85:        3030 gets,         144 rem
+     86:        5196 gets,          54 rem
+     87:       21331 gets,         118 rem
+     88:       12883 gets,          89 rem (9 bl, 9 ff)
+     89:       16726 gets,         127 rem
+     90:        8613 gets,         270 rem
+     91:        7695 gets,         165 rem
+     92:        6058 gets,         118 rem (23 bl, 332 ff)
+     93:       18841 gets,         353 rem
+     94:        1652 gets,         404 rem
+     95:       16103 gets,         112 rem
+     96:       12096 gets,         589 rem (50 bl, 642 ff)
+     97:        7674 gets,          89 rem
+     98:        2336 gets,         136 rem
+     99:        5587 gets,         503 rem
+    100:        1577 gets,          31 rem (26 bl, 281 ff)
+    101:        1236 gets,         101 rem
+    102:        5446 gets,        3246 rem
+    103:        7380 gets,        2423 rem
+    104:        5775 gets,        2310 rem (208 bl, 32 ff)
+    105:        3699 gets,          36 rem
+    106:        6073 gets,        5742 rem
+    107:        5391 gets,        4863 rem
+    108:       15018 gets,       13714 rem (659 bl, 28 ff)
+    109:       17682 gets,       14483 rem
+    110:        9852 gets,        9565 rem
+    111:        7061 gets,        6620 rem
+    112:        2975 gets,        2174 rem (913 bl, 26 ff)
+    113:        2907 gets,        1759 rem
+    114:        7989 gets,        5950 rem
+    115:        7726 gets,        7487 rem
+    116:       15193 gets,       14663 rem (854 bl, 31 ff)
+    117:       10326 gets,        9998 rem
+    118:        2004 gets,        1646 rem
+    119:        1231 gets,        1174 rem
+    120:       13340 gets,        5047 rem (526 bl, 19 ff)
+    121:        1449 gets,        1382 rem
+    122:        3384 gets,        2965 rem
+    123:        1572 gets,        1547 rem
+    124:        3470 gets,        3180 rem (275 bl, 1 ff)
+    125:        3430 gets,        3145 rem
+    126:        3492 gets,        3329 rem
+    127:        1174 gets,         653 rem
+    128:         459 gets,         205 rem (230 bl, 28 ff)
+    129:         545 gets,         281 rem
+    130:         370 gets,         307 rem
+    131:         491 gets,         467 rem
+    132:          78 gets,           1 rem (45 bl, 339 ff)
+    133:         302 gets,         293 rem
+    134:          14 gets,           2 rem
+    135:           4 gets,           0 rem
+    136:         254 gets,         250 rem (19 bl, 25 ff)
+    137:         836 gets,           9 rem
+    139:           5 gets,           1 rem
+    140:        5624 gets,         313 rem (12 bl, 25 ff)
+    141:           6 gets,           0 rem
+    143:          14 gets,           1 rem
+    144:       28430 gets,           1 rem (1 bl, 26 ff)
+    146:           1 gets,           0 rem
+    147:           4 gets,           3 rem
+    151:           2 gets,           0 rem
+    153:           1 gets,           1 rem
+    155:           1 gets,           0 rem
+    157:          63 gets,          12 rem
+    158:         770 gets,         723 rem
+    159:           6 gets,           0 rem
+    160:        2176 gets,        1991 rem (110 bl, 24 ff)
+    161:        3189 gets,        3008 rem
+    163:           1 gets,           0 rem
+    165:           1 gets,           0 rem
+    168:        3151 gets,           1 rem (1 bl, 23 ff)
+    174:           1 gets,           0 rem
+    175:           1 gets,           0 rem
+    176:          11 gets,           0 rem (1 bl, 23 ff)
+    177:           1 gets,           0 rem
+    178:           1 gets,           0 rem
+    179:           4 gets,           0 rem
+    184:         135 gets,           1 rem (1 bl, 21 ff)
+    187:           1 gets,           0 rem
+    188:          64 gets,           0 rem (1 bl, 21 ff)
+    189:           2 gets,           0 rem
+    190:         239 gets,           0 rem
+    192:       15740 gets,           1 rem (1 bl, 20 ff)
+    200:          42 gets,           0 rem (1 bl, 20 ff)
+    204:           3 gets,           0 rem (1 bl, 20 ff)
+    206:          15 gets,           0 rem
+    208:         235 gets,           0 rem (1 bl, 19 ff)
+    210:          26 gets,           0 rem
+    216:        2209 gets,           0 rem (1 bl, 18 ff)
+    240:       10174 gets,           0 rem (1 bl, 17 ff)
+    243:           3 gets,           0 rem
+    247:           2 gets,           0 rem
+    248:           1 gets,           0 rem (1 bl, 16 ff)
+    249:          36 gets,           0 rem
+    250:           3 gets,           0 rem
+    251:          20 gets,           0 rem
+    253:           9 gets,           0 rem
+    254:           1 gets,           0 rem
+    255:           3 gets,           0 rem
+    256:           2 gets,           2 rem (1 bl, 14 ff)
+    264:        1645 gets,           0 rem (1 bl, 15 ff)
+    266:           4 gets,           0 rem
+    282:          11 gets,           0 rem
+    283:          81 gets,           0 rem
+    288:        1033 gets,           0 rem (1 bl, 14 ff)
+    312:         424 gets,           0 rem (1 bl, 13 ff)
+    318:          11 gets,           0 rem
+    322:           1 gets,           0 rem
+    324:        2233 gets,           0 rem (1 bl, 12 ff)
+    332:           1 gets,           0 rem (1 bl, 12 ff)
+    336:         413 gets,           0 rem (1 bl, 12 ff)
+    347:           1 gets,           0 rem
+    348:           5 gets,           0 rem (1 bl, 11 ff)
+    360:         340 gets,           0 rem (1 bl, 11 ff)
+    384:         275 gets,           0 rem (1 bl, 10 ff)
+    408:         164 gets,           0 rem (1 bl, 10 ff)
+    410:           1 gets,           0 rem
+    432:         148 gets,           0 rem (1 bl, 9 ff)
+    452:           1 gets,           0 rem (1 bl, 9 ff)
+    456:         126 gets,           0 rem (1 bl, 8 ff)
+    460:         938 gets,         875 rem (110 bl, 5 ff)
+    480:         172 gets,           0 rem (1 bl, 8 ff)
+    500:           1 gets,           0 rem (1 bl, 8 ff)
+    504:          63 gets,           0 rem (1 bl, 8 ff)
+    512:       67633 gets,           4 rem (25 bl, 196 ff)
+    528:         136 gets,           0 rem (1 bl, 7 ff)
+    552:         100 gets,           0 rem (1 bl, 7 ff)
+    570:           3 gets,           0 rem
+    573:           1 gets,           0 rem
+    576:          69 gets,           0 rem (1 bl, 7 ff)
+    578:           1 gets,           0 rem
+    600:          16 gets,           0 rem (1 bl, 6 ff)
+    624:          33 gets,           0 rem (1 bl, 6 ff)
+    648:          11 gets,           0 rem (1 bl, 6 ff)
+    672:           6 gets,           0 rem (1 bl, 6 ff)
+    684:        1917 gets,           0 rem (1 bl, 5 ff)
+    768:           9 gets,           0 rem (1 bl, 5 ff)
+    804:      435836 gets,          22 rem (283 bl, 1393 ff)
+    990:          69 gets,           0 rem
+   1040:           1 gets,           1 rem (1 bl, 2 ff)
+>= 1100:        1998 gets,          24 rem
+-- Memory Statistics --
+--- Memory Statistics Dump --- (966373068) Wed Aug 16 04:57:48 2000

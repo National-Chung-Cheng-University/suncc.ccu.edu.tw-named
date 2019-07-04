@@ -1,0 +1,17 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'com.tw'   last serial 1999072837
+; from 140.92.1.50   at Thu Oct  7 13:37:10 1999
+$ORIGIN tw.
+com		IN	SOA	aladdin.iii.org.tw. sysop.aladdin.iii.org.tw. (
+		1999072841 21600 7200 604800 86400 )
+	518400	IN	NS	aladdin.iii.org.tw.
+	518400	IN	NS	moevax.edu.tw.
+; Ignoring info about aladdin.iii.org.tw, not in zone com.tw.
+; $ORIGIN iii.org.tw.
+; aladdin		IN	A	140.92.1.50
+; Ignoring info about moevax.edu.tw, not in zone com.tw.
+; $ORIGIN edu.tw.
+; moevax	516701	IN	A	140.111.1.2
+; Ignoring info about moevax.edu.tw, not in zone com.tw.
+; 	516701	IN	A	163.28.1.2

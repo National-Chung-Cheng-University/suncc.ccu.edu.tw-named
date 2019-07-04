@@ -1,0 +1,10 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+91.130.140.in-addr.arpa	IN SOA	dns.phys.ncyu.edu.tw. root.dns.phys.ncyu.edu.tw. (
+				2005070401 ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				720000     ; expire (1 week 1 day 8 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.phys.ncyu.edu.tw.

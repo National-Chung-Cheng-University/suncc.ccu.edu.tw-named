@@ -1,0 +1,16 @@
+$ORIGIN .
+$TTL 36000	; 10 hours
+slow.ccu.edu.tw		IN SOA	slow.ccu.edu.tw. root.slow.ccu.edu.tw. (
+				2008100301 ; serial
+				3600       ; refresh (1 hour)
+				900        ; retry (15 minutes)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				3600       ; minimum (1 hour)
+				)
+			NS	slow.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+			A	140.123.19.90
+			MX	0 proxy.nopam.ccu.edu.tw.
+$ORIGIN slow.ccu.edu.tw.
+my			CNAME	slow.ccu.edu.tw.
+www			CNAME	slow.ccu.edu.tw.

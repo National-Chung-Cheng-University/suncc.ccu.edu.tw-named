@@ -1,0 +1,51 @@
+;
+;	leica: /var/named/named.rev
+;
+;	phil.ccu zone reverse address hosts file for server ccunix
+;	140.123.44
+;
+$ORIGIN 44.123.140.in-addr.arpa.
+@       IN      SOA     leica.ccu.edu.tw.       root.leica.ccu.edu.tw.  (
+			1997102201   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600         ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	leica.ccu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+;
+
+
+102	IN	PTR	houng.phil.ccu.edu.tw.
+104	IN	PTR	teng.phil.ccu.edu.tw.
+107	IN	PTR	selig.phil.ccu.edu.tw.
+115	IN	PTR	shei.phil.ccu.edu.tw.
+119	IN	PTR	tai.phil.ccu.edu.tw.
+115	IN	PTR	shei.phil.ccu.edu.tw.
+135	IN	PTR	peng.phil.ccu.edu.tw.
+199	IN	PTR	palma.phil.ccu.edu.tw.
+ 
+120	IN	PTR	ling.phil.ccu.edu.tw.
+121	IN	PTR	yi.phil.ccu.edu.tw.
+122	IN	PTR	er.phil.ccu.edu.tw.
+123	IN	PTR	san.phil.ccu.edu.tw.
+124	IN	PTR	si.phil.ccu.edu.tw.
+125	IN	PTR	wu.phil.ccu.edu.tw.
+126	IN	PTR	liu.phil.ccu.edu.tw.
+127	IN	PTR	qi.phil.ccu.edu.tw.
+128	IN	PTR	ba.phil.ccu.edu.tw.
+129	IN	PTR	jiu.phil.ccu.edu.tw.
+130	IN	PTR	shi.phil.ccu.edu.tw.
+131	IN	PTR	shiyi.phil.ccu.edu.tw.
+132	IN	PTR	shier.phil.ccu.edu.tw.
+133	IN	PTR	shisan.phil.ccu.edu.tw.
+134	IN	PTR	shisi.phil.ccu.edu.tw.
+135	IN	PTR	shiwu.phil.ccu.edu.tw.
+136	IN	PTR	shiliu.phil.ccu.edu.tw.
+137	IN	PTR	shiqi.phil.ccu.edu.tw.
+138	IN	PTR	shiba.phil.ccu.edu.tw.
+139	IN	PTR	shijiu.phil.ccu.edu.tw.
+
+
+

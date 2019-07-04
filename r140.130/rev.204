@@ -1,0 +1,12 @@
+$ORIGIN .
+$TTL 36000	; 10 hours
+204.130.140.in-addr.arpa IN SOA	ccms.ncyu.edu.tw. root.ccms.ncyu.edu.tw. (
+				2006130101 ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	ccms.ncyu.edu.tw.
+			NS	mxdns.ncyu.edu.tw.
+			NS	smdns.ncyu.edu.tw.

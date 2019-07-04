@@ -1,0 +1,19 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+41.123.140.in-addr.arpa	IN SOA	dns.his.ccu.edu.tw. ky.mail.his.ccu.edu.tw. (
+				2005051001 ; serial
+				3600       ; refresh (1 hour)
+				1800       ; retry (30 minutes)
+				604800     ; expire (1 week)
+				21600      ; minimum (6 hours)
+				)
+			NS	dns.his.ccu.edu.tw.
+$ORIGIN 41.123.140.in-addr.arpa.
+131			PTR	TOMCAT.his.ccu.edu.tw.
+133			PTR	dns.his.ccu.edu.tw.
+136			PTR	wtc.his.ccu.edu.tw.
+137			PTR	sayYes.his.ccu.edu.tw.
+138			PTR	hero.his.ccu.edu.tw.
+139			PTR	jacky2.his.ccu.edu.tw.
+143			PTR	mail.his.ccu.edu.tw.
+150			PTR	bbs.his.ccu.edu.tw.

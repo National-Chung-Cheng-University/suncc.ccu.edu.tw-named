@@ -1,0 +1,20 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone '96.28.163.in-addr.arpa'   last serial 1999073101
+; from 140.123.6.2   at Tue Aug  3 08:48:17 1999
+$ORIGIN 28.163.in-addr.arpa.
+96		IN	SOA	suncc.ccu.edu.tw. root.suncc.ccu.edu.tw. (
+		1999080301 21600 3600 1209600 172800 )
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	leica.ccu.edu.tw.
+$ORIGIN 96.28.163.in-addr.arpa.
+12		IN	PTR	cache.ccu.edu.tw.
+13		IN	PTR	cache2.ccu.edu.tw.
+14		IN	PTR	cache2.ccu.edu.tw.
+15		IN	PTR	cache.lab.ccu.edu.tw.
+9		IN	PTR	proxy.ccu.edu.tw.
+1		IN	PTR	s1.cy.edu.tw.
+3		IN	PTR	ftpgate.ccu.edu.tw.
+10		IN	PTR	proxy.ccu.edu.tw.
+11		IN	PTR	cache.ccu.edu.tw.
+5		IN	PTR	ccuftpgate.ccu.edu.tw.

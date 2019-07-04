@@ -1,0 +1,117 @@
+$ORIGIN .
+$TTL 600	; 10 minutes
+109.123.140.in-addr.arpa IN SOA	dns.ee.ccu.edu.tw. adm.ee.ccu.edu.tw. (
+				2012073001 ; serial
+				3600       ; refresh (1 hour)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	dns.ee.ccu.edu.tw.
+$ORIGIN 109.123.140.in-addr.arpa.
+0			PTR	140-123-109-network.ee.ccu.edu.tw.
+1			PTR	globe.ee.ccu.edu.tw.
+10			PTR	yschu.ee.ccu.edu.tw.
+100			PTR	fang.ee.ccu.edu.tw.
+101			PTR	mjc.ee.ccu.edu.tw.
+102			PTR	lck.ee.ccu.edu.tw.
+103			PTR	cls.ee.ccu.edu.tw.
+104			PTR	li.ee.ccu.edu.tw.
+105			PTR	ccc.ee.ccu.edu.tw.
+106			PTR	cjc.ee.ccu.edu.tw.
+107			PTR	cjc2.ee.ccu.edu.tw.
+108			PTR	flw.ee.ccu.edu.tw.
+109			PTR	sfn.ee.ccu.edu.tw.
+11			PTR	cswu.ee.ccu.edu.tw.
+110			PTR	hwang.ee.ccu.edu.tw.
+111			PTR	kuo.ee.ccu.edu.tw.
+112			PTR	kuo2.ee.ccu.edu.tw.
+113			PTR	kuo3.ee.ccu.edu.tw.
+114			PTR	hwang2.ee.ccu.edu.tw.
+115			PTR	hwang3.ee.ccu.edu.tw.
+12			PTR	eeipx5.ee.ccu.edu.tw.
+13			PTR	cswu2.ee.ccu.edu.tw.
+14			PTR	yschu2.ee.ccu.edu.tw.
+140			PTR	OFFICE-140.ee.ccu.edu.tw.
+141			PTR	OFFICE-141.ee.ccu.edu.tw.
+142			PTR	OFFICE-142.ee.ccu.edu.tw.
+143			PTR	OFFICE-143.ee.ccu.edu.tw.
+144			PTR	micro.ee.ccu.edu.tw.
+145			PTR	OFFICE-145.ee.ccu.edu.tw.
+146			PTR	OFFICE-146.ee.ccu.edu.tw.
+147			PTR	OFFICE-147.ee.ccu.edu.tw.
+148			PTR	OFFICE-148.ee.ccu.edu.tw.
+149			PTR	OFFICE-149.ee.ccu.edu.tw.
+15			PTR	shannon.ee.ccu.edu.tw.
+150			PTR	OFFICE-150.ee.ccu.edu.tw.
+151			PTR	OFFICE-151.ee.ccu.edu.tw.
+152			PTR	OFFICE-152.ee.ccu.edu.tw.
+153			PTR	OFFICE-153.ee.ccu.edu.tw.
+154			PTR	OFFICE-154.ee.ccu.edu.tw.
+155			PTR	OFFICE-155.ee.ccu.edu.tw.
+156			PTR	OFFICE-156.ee.ccu.edu.tw.
+157			PTR	semba2013.ee.ccu.edu.tw.
+158			PTR	OFFICE-158.ee.ccu.edu.tw.
+159			PTR	OFFICE-159.ee.ccu.edu.tw.
+16			PTR	shannon02.ee.ccu.edu.tw.
+161			PTR	room330.ee.ccu.edu.tw.
+17			PTR	shannon03.ee.ccu.edu.tw.
+171			PTR	ctr.ee.ccu.edu.tw.
+172			PTR	avon.ee.ccu.edu.tw.
+173			PTR	ctrccu.ccu.edu.tw.
+174			PTR	sara.ee.ccu.edu.tw.
+18			PTR	wangjs1.ee.ccu.edu.tw.
+19			PTR	wangjs2.ee.ccu.edu.tw.
+2			PTR	explorer.ee.ccu.edu.tw.
+20			PTR	wangjs3.ee.ccu.edu.tw.
+210			PTR	hcchen.ee.ccu.edu.tw.
+22			PTR	su2.ee.ccu.edu.tw.
+225			PTR	wang.ee.ccu.edu.tw.
+23			PTR	su3.ee.ccu.edu.tw.
+238			PTR	wnlie3.ee.ccu.edu.tw.
+239			PTR	wnlie2.ee.ccu.edu.tw.
+24			PTR	explorer2.ee.ccu.edu.tw.
+240			PTR	wnlie.ee.ccu.edu.tw.
+241			PTR	wlan109-1.ee.ccu.edu.tw.
+242			PTR	wlan109-2.ee.ccu.edu.tw.
+243			PTR	wlan109-3.ee.ccu.edu.tw.
+244			PTR	wlan109-4.ee.ccu.edu.tw.
+245			PTR	wlan109-5.ee.ccu.edu.tw.
+246			PTR	wlan109-6.ee.ccu.edu.tw.
+247			PTR	wlan109-7.ee.ccu.edu.tw.
+248			PTR	wlan109-8.ee.ccu.edu.tw.
+249			PTR	140-123-109-gateway.ee.ccu.edu.tw.
+25			PTR	print.ee.ccu.edu.tw.
+250			PTR	wlan109-9.ee.ccu.edu.tw.
+251			PTR	wlan109-10.ee.ccu.edu.tw.
+252			PTR	wlan109-11.ee.ccu.edu.tw.
+253			PTR	wlan109-12.ee.ccu.edu.tw.
+254			PTR	wlan109-13.ee.ccu.edu.tw.
+255			PTR	140-123-109-broadcast.ee.ccu.edu.tw.
+26			PTR	wchang1.ee.ccu.edu.tw.
+27			PTR	wchang2.ee.ccu.edu.tw.
+28			PTR	wchang3.ee.ccu.edu.tw.
+29			PTR	hth.ee.ccu.edu.tw.
+3			PTR	eeipc1.ee.ccu.edu.tw.
+33			PTR	tchou.ee.ccu.edu.tw.
+34			PTR	hbt.ee.ccu.edu.tw.
+35			PTR	hnsc.ee.ccu.edu.tw.
+4			PTR	jhwen.ee.ccu.edu.tw.
+45			PTR	sydney.ee.ccu.edu.tw.
+46			PTR	glendon.ee.ccu.edu.tw.
+47			PTR	wirenet.ee.ccu.edu.tw.
+48			PTR	trustme2.ee.ccu.edu.tw.
+49			PTR	trustme.ee.ccu.edu.tw.
+5			PTR	jhwen2.ee.ccu.edu.tw.
+50			PTR	trustme3.ee.ccu.edu.tw.
+51			PTR	chen1.ee.ccu.edu.tw.
+52			PTR	chen2.ee.ccu.edu.tw.
+53			PTR	chen3.ee.ccu.edu.tw.
+54			PTR	tfwu3.ee.ccu.edu.tw.
+55			PTR	tfwu2.ee.ccu.edu.tw.
+56			PTR	tfwu.ee.ccu.edu.tw.
+6			PTR	tch.ee.ccu.edu.tw.
+8			PTR	hscp.ee.ccu.edu.tw.
+9			PTR	eeipx3.ee.ccu.edu.tw.
+98			PTR	fang3.ee.ccu.edu.tw.
+99			PTR	fang2.ee.ccu.edu.tw.

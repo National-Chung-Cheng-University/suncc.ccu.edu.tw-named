@@ -1,0 +1,10 @@
+$ORIGIN .
+$TTL 7200	; 2 hours
+109.130.140.in-addr.arpa IN SOA	dns.wfu.edu.tw. abuse.wfu.edu.tw. (
+				2010072801 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				3600       ; minimum (1 hour)
+				)
+			NS	dns.wfu.edu.tw.

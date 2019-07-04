@@ -1,0 +1,81 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'cyc.edu.tw'   last serial 0
+; from 140.123.254.1   at Sat Oct  9 06:56:27 1999
+$ORIGIN edu.tw.
+cyc		IN	SOA	s1.ccu.edu.tw. root.s1.ccu.edu.tw. (
+		1999091401 21600 3600 1209600 172800 )
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+$ORIGIN cyc.edu.tw.
+tssh		IN	NS	dns.tssh.cyc.edu.tw.
+$ORIGIN tssh.cyc.edu.tw.
+dns		IN	A	140.130.199.201
+$ORIGIN cyc.edu.tw.
+tssh		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+tlps		IN	NS	totoro.tlps.cyc.edu.tw.
+$ORIGIN tlps.cyc.edu.tw.
+totoro		IN	A	210.70.17.1
+$ORIGIN cyc.edu.tw.
+tlps		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+dns		IN	CNAME	www.cyc.edu.tw.
+ccms		IN	MX	0 ccms.cyc.edu.tw.
+		IN	MX	10 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	A	203.72.92.194
+mhvs		IN	NS	ultra1.mhvs.cyc.edu.tw.
+$ORIGIN mhvs.cyc.edu.tw.
+ultra1		IN	A	140.130.193.1
+$ORIGIN cyc.edu.tw.
+mhvs		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+ptps		IN	NS	www.ptps.cyc.edu.tw.
+$ORIGIN ptps.cyc.edu.tw.
+www		IN	A	140.130.217.10
+$ORIGIN cyc.edu.tw.
+ptps		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+lucky		IN	MX	0 lucky.cyc.edu.tw.
+		IN	MX	20 s1.ccu.edu.tw.
+		IN	A	163.27.70.2
+proxy		IN	MX	0 proxy.cyc.edu.tw.
+		IN	MX	20 s1.ccu.edu.tw.
+		IN	A	163.27.70.10
+www		IN	MX	0 www.cyc.edu.tw.
+		IN	MX	20 s1.ccu.edu.tw.
+		IN	A	163.27.70.1
+cdvs		IN	NS	jdnt.cdvs.cyc.edu.tw.
+$ORIGIN cdvs.cyc.edu.tw.
+jdnt		IN	A	210.70.240.1
+$ORIGIN cyc.edu.tw.
+cdvs		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+hkps		IN	NS	lupin.hkps.cyc.edu.tw.
+$ORIGIN hkps.cyc.edu.tw.
+lupin		IN	A	140.130.222.52
+$ORIGIN cyc.edu.tw.
+hkps		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+wnvs		IN	NS	wnvs.cyc.edu.tw.
+		IN	A	140.130.192.1
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+ccivs		IN	NS	ccivs.cyc.edu.tw.
+		IN	A	210.70.140.1
+		IN	NS	inf.ccivs.cyc.edu.tw.
+$ORIGIN ccivs.cyc.edu.tw.
+inf		IN	A	210.70.140.11
+$ORIGIN cyc.edu.tw.
+ccivs		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+cnvs		IN	NS	dns.cnvs.cyc.edu.tw.
+$ORIGIN cnvs.cyc.edu.tw.
+dns		IN	A	210.71.53.1
+$ORIGIN cyc.edu.tw.
+cnvs		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+cmsh		IN	NS	cmsh.cyc.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.

@@ -1,0 +1,40 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+100.123.140.in-addr.arpa IN SOA	gais.ccu.edu.tw. tht96.gais.cs.ccu.edu.tw. (
+				2010123101 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.gais.ccu.edu.tw.
+			NS	ns1.gais.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+$ORIGIN 100.123.140.in-addr.arpa.
+1			PTR	mk1.gais.ccu.edu.tw.
+10			PTR	mk10.gais.ccu.edu.tw.
+11			PTR	mk11.gais.ccu.edu.tw.
+12			PTR	mk12.gais.ccu.edu.tw.
+13			PTR	mk13.gais.ccu.edu.tw.
+14			PTR	mk14.gais.ccu.edu.tw.
+15			PTR	mk15.gais.ccu.edu.tw.
+16			PTR	mk16.gais.ccu.edu.tw.
+17			PTR	mk17.gais.ccu.edu.tw.
+18			PTR	mk18.gais.ccu.edu.tw.
+19			PTR	mk19.gais.ccu.edu.tw.
+2			PTR	mk2.gais.ccu.edu.tw.
+20			PTR	mk20.gais.ccu.edu.tw.
+21			PTR	mk21.gais.ccu.edu.tw.
+22			PTR	mk22.gais.ccu.edu.tw.
+23			PTR	mk23.gais.ccu.edu.tw.
+24			PTR	mk24.gais.ccu.edu.tw.
+25			PTR	mk25.gais.ccu.edu.tw.
+26			PTR	mk26.gais.ccu.edu.tw.
+3			PTR	mk3.gais.ccu.edu.tw.
+30			PTR	netkvm.gais.ccu.edu.tw.
+4			PTR	mk4.gais.ccu.edu.tw.
+5			PTR	mk5.gais.ccu.edu.tw.
+6			PTR	mk6.gais.ccu.edu.tw.
+7			PTR	mk7.gais.ccu.edu.tw.
+8			PTR	mk8.gais.ccu.edu.tw.
+9			PTR	mk9.gais.ccu.edu.tw.

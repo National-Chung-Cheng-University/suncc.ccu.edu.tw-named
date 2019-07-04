@@ -1,0 +1,546 @@
+;
+;	reverse domain for 140.130.0.0
+;
+$ORIGIN 130.140.in-addr.arpa.
+
+$TTL	360000
+@                       IN   SOA   suncc.ccu.edu.tw.  root.suncc.ccu.edu.tw.  (
+			2010082703 ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+;		IN	NS	s1.ccu.edu.tw.
+;		IN	NS	moevax.edu.tw.
+
+;
+; reverse domain of 140.130
+;
+; NYPI 虎尾技術學院[雲林工專] 140.130.1 - 140.130.40
+2.1	IN	PTR	dns.nfu.edu.tw.
+3.12	IN	PTR	dns.lib.nfu.edu.tw.
+17.3	IN	PTR	cad.mde.nfu.edu.tw.
+;114.21	IN	PTR	dns.eo.nfu.edu.tw.
+;161.1	IN	PTR	nt.me.nfu.edu.tw.
+;
+1	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+2	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+3	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+4	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+5	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+6	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+7	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+8	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+9	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+10	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+11	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+12	IN	NS	dns.lib.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+13	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+14	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+15	IN	NS	freebsd.me.nfu.edu.tw.
+	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+16	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+17	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+18	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+19	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+20	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+21	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+22	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+23	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+24	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+25	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+26	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+27	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+28	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+29	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+30	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+31	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+32	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+33	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+34	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+35	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+36	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+37	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+38	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+39	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+40	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+;
+; NCYU 嘉義大學 140.130.41 - 140.130.50
+;
+41	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+42	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+43	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+44	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+45	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+46	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+47	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+48	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+49	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+50	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+;
+; NCYU  嘉義大學 140.130.81 - 140.130.100
+;
+11.81	IN	PTR	ccms.ncyu.edu.tw.
+;
+81	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+82	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+83	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+84	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+85	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+86	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+87	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+88	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+89	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+90	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+91	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+92	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+93	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+94	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+95	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+96	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+97	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+98	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+99	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+100	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+;
+; NCYU  嘉義大學 140.130.170 - 140.130.189
+;
+170	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+171	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+172	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+173	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+174	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+175	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+176	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+177	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+178	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+179	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+180	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+181	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+182	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+183	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+184	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+185	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+186	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+187	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+188	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+189	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+1.192	IN	PTR	adm.wnvs.cyc.edu.tw.
+192	IN	NS	adm.wnvs.cyc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+;
+; NCYU  嘉義大學 140.130.194 - 140.130.198
+;
+194	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+195	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+196	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+197	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+198	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+;
+; NCYU  嘉義大學 140.130.201 - 140.130.210
+;
+201	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+202	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+203	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+204	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+205	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+206	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+207	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+208	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+209	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+210	IN	NS	ccms.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+;
+; NCYU 嘉義大學--附設實小 140.130.211
+2.211	IN	PTR	ncyes.ncyu.edu.tw.
+211	IN	NS	ncyes.ncyu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+;toko reverse domain 140.123.212-214
+5.212	IN	PTR	a.ns.toko.edu.tw.
+212	IN	NS	a.ns.toko.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+213	IN	NS	a.ns.toko.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+214	IN	NS	a.ns.toko.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+;cgit  reverse domain 140.123.215-216
+131.215	IN	PTR	dns.cy.cgit.edu.tw.
+215	IN	NS	dns.cy.cgit.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+216	IN	NS	dns.cy.cgit.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+; cmsh  140.130.220-223
+1.220	IN	PTR	dns.cmsh.cyc.edu.tw.
+220	IN	NS	dns.cmsh.cyc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+221	IN	NS	dns.cmsh.cyc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+222	IN	NS	dns.cmsh.cyc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+223	IN	NS	dns.cmsh.cyc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+; TWU 環球商專 140.130.151 - 140.130.168
+248.151	IN	PTR	dns.twu.edu.tw.
+;
+151	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+152	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+153	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+154	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+155	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+156	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+157	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+158	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+159	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+160	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+161	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+162	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+163	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+164	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+165	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+166	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+167	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+168	IN	NS	dns.twu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+;National Sin Gang Art Senior High School (sgash) 140.130.169
+1.169	IN	PTR	sgash.cyc.edu.tw.
+169	IN	NS	sgash.cyc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+; cjc  140.130.190-191
+1.190	IN	PTR	dns.cjc.cy.edu.tw.
+190	IN	NS	dns.cjc.cy.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+191	IN	NS	dns.cjc.cy.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+
+; TSSH 東石高中 140.130.199
+201.199	IN	PTR	dns.tssh.cyc.edu.tw.
+;
+199	IN	NS	dns.tssh.cyc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+; TTC 大同商專 140.130.131 - 140.130.150
+2.135	IN	PTR	sunipc.ttc.edu.tw.
+60.149	IN	PTR	im.ttc.edu.tw.
+;
+131	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+132	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+133	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+134	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+135	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+136	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+137	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+138	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+139	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+140	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+141	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+142	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+143	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+144	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+145	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+146	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+147	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+148	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+149	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+150	IN	NS	sunipc.ttc.edu.tw.
+	IN	NS	im.ttc.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+; WFU 吳鳳工商專校 140.130.101 - 140.130.130
+1.101	IN	PTR	dns.wfu.edu.tw.
+;
+101	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+102	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+103	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+104	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+105	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+106	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+107	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+108	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+109	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+110	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+111	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+112	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+113	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+114	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+115	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+116	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+117	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+118	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+119	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+120	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+121	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+122	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+123	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+124	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+125	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+126	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+127	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+128	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+129	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+130	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+; RMRC 煉製研究所 140.130.51 - 140.130.80
+1.51	IN	PTR	rmrc.gov.tw.
+;
+51	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+52	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+53	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+54	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+55	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+56	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+57	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+58	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+59	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+60	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+61	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+62	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+63	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+64	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+65	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+66	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+67	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+68	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+69	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+70	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+71	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+72	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+73	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+74	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+75	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+76	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+77	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+78	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+79	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+80	IN	NS	rmrc.gov.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+

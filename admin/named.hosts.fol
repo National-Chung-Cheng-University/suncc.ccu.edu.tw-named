@@ -1,0 +1,31 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	fol.ccu.edu.tw.
+$TTL	360000
+
+@       IN      SOA 	suncc.ccu.edu.tw.     root.suncc.ccu.edu.tw.  (
+			2008022702   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+
+
+;
+;  leica.ccu.edu.tw zone hosts list
+;
+
+apollo 		IN	A	140.123.42.1
+		IN	MX	0 apollo.fol.ccu.edu.tw.
+www		IN	CNAME	apollo.fol.ccu.edu.tw.
+ftp		IN	CNAME	apollo.fol.ccu.edu.tw.
+mail		IN	CNAME	apollo.fol.ccu.edu.tw.
+
+allen		IN	A	140.123.42.68
+		IN	MX	0 allen.fol.ccu.edu.tw.
+
+

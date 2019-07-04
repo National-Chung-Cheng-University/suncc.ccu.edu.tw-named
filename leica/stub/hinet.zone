@@ -1,0 +1,14 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'hinet.net'   last serial 9910070
+; from 168.95.1.1   at Fri Oct  8 22:53:14 1999
+$ORIGIN net.
+hinet		IN	SOA	hntp1.hinet.net. hostmaster.hinet.net. (
+		9910071 21600 7200 3600000 86400 )
+		IN	NS	hntp1.hinet.net.
+		IN	NS	hntp3.hinet.net.
+		IN	NS	dns.hinet.net.
+$ORIGIN hinet.net.
+hntp1		IN	A	168.95.192.1
+hntp3		IN	A	168.95.192.2
+dns		IN	A	168.95.1.1

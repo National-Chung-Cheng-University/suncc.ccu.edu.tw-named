@@ -1,0 +1,42 @@
+$ORIGIN .
+$TTL 3600	; 1 hour
+ccunix.ccu.edu.tw	IN SOA	ccunix.ccu.edu.tw. root.ccunix.ccu.edu.tw. (
+				2011062701 ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	dns2.ccu.edu.tw.
+			NS	dns5.ccu.edu.tw.
+			NS	dns6.ccu.edu.tw.
+			NS	dns7.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+			NS	ccunix.ccu.edu.tw.
+			A	140.123.2.5
+			MX	0 mail01.ccu.edu.tw.
+			MX	0 mail02.ccu.edu.tw.
+			MX	0 mail03.ccu.edu.tw.
+			MX	0 mail04.ccu.edu.tw.
+			TXT	"v=spf1 a:outgoing.ccu.edu.tw ~all"
+$ORIGIN ccunix.ccu.edu.tw.
+adonis			A	140.123.2.3
+			MX	0 localhost.
+blade			A	140.123.2.4
+			MX	0 localhost.
+cc			CNAME	helios
+faculty			A	140.123.2.102
+helios			A	140.123.2.1
+			MX	0 localhost.
+mail			CNAME	ccunix.ccu.edu.tw.
+news			CNAME	reader.ccu.edu.tw.
+odin			A	140.123.2.2
+			MX	0 incoming.ccu.edu.tw.
+titan			A	140.123.2.6
+			MX	0 mail01.ccu.edu.tw.
+			MX	0 mail02.ccu.edu.tw.
+			MX	0 mail03.ccu.edu.tw.
+			MX	0 mail04.ccu.edu.tw.
+u2			A	140.123.2.7
+			MX	0 localhost.
+www			CNAME	adonis

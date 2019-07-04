@@ -1,0 +1,25 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	edoc.ccu.edu.tw.
+$TTL	360000
+
+@       IN      SOA 	suncc.ccu.edu.tw.     root.suncc.ccu.edu.tw.  (
+			2011071101   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	A	140.123.26.145
+
+
+my		IN	A	140.123.26.143
+;my		IN	A	140.123.26.144
+www		IN	A	140.123.26.144
+;mycvs		IN	A	140.123.26.162
+mycvs		IN	A	140.123.15.86
+search		IN	A	140.123.26.156
+

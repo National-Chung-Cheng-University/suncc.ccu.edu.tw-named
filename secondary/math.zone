@@ -1,0 +1,85 @@
+$ORIGIN .
+$TTL 6400	; 1 hour 46 minutes 40 seconds
+math.ccu.edu.tw		IN SOA	math.ccu.edu.tw. root.math.ccu.edu.tw. (
+				2010021201 ; serial
+				10800      ; refresh (3 hours)
+				15         ; retry (15 seconds)
+				604800     ; expire (1 week)
+				10800      ; minimum (3 hours)
+				)
+			NS	math.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+			A	140.123.62.1
+			MX	0 nopam.math.ccu.edu.tw.
+			MX	8 math.ccu.edu.tw.
+$ORIGIN math.ccu.edu.tw.
+a3color			A	140.123.62.17
+a4			A	140.123.62.11
+a4-1			A	140.123.62.15
+bbs			A	140.123.63.253
+blog			A	140.123.62.7
+color			A	140.123.62.14
+formosa			A	140.123.62.6
+gauss			A	140.123.62.24
+highstat		A	140.123.62.32
+hp			A	140.123.62.13
+ic			A	140.123.62.207
+lewy			A	140.123.62.189
+lilac			A	140.123.62.9
+lily			A	140.123.62.12
+math412			A	140.123.62.123
+math413			A	140.123.62.125
+math414			A	140.123.62.127
+math415			A	140.123.62.129
+math416			A	140.123.62.131
+math416b		A	140.123.62.132
+math417			A	140.123.62.133
+math418			A	140.123.62.135
+math419			A	140.123.62.137
+math420			A	140.123.62.139
+math421			A	140.123.62.141
+math422			A	140.123.62.143
+math423			A	140.123.62.145
+math424			A	140.123.62.147
+math425			A	140.123.62.149
+math426			A	140.123.62.151
+math427			A	140.123.62.153
+math428			A	140.123.62.155
+math429			A	140.123.62.156
+math430			A	140.123.62.159
+math431			A	140.123.62.161
+math432			A	140.123.62.163
+math433			A	140.123.62.165
+math434			A	140.123.62.167
+math435			A	140.123.62.169
+math436			A	140.123.62.171
+math437			A	140.123.62.173
+math437b		A	140.123.62.174
+math438			A	140.123.62.175
+math439			A	140.123.62.177
+math440			A	140.123.62.179
+math441			A	140.123.62.181
+math442			A	140.123.62.183
+math443			A	140.123.62.185
+math444			A	140.123.62.187
+math446			A	140.123.62.191
+math447			A	140.123.62.193
+math448			A	140.123.62.195
+math449			A	140.123.62.197
+mei			A	140.123.62.25
+mthmp			A	140.123.62.5
+			MX	10 mthmp
+nopam			A	140.123.62.3
+oikos			A	140.123.62.157
+peony			A	140.123.62.1
+			MX	5 peony
+redhat			A	140.123.62.16
+tfc			A	140.123.62.28
+titan			A	140.123.62.23
+$ORIGIN ccu.edu.tw.math.ccu.edu.tw.
+www.ic			CNAME	ic.ccu.edu.tw.
+www.math		CNAME	mthmp.math.ccu.edu.tw.
+$ORIGIN math.ccu.edu.tw.
+willow			A	140.123.62.2
+www			CNAME	mthmp
+yes			A	140.123.62.160

@@ -1,0 +1,18 @@
+;
+;       ipv6: /var/named/v6/ccu/005.rev6
+;
+;       ccu v6 reverse zone file for server v6
+;
+$TTL 36000
+@               IN     SOA     suncc.ccu.edu.tw.   root.suncc.ccu.edu.tw.  (
+                       2010071202  ; Serial
+                       21600       ; Refresh    6 hours
+                       3600        ; Retry      1 hour
+                       1209600     ; Expire    14 days
+                       172800 )    ; Minimum    2 days
+               IN      NS      suncc.ccu.edu.tw.
+               IN      NS      dns2.ccu.edu.tw.
+
+$ORIGIN 5.0.0.0.1.0.0.6.8.8.2.0.1.0.0.2.ip6.arpa.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 	IN      PTR     www.ccu.edu.tw.
+0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0 	IN      PTR     outgoingX.ccu.edu.tw.

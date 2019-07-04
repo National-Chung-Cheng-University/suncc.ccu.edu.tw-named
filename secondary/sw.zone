@@ -1,0 +1,339 @@
+$ORIGIN .
+$TTL 172800	; 2 days
+sw.ccu.edu.tw		IN SOA	sw.ccu.edu.tw. root.sw.ccu.edu.tw. (
+				2012062501 ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	s1.ccu.edu.tw.
+			NS	sw.ccu.edu.tw.
+			NS	dns.ccu.edu.tw.
+			NS	dns2.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+			NS	ccunix.ccu.edu.tw.
+			A	140.123.181.1
+			MX	0 sw.ccu.edu.tw.
+$ORIGIN sw.ccu.edu.tw.
+6star			A	140.123.181.18
+			MX	0 6star
+alpha			CNAME	post
+art			CNAME	sts
+asw1			A	140.123.181.139
+asw2			A	140.123.181.140
+asw3			A	140.123.181.141
+bbs			CNAME	hcc
+beta			CNAME	mis
+blog			CNAME	post
+$ORIGIN blog.sw.ccu.edu.tw.
+*			A	140.123.181.13
+$ORIGIN sw.ccu.edu.tw.
+blp			CNAME	sts
+book			CNAME	post
+cat			CNAME	mis
+ccc			CNAME	6star
+ccf			CNAME	sts
+cd			A	140.123.181.7
+center			CNAME	6star
+chiayi			CNAME	gis
+cjk			CNAME	sts
+club			CNAME	sw.ccu.edu.tw.
+community		CNAME	6star
+cr229			A	140.123.181.64
+cr2401			A	140.123.181.62
+cr2402			A	140.123.181.63
+cr2411			A	140.123.181.60
+cr2412			A	140.123.181.61
+cr3271			A	140.123.181.149
+cr3272			A	140.123.181.150
+cr3273			A	140.123.181.151
+cr3274			A	140.123.181.152
+cr3275			A	140.123.181.153
+cr3461			A	140.123.181.124
+cr3462			A	140.123.181.125
+cr358			A	140.123.181.228
+cr361			A	140.123.181.227
+ctc			A	140.123.181.134
+ctc1			A	140.123.181.135
+cw			A	140.123.181.130
+cw1			A	140.123.181.131
+dog			CNAME	sts
+ecc			CNAME	sts
+ecom			CNAME	6star
+edo			CNAME	sts
+egg			CNAME	sts
+eiv			CNAME	sts
+eng			CNAME	isw2
+face			CNAME	post
+farm			CNAME	gis
+$ORIGIN farm.sw.ccu.edu.tw.
+*			CNAME	gis.sw.ccu.edu.tw.
+$ORIGIN sw.ccu.edu.tw.
+fatherhood		CNAME	6star
+fish			CNAME	sts
+forum			CNAME	sw.ccu.edu.tw.
+gis			A	140.123.181.25
+global			CNAME	mice
+gm			CNAME	post
+gmail			CNAME	ghs.google.com.
+hakka			CNAME	6star
+hcc			A	140.123.181.19
+			MX	0 hcc
+icf			CNAME	6star
+isw			CNAME	sw.ccu.edu.tw.
+isw2			A	140.123.181.2
+isw3			CNAME	sw.ccu.edu.tw.
+isw5			CNAME	sw.ccu.edu.tw.
+isw6			CNAME	sw.ccu.edu.tw.
+isw8			A	140.123.181.8
+			MX	0 sts
+			MX	5 sw.ccu.edu.tw.
+isw9			A	140.123.181.9
+			MX	0 sts
+jdl			A	140.123.181.136
+jdl1			A	140.123.181.137
+joo			CNAME	sts
+jrc			A	140.123.181.231
+kuan			A	140.123.181.145
+kuan1			A	140.123.181.146
+kyw			A	140.123.181.126
+kyw1			A	140.123.181.127
+lab			CNAME	sw.ccu.edu.tw.
+lab01			A	140.123.181.101
+lab02			A	140.123.181.102
+lab03			A	140.123.181.103
+lab04			A	140.123.181.104
+lab05			A	140.123.181.105
+lab06			A	140.123.181.106
+lab07			A	140.123.181.107
+lab08			A	140.123.181.108
+lab09			A	140.123.181.109
+lab10			A	140.123.181.110
+lanka			CNAME	sts
+lib			CNAME	sw.ccu.edu.tw.
+lib1			A	140.123.181.154
+lib2			A	140.123.181.155
+lib3			A	140.123.181.156
+lib4			A	140.123.181.157
+lib5			A	140.123.181.158
+lib6			A	140.123.181.159
+lib7			A	140.123.181.160
+lib8			A	140.123.181.161
+libpr			A	140.123.181.162
+life			CNAME	6star
+linux			CNAME	swsun1
+localhost		A	127.0.0.1
+mail			CNAME	sw.ccu.edu.tw.
+mail2			CNAME	mice
+man			CNAME	mice
+map			CNAME	gis
+mice			A	140.123.181.27
+			MX	0 mice
+mis			A	140.123.181.26
+$ORIGIN mis.sw.ccu.edu.tw.
+*			A	140.123.181.26
+$ORIGIN sw.ccu.edu.tw.
+mjw			A	140.123.181.229
+mjw1			A	140.123.181.230
+mllee			A	140.123.181.111
+mllee1			A	140.123.181.112
+momo			CNAME	mis
+nomind			CNAME	6star
+npo			CNAME	sw.ccu.edu.tw.
+NZ			A	140.123.181.239
+office1			A	140.123.181.65
+office2			A	140.123.181.66
+office3			A	140.123.181.67
+office4			A	140.123.181.68
+office5			A	140.123.181.69
+ojs			CNAME	6star
+p-server		A	140.123.181.100
+p4			A	140.123.181.28
+pc			A	140.123.182.5
+			MX	0 pc
+pc01			A	140.123.181.81
+			A	140.123.182.11
+pc02			A	140.123.181.82
+			A	140.123.182.12
+pc03			A	140.123.182.13
+pc04			A	140.123.182.14
+pc05			A	140.123.182.15
+pc06			A	140.123.182.16
+pc07			A	140.123.182.17
+pc08			A	140.123.182.18
+pc09			A	140.123.182.19
+pc10			A	140.123.182.20
+pc11			A	140.123.182.21
+pc12			A	140.123.182.22
+pc13			A	140.123.182.23
+pc14			A	140.123.182.24
+pc15			A	140.123.182.25
+pc16			A	140.123.182.26
+pc17			A	140.123.182.27
+pc18			A	140.123.182.28
+pc19			A	140.123.182.29
+pc20			A	140.123.182.30
+pc21			A	140.123.182.31
+pc22			A	140.123.182.32
+pc23			A	140.123.182.33
+pc24			A	140.123.182.34
+pcroom			CNAME	pc
+pe			CNAME	sts
+pe2			CNAME	sts
+pews			CNAME	sts
+point			CNAME	sts
+post			A	140.123.181.13
+			MX	10 ASPMX.L.google.com.
+			MX	20 ALT1.ASPMX.L.google.com.
+			MX	20 ALT2.ASPMX.L.google.com.
+			MX	30 ASPMX2.GOOGLEMAIL.com.
+			MX	30 ASPMX3.GOOGLEMAIL.com.
+			MX	30 ASPMX4.GOOGLEMAIL.com.
+			MX	30 ASPMX5.GOOGLEMAIL.com.
+$ORIGIN post.sw.ccu.edu.tw.
+googleffffffffa924ffe9	CNAME	google.com.
+$ORIGIN sw.ccu.edu.tw.
+pres1			A	140.123.181.70
+pres2			A	140.123.181.71
+ps3			A	140.123.182.100
+r2331			A	140.123.181.31
+r2332			A	140.123.181.32
+r234			A	140.123.181.33
+r235			A	140.123.181.34
+r2361			A	140.123.181.35
+r2362			A	140.123.181.36
+r243			A	140.123.181.59
+r244			A	140.123.181.58
+r245			A	140.123.181.57
+r2451			A	140.123.181.74
+r246			A	140.123.181.56
+r247			A	140.123.181.55
+r248			A	140.123.181.54
+r2491			A	140.123.181.49
+r2492			A	140.123.181.50
+r2493			A	140.123.181.51
+r2494			A	140.123.181.52
+r2495			A	140.123.181.53
+r2501			A	140.123.181.45
+r2502			A	140.123.181.46
+r2503			A	140.123.181.47
+r2504			A	140.123.181.48
+r251			A	140.123.181.44
+r2511			A	140.123.181.73
+r252			A	140.123.181.43
+r253			A	140.123.181.42
+r254			A	140.123.181.41
+r2541			A	140.123.181.72
+r255			A	140.123.181.40
+r256			A	140.123.181.39
+r2571			A	140.123.181.37
+r2572			A	140.123.181.38
+r33001			A	140.123.181.163
+r33002			A	140.123.181.164
+r33003			A	140.123.181.165
+r33004			A	140.123.181.166
+r33005			A	140.123.181.167
+r33006			A	140.123.181.168
+r33007			A	140.123.181.169
+r33008			A	140.123.181.170
+r33009			A	140.123.181.171
+r33010			A	140.123.181.172
+r33011			A	140.123.181.173
+r33012			A	140.123.181.174
+r33013			A	140.123.181.175
+r33014			A	140.123.181.176
+r33015			A	140.123.181.177
+r33016			A	140.123.181.178
+r33017			A	140.123.181.179
+r33018			A	140.123.181.180
+r33019			A	140.123.181.181
+r33020			A	140.123.181.182
+r330pr			A	140.123.181.186
+r3361			A	140.123.181.142
+r3362			A	140.123.181.143
+r3363			A	140.123.181.144
+r338			A	140.123.181.138
+r3431			A	140.123.181.128
+r3432			A	140.123.181.129
+r36211			A	140.123.181.221
+r36212			A	140.123.181.222
+r36213			A	140.123.181.223
+r36214			A	140.123.181.224
+r36215			A	140.123.181.225
+r36216			A	140.123.181.226
+r36221			A	140.123.181.215
+r36222			A	140.123.181.216
+r36223			A	140.123.181.217
+r36224			A	140.123.181.218
+r36225			A	140.123.181.219
+r36226			A	140.123.181.220
+r3623			A	140.123.181.210
+r36241			A	140.123.181.211
+r36242			A	140.123.181.212
+r36251			A	140.123.181.213
+r36252			A	140.123.181.214
+r36513			A	140.123.181.199
+r36514			A	140.123.181.200
+r36515			A	140.123.181.201
+r36516			A	140.123.181.202
+r36517			A	140.123.181.203
+r36518			A	140.123.181.204
+r36519			A	140.123.181.205
+r36520			A	140.123.181.206
+r36521			A	140.123.181.207
+r36522			A	140.123.181.208
+r36523			A	140.123.181.209
+r36601			A	140.123.181.187
+r36602			A	140.123.181.188
+r36603			A	140.123.181.189
+r36604			A	140.123.181.190
+r36605			A	140.123.181.191
+r36606			A	140.123.181.192
+r36607			A	140.123.181.193
+r36608			A	140.123.181.194
+r36609			A	140.123.181.195
+r36610			A	140.123.181.196
+r36611			A	140.123.181.197
+r36612			A	140.123.181.198
+rat			CNAME	mis
+rev29			A	140.123.181.99
+router			A	140.123.181.250
+router2			A	140.123.182.250
+scc			A	140.123.181.115
+scc1			A	140.123.181.116
+scc2			A	140.123.181.233
+spc			A	140.123.181.119
+spc1			A	140.123.181.120
+spc2			A	140.123.181.121
+ssc			CNAME	sw.ccu.edu.tw.
+star			CNAME	sts
+str			CNAME	sw.ccu.edu.tw.
+sts			A	140.123.181.14
+sw3			CNAME	sw.ccu.edu.tw.
+swat			CNAME	6star
+swat2012		CNAME	mice
+swp			CNAME	sts
+swsun1			A	140.123.182.6
+			MX	0 swsun1
+swt			CNAME	sts
+sww			CNAME	sts
+T4			CNAME	mice
+teapot1			A	140.123.181.75
+teapot2			A	140.123.181.76
+thfu			A	140.123.181.117
+thfu1			A	140.123.181.118
+tiger			A	140.123.181.244
+tmwang			A	140.123.181.113
+tmwang1			A	140.123.181.114
+tmwang2			A	140.123.181.234
+tyc			A	140.123.181.132
+tyc1			A	140.123.181.133
+under			CNAME	sw.ccu.edu.tw.
+user			CNAME	sw.ccu.edu.tw.
+whc			A	140.123.181.122
+whc1			A	140.123.181.123
+wow			CNAME	sts
+www			CNAME	sw.ccu.edu.tw.
+yeh			A	140.123.181.147
+yeh1			A	140.123.181.148

@@ -1,0 +1,23 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 16.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			1999101501   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+;
+; reverse domain of 140.123.16
+;
+20	IN	PTR	i2cache-gw.ccu.edu.tw.
+;

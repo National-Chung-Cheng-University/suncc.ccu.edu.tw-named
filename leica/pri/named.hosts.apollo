@@ -1,0 +1,27 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	apollo.ccu.edu.tw.
+@       IN      SOA 	leica.ccu.edu.tw.     root.leica.ccu.edu.tw.  (
+			1997081701   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+            	IN      NS      leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+
+;
+;  apollo.ccu.edu.tw zone hosts list { fol }
+;
+
+www2 		IN	A	140.123.42.2
+
+www3 		IN	A	140.123.42.3
+
+wenjia 		IN	A	140.123.42.99
+
+

@@ -1,0 +1,28 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	english.ccu.edu.tw.
+$TTL	360000
+
+@       IN      SOA 	english.ccu.edu.tw.     root.english.ccu.edu.tw.  (
+			1999101101   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	A	140.123.42.3
+		IN	NS	suncc.ccu.edu.tw.
+		IN	MX	0 english.ccu.edu.tw.
+
+
+;
+;  leica.ccu.edu.tw zone hosts list
+;
+
+www 		IN	A	140.123.42.2
+		IN	WKS	140.123.42.2 TCP
+		IN	WKS	140.123.42.2 UDP
+		IN	MX	0 www.english.ccu.edu.tw.
+

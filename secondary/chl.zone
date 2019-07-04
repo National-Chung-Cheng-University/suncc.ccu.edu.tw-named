@@ -1,0 +1,16 @@
+$ORIGIN .
+$TTL 3600	; 1 hour
+chl.ccu.edu.tw		IN SOA	ccunix.ccu.edu.tw. root.ccunix.ccu.edu.tw. (
+				1999020801 ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	suncc.ccu.edu.tw.
+			NS	ccunix.ccu.edu.tw.
+			MX	0 ccunix.ccu.edu.tw.
+			MX	10 bbsmailer.ccu.edu.tw.
+$ORIGIN chl.ccu.edu.tw.
+cyliter			A	140.123.43.66
+dunhuang		A	140.123.43.200

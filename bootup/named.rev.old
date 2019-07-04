@@ -1,0 +1,150 @@
+;
+;	suncc: /var/named/named.rev
+;
+;	ccu zone reverse address hosts file for server suncc
+;
+$ORIGIN 123.140.in-addr.arpa.
+@                       IN   SOA   suncc.ccu.edu.tw.  root.suncc.ccu.edu.tw.  (
+			96112703   ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	moevax.edu.tw.
+
+2.1   	  	IN	PTR	suncc.ccu.edu.tw.
+3.1 		IN	PTR	leica.ccu.edu.tw.
+4.1 		IN	PTR	hero.ccu.edu.tw.
+5.1 		IN	PTR	stark.ccu.edu.tw.
+240.1		IN	PTR	cisco-ts.ccu.edu.tw.
+
+13.254.68.203.in-addr.arpa.	IN	PTR	webcam.ccu.edu.tw.
+
+2.7   	  	IN	PTR	suncc.ccu.edu.tw.
+3.7 		IN	PTR	leica.ccu.edu.tw.
+4.7 		IN	PTR	hero.ccu.edu.tw.
+
+7.7		IN	PTR	sunsite.ccu.edu.tw.
+8.8		IN	PTR	sunsite.ccu.edu.tw.
+;9.9		IN	PTR	sunsite.ccu.edu.tw.
+
+80.11		IN	PTR	bbs2.ccu.edu.tw.
+90.11		IN	PTR	bbs.ccu.edu.tw.
+95.11		IN	PTR	ibmdb2.ccunix.ccu.edu.tw.
+
+11.20		IN	PTR	tswang.ccu.edu.tw.
+14.20		IN	PTR	mars.ccu.edu.tw.
+34.20		IN	PTR	ccu10.ccu.edu.tw.
+95.20		IN	PTR	laputa.ccu.edu.tw.
+222.20		IN	PTR	proxy.ccu.edu.tw.
+66.24           IN      PTR     avcenter.ccu.edu.tw.
+
+240.254		IN	PTR	annex-ts-1.ccu.edu.tw.
+241.254		IN	PTR	annex-ts-2.ccu.edu.tw.
+
+
+1.3		IN	PTR	panku.ccunix.ccu.edu.tw.
+2.2		IN	PTR	odin.ccunix.ccu.edu.tw.
+2.6             IN      PTR     ultra2.ccunix.ccu.edu.tw
+3.2		IN	PTR	adonis.ccunix.ccu.edu.tw.
+193.2           IN      PTR     ibm1.ccunix.ccu.edu.tw
+194.2           IN      PTR     ibm2.ccunix.ccu.edu.tw
+193.3           IN      PTR     rs590a.ccunix.ccu.edu.tw
+194.3           IN      PTR     rs590b.ccunix.ccu.edu.tw
+196.2		IN	PTR	odin2.ccunix.ccu.edu.tw.
+198.2           IN      PTR     panku2.ccunix.ccu.edu.tw
+5.2		IN	PTR	ccunix.ccu.edu.tw.
+5.3		IN	PTR	ccunix.ccu.edu.tw.
+6.3		IN	PTR	irene.ccunix.ccu.edu.tw.
+
+
+25.76		IN	PTR	nas01.ccu.edu.tw.
+181.76		IN	PTR	indi.ccu.edu.tw.
+1.44		IN	PTR	phil.ccu.edu.tw.
+1.62		IN	PTR	math.ccu.edu.tw.
+20.66		IN	PTR	eq.ccu.edu.tw.
+20.71		IN	PTR	phy.ccu.edu.tw.
+100.101		IN	PTR	cs.ccu.edu.tw.
+13.106		IN	PTR	ee.ccu.edu.tw.
+6.122		IN	PTR	me.ccu.edu.tw.
+1.161		IN	PTR	mgt.ccu.edu.tw.
+5.181		IN	PTR 	sw.ccu.edu.tw.
+5.181		IN	PTR 	isw5.sw.ccu.edu.tw.
+2.181		IN	PTR 	isw2.sw.ccu.edu.tw.
+6.181		IN	PTR 	isw6.sw.ccu.edu.tw.
+50.185		IN	PTR 	psy.ccu.edu.tw.
+110.33		IN	PTR	aeec.ccu.edu.tw.
+75.11		IN	PTR	coco.ccu.edu.tw.
+76.11		IN	PTR	blueseed.dorm.ccu.edu.tw.
+12.174		IN	PTR	mis.ccu.edu.tw.
+1.202		IN	PTR	adultedu.ccu.edu.tw.
+1.21		IN	PTR	libauto.lib.ccu.edu.tw.
+213.22		IN	PTR	www.lib.ccu.edu.tw.
+36.2            IN      PTR     sun36.ccunix.ccu.edu.tw.
+101.254		IN	PTR	dormdns.ccu.edu.tw.
+
+
+2		IN	NS 	ccunix.ccu.edu.tw.
+3		IN	NS 	ccunix.ccu.edu.tw.
+4		IN	NS 	ccunix.ccu.edu.tw.
+7		IN	NS 	ccunix.ccu.edu.tw.
+10		IN	NS 	ccunix.ccu.edu.tw.
+;11		IN	NS 	ccunix.ccu.edu.tw.
+;
+12		IN	NS 	laputa.ccu.edu.tw.
+20		IN	NS 	laputa.ccu.edu.tw.
+;
+44		IN	NS	phil.ccu.edu.tw.
+;
+;61		IN	NS	math.ccu.edu.tw.
+62		IN	NS	math.ccu.edu.tw.
+63		IN	NS	math.ccu.edu.tw.
+;
+66		IN	NS	eq.ccu.edu.tw.
+;
+71		IN	NS	phy.ccu.edu.tw.
+;
+101		IN	NS	cs.ccu.edu.tw.
+102		IN	NS	cs.ccu.edu.tw.
+;
+106		IN	NS	ee.ccu.edu.tw.
+;107		IN	NS	ee.ccu.edu.tw.
+108		IN	NS	ee.ccu.edu.tw.
+109		IN	NS	ee.ccu.edu.tw.
+;110		IN	NS	ee.ccu.edu.tw.
+111		IN	NS	ee.ccu.edu.tw.
+112		IN	NS	ee.ccu.edu.tw.
+113		IN	NS	ee.ccu.edu.tw.
+;114		IN	NS	ee.ccu.edu.tw.
+115		IN	NS	ee.ccu.edu.tw.
+116		IN	NS	ee.ccu.edu.tw.
+117		IN	NS	ee.ccu.edu.tw.
+;
+122		IN	NS	me.ccu.edu.tw.
+;
+161		IN	NS	mgt.ccu.edu.tw.
+;
+; 181		IN	NS 	sw.ccu.edu.tw.
+;
+185		IN	NS 	psy.ccu.edu.tw.
+;
+189		IN	NS	ils.ccu.edu.tw.
+;
+202		IN	NS	adultedu.ccu.edu.tw.
+;
+; reverse domain of dorm
+;
+211		IN	NS	dormdns.ccu.edu.tw.
+212		IN	NS	dormdns.ccu.edu.tw.
+213		IN	NS	dormdns.ccu.edu.tw.
+214		IN	NS	dormdns.ccu.edu.tw.
+215		IN	NS	dormdns.ccu.edu.tw.
+216		IN	NS	dormdns.ccu.edu.tw.
+217		IN	NS	dormdns.ccu.edu.tw.
+218		IN	NS	dormdns.ccu.edu.tw.
+219		IN	NS	dormdns.ccu.edu.tw.
+220		IN	NS	dormdns.ccu.edu.tw.
+221		IN	NS	dormdns.ccu.edu.tw.
+222		IN	NS	dormdns.ccu.edu.tw.
+;

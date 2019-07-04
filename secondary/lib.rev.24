@@ -1,0 +1,18 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+24.123.140.in-addr.arpa	IN SOA	lib.ccu.edu.tw. root.lib.ccu.edu.tw. (
+				2012052801 ; serial
+				3600       ; refresh (1 hour)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	lib.ccu.edu.tw.
+$ORIGIN 24.123.140.in-addr.arpa.
+11			PTR	elearning.lib.ccu.edu.tw.
+250			PTR	24gate.lib.ccu.edu.tw.
+59			PTR	libapps.lib.ccu.edu.tw.
+68			PTR	mahout.lib.ccu.edu.tw.
+7			PTR	gallery.lib.ccu.edu.tw.
+8			PTR	media.lib.ccu.edu.tw.
+89			PTR	nakano.lib.ccu.edu.tw.

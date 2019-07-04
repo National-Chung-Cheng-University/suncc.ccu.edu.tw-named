@@ -1,0 +1,60 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 168.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2010102501   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+
+
+;
+; reverse domain of 140.123.168
+;
+10	IN	PTR	sport94.cyc.edu.tw.
+11	IN	PTR	sport2005.ccu.edu.tw.
+;
+101	IN	PTR	msport-01.ccu.edu.tw.
+102	IN	PTR	msport-02.ccu.edu.tw.
+103	IN	PTR	msport-03.ccu.edu.tw.
+104	IN	PTR	msport-04.ccu.edu.tw.
+;
+111	IN	PTR	sport2005-01.ccu.edu.tw.
+112	IN	PTR	sport2005-02.ccu.edu.tw.
+113	IN	PTR	sport2005-03.ccu.edu.tw.
+114	IN	PTR	sport2005-04.ccu.edu.tw.
+115	IN	PTR	sport2005-05.ccu.edu.tw.
+116	IN	PTR	sport2005-06.ccu.edu.tw.
+117	IN	PTR	sport2005-07.ccu.edu.tw.
+;
+121	IN	PTR	msport-11.ccu.edu.tw.
+122	IN	PTR	msport-12.ccu.edu.tw.
+123	IN	PTR	msport-13.ccu.edu.tw.
+124	IN	PTR	msport-14.ccu.edu.tw.
+125	IN	PTR	msport-15.ccu.edu.tw.
+126	IN	PTR	msport-16.ccu.edu.tw.
+127	IN	PTR	msport-17.ccu.edu.tw.
+;
+130	IN	PTR	athletic.ccu.edu.tw.
+;
+131	IN	PTR	sport2008-01.ccu.edu.tw.
+132	IN	PTR	sport2008-02.ccu.edu.tw.
+133	IN	PTR	sport2008-03.ccu.edu.tw.
+134	IN	PTR	sport2008-04.ccu.edu.tw.
+;;135	IN	PTR	sport2008-05.ccu.edu.tw.
+135	IN	PTR	sport2008-001.ccu.edu.tw.
+;;136	IN	PTR	sport2008-06.ccu.edu.tw.
+136	IN	PTR	sport2008-002.ccu.edu.tw.
+137	IN	PTR	sport2008-07.ccu.edu.tw.
+
+139	IN	PTR	templar.lab.ccu.edu.tw.
+;
+150	IN	PTR	mail08.ccu.edu.tw.
+

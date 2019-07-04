@@ -1,0 +1,42 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+71.123.140.in-addr.arpa	IN SOA	phy.ccu.edu.tw. root.papagino.phy.ccu.edu.tw. (
+				2011080831 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	papagino.phy.ccu.edu.tw.
+			PTR	phy.ccu.edu.tw.
+$ORIGIN 71.123.140.in-addr.arpa.
+11			PTR	papageno.phy.ccu.edu.tw.
+13			PTR	bugsbunny.phy.ccu.edu.tw.
+156			PTR	ultima.phy.ccu.edu.tw.
+172			PTR	party.phy.ccu.edu.tw.
+219			PTR	dptsai.phy.ccu.edu.tw.
+222			PTR	stat.phy.ccu.edu.tw.
+223			PTR	eye.phy.ccu.edu.tw.
+239			PTR	sarastro.phy.ccu.edu.tw.
+241			PTR	pagliacci.phy.ccu.edu.tw.
+243			PTR	tarmino.phy.ccu.edu.tw.
+244			PTR	siegfried.phy.ccu.edu.tw.
+245			PTR	parmina.phy.ccu.edu.tw.
+25			PTR	physun4.phy.ccu.edu.tw.
+26			PTR	spm.phy.ccu.edu.tw.
+28			PTR	snow.phy.ccu.edu.tw.
+30			PTR	snowwhite.phy.ccu.edu.tw.
+31			PTR	happy.phy.ccu.edu.tw.
+32			PTR	sneezy.phy.ccu.edu.tw.
+33			PTR	sleepy.phy.ccu.edu.tw.
+4			PTR	matrix4.phy.ccu.edu.tw.
+40			PTR	phy-sqr.phy.ccu.edu.tw.
+5			PTR	matrix5.phy.ccu.edu.tw.
+51			PTR	phypc1.phy.ccu.edu.tw.
+52			PTR	phypc2.phy.ccu.edu.tw.
+53			PTR	phypc3.phy.ccu.edu.tw.
+54			PTR	phypc4.phy.ccu.edu.tw.
+6			PTR	matrix6.phy.ccu.edu.tw.
+7			PTR	aida.phy.ccu.edu.tw.
+8			PTR	turandot.phy.ccu.edu.tw.
+9			PTR	papagino.phy.ccu.edu.tw.

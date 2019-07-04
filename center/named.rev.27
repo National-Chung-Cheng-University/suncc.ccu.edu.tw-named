@@ -1,0 +1,107 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 27.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2008090801   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+;
+; reverse domain of Foundry L4
+;
+20	IN	PTR	www.caac.ccu.edu.tw.
+20	IN	PTR	www1.caac.ccu.edu.tw.
+20	IN	PTR	caac.ccu.edu.tw.
+21	IN	PTR	www2.caac.ccu.edu.tw.
+22	IN	PTR	www3.caac.ccu.edu.tw.
+25	IN	PTR	star.ccu.edu.tw.
+25	IN	PTR	www.star.ccu.edu.tw.
+;
+; reverse domain of CAAC service system
+;
+30	IN	PTR	decker.caac.ccu.edu.tw.
+30	IN	PTR	ftp.caac.ccu.edu.tw.
+51	IN	PTR	passage.caac.ccu.edu.tw.
+;
+; reverse domain of staff learn center web system
+;;;61	IN	PTR	www.stafflearn.ccu.edu.tw.
+;;;62	IN	PTR	edoc.ccu.edu.tw.
+;;;64	IN	PTR	my.edoc.ccu.edu.tw.
+; reverse domain of CAAC web system
+;
+101	IN	PTR	exam01.caac.ccu.edu.tw.
+102	IN	PTR	exam02.caac.ccu.edu.tw.
+103	IN	PTR	exam03.caac.ccu.edu.tw.
+104	IN	PTR	exam04.caac.ccu.edu.tw.
+105	IN	PTR	exam05.caac.ccu.edu.tw.
+106	IN	PTR	exam06.caac.ccu.edu.tw.
+107	IN	PTR	exam07.caac.ccu.edu.tw.
+108	IN	PTR	exam08.caac.ccu.edu.tw.
+109	IN	PTR	exam09.caac.ccu.edu.tw.
+110	IN	PTR	exam10.caac.ccu.edu.tw.
+
+111	IN	PTR	exam11.caac.ccu.edu.tw.
+112	IN	PTR	exam12.caac.ccu.edu.tw.
+113	IN	PTR	exam13.caac.ccu.edu.tw.
+114	IN	PTR	exam14.caac.ccu.edu.tw.
+115	IN	PTR	exam15.caac.ccu.edu.tw.
+116	IN	PTR	exam16.caac.ccu.edu.tw.
+117	IN	PTR	exam17.caac.ccu.edu.tw.
+118	IN	PTR	exam18.caac.ccu.edu.tw.
+119	IN	PTR	exam19.caac.ccu.edu.tw.
+120	IN	PTR	exam20.caac.ccu.edu.tw.
+
+121	IN	PTR	caac121.caac.ccu.edu.tw.
+122	IN	PTR	caac122.caac.ccu.edu.tw.
+123	IN	PTR	caac123.caac.ccu.edu.tw.
+124	IN	PTR	caac124.caac.ccu.edu.tw.
+125	IN	PTR	caac125.caac.ccu.edu.tw.
+126	IN	PTR	caac126.caac.ccu.edu.tw.
+127	IN	PTR	caac127.caac.ccu.edu.tw.
+128	IN	PTR	caac128.caac.ccu.edu.tw.
+129	IN	PTR	caac129.caac.ccu.edu.tw.
+130	IN	PTR	caac130.caac.ccu.edu.tw.
+
+131	IN	PTR	caac131.caac.ccu.edu.tw.
+132	IN	PTR	caac132.caac.ccu.edu.tw.
+133	IN	PTR	caac133.caac.ccu.edu.tw.
+134	IN	PTR	caac134.caac.ccu.edu.tw.
+135	IN	PTR	caac135.caac.ccu.edu.tw.
+136	IN	PTR	caac136.caac.ccu.edu.tw.
+137	IN	PTR	caac137.caac.ccu.edu.tw.
+138	IN	PTR	caac138.caac.ccu.edu.tw.
+139	IN	PTR	caac139.caac.ccu.edu.tw.
+140	IN	PTR	caac140.caac.ccu.edu.tw.
+
+141	IN	PTR	caac141.caac.ccu.edu.tw.
+142	IN	PTR	caac142.caac.ccu.edu.tw.
+143	IN	PTR	caac143.caac.ccu.edu.tw.
+144	IN	PTR	caac144.caac.ccu.edu.tw.
+145	IN	PTR	caac145.caac.ccu.edu.tw.
+146	IN	PTR	caac146.caac.ccu.edu.tw.
+147	IN	PTR	caac147.caac.ccu.edu.tw.
+148	IN	PTR	caac148.caac.ccu.edu.tw.
+149	IN	PTR	caac149.caac.ccu.edu.tw.
+150	IN	PTR	caac150.caac.ccu.edu.tw.
+
+151	IN	PTR	caac151.caac.ccu.edu.tw.
+152	IN	PTR	caac152.caac.ccu.edu.tw.
+153	IN	PTR	caac153.caac.ccu.edu.tw.
+154	IN	PTR	caac154.caac.ccu.edu.tw.
+155	IN	PTR	caac155.caac.ccu.edu.tw.
+156	IN	PTR	caac156.caac.ccu.edu.tw.
+157	IN	PTR	caac157.caac.ccu.edu.tw.
+158	IN	PTR	caac158.caac.ccu.edu.tw.
+159	IN	PTR	caac159.caac.ccu.edu.tw.
+160	IN	PTR	caac160.caac.ccu.edu.tw.
+

@@ -1,0 +1,204 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone '123.140.in-addr.arpa'   last serial 1999091401
+; from 140.123.1.2   at Thu Sep 23 11:33:16 1999
+$ORIGIN 140.in-addr.arpa.
+123		IN	SOA	suncc.ccu.edu.tw. root.suncc.ccu.edu.tw. (
+		1999092302 21600 3600 1209600 172800 )
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	moevax.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+113		IN	NS	ee.ccu.edu.tw.
+114		IN	NS	ee.ccu.edu.tw.
+115		IN	NS	ee.ccu.edu.tw.
+116		IN	NS	ee.ccu.edu.tw.
+117		IN	NS	ee.ccu.edu.tw.
+121		IN	NS	me.ccu.edu.tw.
+122		IN	NS	me.ccu.edu.tw.
+126	86400	IN	NS	dns.che.ccu.edu.tw.
+$ORIGIN 1.123.140.in-addr.arpa.
+2		IN	PTR	suncc.ccu.edu.tw.
+4		IN	PTR	hero.ccu.edu.tw.
+30		IN	PTR	kiki.ccu.edu.tw.
+7		IN	PTR	sunsite.ccu.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+2		IN	NS	adonis.ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+3		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	adonis.ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+4		IN	NS	adonis.ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+5		IN	NS	suncc.ccu.edu.tw.
+$ORIGIN 7.123.140.in-addr.arpa.
+4		IN	PTR	hero.ccu.edu.tw.
+2		IN	PTR	suncc.ccu.edu.tw.
+11		IN	PTR	reader.ccu.edu.tw.
+7		IN	PTR	sunsite.ccu.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+161		IN	NS	mgt.ccu.edu.tw.
+162		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+10		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+$ORIGIN 11.123.140.in-addr.arpa.
+94		IN	PTR	bbsmailer.ccu.edu.tw.
+81		IN	PTR	StarTrek.dorm.ccu.edu.tw.
+79		IN	PTR	ritax.dorm.ccu.edu.tw.
+95		IN	PTR	ibmdb2.ccunix.ccu.edu.tw.
+82		IN	PTR	X-File.dorm.ccu.edu.tw.
+83		IN	PTR	pikachu.dorm.ccu.edu.tw.
+70		IN	PTR	Rei.dorm.ccu.edu.tw.
+84		IN	PTR	shadow.dorm.ccu.edu.tw.
+71		IN	PTR	Shinji.dorm.ccu.edu.tw.
+85		IN	PTR	maruko.dorm.ccu.edu.tw.
+72		IN	PTR	ASKA.dorm.ccu.edu.tw.
+86		IN	PTR	tiger2.dorm.ccu.edu.tw.
+73		IN	PTR	NERV.dorm.ccu.edu.tw.
+87		IN	PTR	jedi.dorm.ccu.edu.tw.
+74		IN	PTR	EVA.dorm.ccu.edu.tw.
+90		IN	PTR	bbs.ccu.edu.tw.
+88		IN	PTR	force.dorm.ccu.edu.tw.
+75		IN	PTR	coco.dorm.ccu.edu.tw.
+91		IN	PTR	consult.cc.ccu.edu.tw.
+89		IN	PTR	sith.dorm.ccu.edu.tw.
+76		IN	PTR	blueseed.dorm.ccu.edu.tw.
+92		IN	PTR	ccprinter.cc.ccu.edu.tw.
+77		IN	PTR	hellcity.dorm.ccu.edu.tw.
+80		IN	PTR	Luna.dorm.ccu.edu.tw.
+78		IN	PTR	XXX.dorm.ccu.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+13		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+14		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+15		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+20		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+18		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+21	3600	IN	NS	lib.ccu.edu.tw.
+	3600	IN	NS	suncc.ccu.edu.tw.
+19		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+174		IN	NS	mis.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	gss.mis.ccu.edu.tw.
+22	3600	IN	NS	lib.ccu.edu.tw.
+	3600	IN	NS	suncc.ccu.edu.tw.
+175		IN	NS	mis.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	GSS.mis.ccu.edu.tw.
+$ORIGIN 24.123.140.in-addr.arpa.
+66		IN	PTR	avcenter.ccu.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+176	839583744	IN	NS	cba.ccu.edu.tw.
+	3600	IN	NS	dns.cba.ccu.edu.tw.
+$ORIGIN 201.123.140.in-addr.arpa.
+124		IN	PTR	victora.telcom.ccu.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+181		IN	NS	sw.ccu.edu.tw.
+		IN	NS	140.123.181.3.
+		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+202		IN	NS	adultedu.ccu.edu.tw.
+30		IN	NS	suncc.ccu.edu.tw.
+$ORIGIN 204.123.140.in-addr.arpa.
+100		IN	PTR	crm.ccu.edu.tw.
+$ORIGIN 33.123.140.in-addr.arpa.
+110		IN	PTR	aeec.ccu.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+185		IN	NS	psy.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+$ORIGIN 190.123.140.in-addr.arpa.
+70		IN	PTR	labuen.labor.ccu.edu.tw.
+$ORIGIN 123.140.in-addr.arpa.
+189		IN	NS	ils.ccu.edu.tw.
+211		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+212		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+40		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	slow.ccu.edu.tw.
+213		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+214		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+42		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+215		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+43		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+216		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+44		IN	NS	phil.ccu.edu.tw.
+217		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+197		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+218		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+220		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+221		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+219		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+222		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+223		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+224		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+226		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+62	3600	IN	NS	math.ccu.edu.tw.
+63	3600	IN	NS	nova.math.ccu.edu.tw.
+66		IN	NS	eq.ccu.edu.tw.
+71	86400	IN	NS	papagino.phy.ccu.edu.tw.
+76		IN	NS	chem.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+252		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	s1.cy.edu.tw.
+254		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+101	86400	IN	NS	cs.ccu.edu.tw.
+	86400	IN	NS	suncc.ccu.edu.tw.
+102	86400	IN	NS	cs.ccu.edu.tw.
+	86400	IN	NS	suncc.ccu.edu.tw.
+103	86400	IN	NS	cs.ccu.edu.tw.
+	86400	IN	NS	suncc.ccu.edu.tw.
+104	86400	IN	NS	cs.ccu.edu.tw.
+	86400	IN	NS	suncc.ccu.edu.tw.
+106		IN	NS	ee.ccu.edu.tw.
+107		IN	NS	ee.ccu.edu.tw.
+110		IN	NS	ee.ccu.edu.tw.
+108		IN	NS	ee.ccu.edu.tw.
+109		IN	NS	ee.ccu.edu.tw.
+111		IN	NS	ee.ccu.edu.tw.
+112		IN	NS	ee.ccu.edu.tw.

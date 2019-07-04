@@ -1,0 +1,55 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+230.123.140.in-addr.arpa IN SOA	dns.webedu.ccu.edu.tw. root.dns.webedu.ccu.edu.tw. (
+				2009070702 ; serial
+				3600       ; refresh (1 hour)
+				900        ; retry (15 minutes)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.webedu.ccu.edu.tw.
+$ORIGIN 230.123.140.in-addr.arpa.
+1			PTR	dns.webedu.ccu.edu.tw.
+100			PTR	meeting.webedu.ccu.edu.tw.
+11			PTR	nscdemo.webedu.ccu.edu.tw.
+2			PTR	serverj.webedu.ccu.edu.tw.
+211			PTR	cw1.webedu.ccu.edu.tw.
+212			PTR	cw2.webedu.ccu.edu.tw.
+213			PTR	cw3.webedu.ccu.edu.tw.
+214			PTR	cw4.webedu.ccu.edu.tw.
+215			PTR	cw5.webedu.ccu.edu.tw.
+216			PTR	cw6.webedu.ccu.edu.tw.
+245			PTR	ilo2-2.webedu.ccu.edu.tw
+246			PTR	ilo2-1.webedu.ccu.edu.tw
+248			PTR	planetlab-1.webedu.ccu.edu.tw.
+249			PTR	planetlab-2.webedu.ccu.edu.tw.
+3			PTR	dbj.webedu.ccu.edu.tw.
+31			PTR	wsblog.webedu.ccu.edu.tw.
+32			PTR	current.webedu.ccu.edu.tw.
+33			PTR	forum.webedu.ccu.edu.tw.
+34			PTR	blog.webedu.ccu.edu.tw.
+35			PTR	ws2.webedu.ccu.edu.tw.
+36			PTR	ws3.webedu.ccu.edu.tw.
+37			PTR	ws4.webedu.ccu.edu.tw.
+38			PTR	ws5.webedu.ccu.edu.tw.
+39			PTR	ws6.webedu.ccu.edu.tw.
+4			PTR	eclass.webedu.ccu.edu.tw.
+40			PTR	ws7.webedu.ccu.edu.tw.
+41			PTR	jedi.webedu.ccu.edu.tw.
+42			PTR	r2d2.webedu.ccu.edu.tw.
+43			PTR	c3po.webedu.ccu.edu.tw.
+44			PTR	vader.webedu.ccu.edu.tw.
+45			PTR	luke.webedu.ccu.edu.tw.
+46			PTR	carlyle.webedu.ccu.edu.tw.
+47			PTR	anakin.webedu.ccu.edu.tw.
+48			PTR	yoda.webedu.ccu.edu.tw.
+49			PTR	hansolo.webedu.ccu.edu.tw.
+50			PTR	darth.webedu.ccu.edu.tw.
+51			PTR	rbl.webedu.ccu.edu.tw.
+53			PTR	wargame.webedu.ccu.edu.tw.
+56			PTR	twc.webedu.ccu.edu.tw.
+6			PTR	scorm.webedu.ccu.edu.tw.
+7			PTR	scorm2.webedu.ccu.edu.tw.
+8			PTR	eworkshop.webedu.ccu.edu.tw.
+9			PTR	LTCPA.webedu.ccu.edu.tw.
+99			PTR	powermana.webedu.ccu.edu.tw.

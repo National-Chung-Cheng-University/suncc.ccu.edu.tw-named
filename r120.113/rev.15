@@ -1,0 +1,10 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+15.113.120.in-addr.arpa	IN SOA	dns.15.113.120.in-addr.arpa. hostmaster.dns. (
+				2009021901 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.wfc.edu.tw.

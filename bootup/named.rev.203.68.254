@@ -1,0 +1,17 @@
+;
+;	reverse domain for 140.130.0.0
+;
+$ORIGIN 254.68.203.in-addr.arpa.
+@                       IN   SOA   suncc.ccu.edu.tw.  root.suncc.ccu.edu.tw.  (
+			1997072801 ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	moevax.edu.tw.
+
+;
+; reverse domain of 203.68.254
+;
+13	IN	PTR	webcam.ccu.edu.tw.

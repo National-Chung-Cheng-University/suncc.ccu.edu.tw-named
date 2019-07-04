@@ -1,0 +1,62 @@
+;
+;	suncc: /var/named/named.hosts
+;
+;	ccu zone hosts file for server suncc
+;
+$ORIGIN	ycrc.edu.tw.
+$TTL	360000
+@		IN	SOA   	suncc.ccu.edu.tw.   root.suncc.ccu.edu.tw.  (
+			2005060301  ; Serial
+			21600	    ; Refresh	 6 hours
+			3600	    ; Retry	 1 hour
+			1209600	    ; Expire	14 days
+			172800 )    ; Minimum	 2 days
+		IN	A	140.123.1.2
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	MX	0  suncc.ccu.edu.tw.
+
+
+; 163.28.100.*
+;
+;suncc           IN      A       140.123.1.2
+;sunsite         IN      A       163.28.100.7
+;dns         	IN      A       163.28.100.10
+;foundry		IN	CNAME	dns.ycrc.edu.tw.
+;dns5		IN      A       163.28.100.11
+;dns6		IN      A       163.28.100.12
+;dns7		IN      A       163.28.100.13
+;
+; 163.28.96.*
+;
+s1              IN      A       163.28.96.1
+ftpgate         IN      A       163.28.96.3
+ccuftpgate      IN      A       163.28.96.5
+ccuftpn-gate    IN      A       163.28.96.6
+;
+proxy           IN      A       163.28.96.9
+cache	        IN      A       163.28.96.10
+cache2          IN      A       163.28.96.11
+cache3 	        IN      A       163.28.96.12
+cache4          IN      A       163.28.96.13
+cache5	        IN      A       163.28.96.14
+cache6          IN      A       163.28.96.15
+;
+dns1            IN      A       163.28.96.16
+dns2            IN      A       163.28.96.17
+relay           IN      A       163.28.96.17
+;
+cache7          IN      A       163.28.96.18
+cache8	        IN      A       163.28.96.19
+;
+wgproxy         IN      A       163.28.96.9
+                IN      A       163.28.96.10
+                IN      A       163.28.96.11
+                IN      A       163.28.96.12
+                IN      A       163.28.96.13
+                IN      A       163.28.96.14
+                IN      A       163.28.96.15
+
+;
+freebsd         IN      A       140.123.214.8
+

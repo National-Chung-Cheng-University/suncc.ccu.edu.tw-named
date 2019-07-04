@@ -1,0 +1,11 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+190.130.140.in-addr.arpa IN SOA	dns.cjc.edu.tw. admin.dns.cjc.edu.tw. (
+				2011022301 ; serial
+				86400      ; refresh (1 day)
+				1800       ; retry (30 minutes)
+				1728000    ; expire (2 weeks 6 days)
+				1200       ; minimum (20 minutes)
+				)
+			NS	dns.cjc.edu.tw.
+			NS	dns2.cjc.edu.tw.

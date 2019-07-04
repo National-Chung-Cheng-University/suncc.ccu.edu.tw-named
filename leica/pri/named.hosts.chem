@@ -1,0 +1,32 @@
+;
+;	chem.ccu.edu.tw zone hosts file for domain chemistry
+;
+$ORIGIN	chem.ccu.edu.tw.
+@       IN      SOA 	leica.ccu.edu.tw.     root.leica.ccu.edu.tw.  (
+			1998030401   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+            	IN      NS      leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+
+;
+;  leica.ccu.edu.tw zone hosts list
+;
+
+nas01		IN	A	140.123.76.25
+		IN	MX	0 nas01.chem.ccu.edu.tw.
+
+indi		IN	A	140.123.76.181
+		IN	MX	0 indi.chem.ccu.edu.tw.
+
+door 		IN	A	140.123.76.99
+		IN	MX	0 door.chem.ccu.edu.tw.
+
+TCL 		IN	A	140.123.76.100
+		IN	MX	0 TCL.chem.ccu.edu.tw.
+
+gemini 		IN	A	140.123.76.220
+		IN	MX	0 gemini.chem.ccu.edu.tw.

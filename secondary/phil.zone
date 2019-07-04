@@ -1,0 +1,30 @@
+$ORIGIN .
+$TTL 38400	; 10 hours 40 minutes
+phil.ccu.edu.tw		IN SOA	phil.ccu.edu.tw. ccuphil.phil.ccu.edu.tw. (
+				1223563654 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				38400      ; minimum (10 hours 40 minutes)
+				)
+			NS	phil.ccu.edu.tw.
+			A	140.123.44.1
+			MX	1 ASPMX.L.GOOGLE.COM.
+			MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+			MX	10 ASPMX2.GOOGLEMAIL.COM.
+			MX	10 ASPMX3.GOOGLEMAIL.COM.
+$ORIGIN phil.ccu.edu.tw.
+cal			CNAME	ghs.google.com.
+docs			CNAME	ghs.google.com.
+dsm			A	140.123.44.4
+google621656674effbb09	CNAME	google.com.
+groups			CNAME	ghs.google.com.
+mail			CNAME	ghs.google.com.
+mail2			MX	10 phil.ccu.edu.tw.
+my			CNAME	ghs.google.com.
+old			A	140.123.44.3
+sites			CNAME	ghs.google.com.
+video			CNAME	ghs.google.com.
+wave			CNAME	ghs.google.com.
+www			A	140.123.44.3

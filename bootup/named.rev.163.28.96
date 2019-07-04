@@ -1,0 +1,32 @@
+;
+;	suncc: /var/named/named.rev
+;
+;	ccu zone reverse address hosts file for server suncc
+;
+$ORIGIN 96.28.163.in-addr.arpa.
+@                       IN   SOA   suncc.ccu.edu.tw.  root.suncc.ccu.edu.tw.  (
+			1999101201 ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+		IN	NS	leica.ccu.edu.tw.
+;		IN	NS	moevax.edu.tw.
+
+;
+; reverse domain of 163.28.96.x
+;
+1   	  	IN	PTR	s1.ccu.edu.tw.
+3		IN	PTR	ftpgate.ccu.edu.tw.
+5		IN	PTR	ccuftpgate.ccu.edu.tw.
+9		IN	PTR	proxy.ccu.edu.tw.
+10		IN	PTR	proxy.ccu.edu.tw.
+11		IN	PTR	cache.ccu.edu.tw.
+12		IN	PTR	cache.ccu.edu.tw.
+13		IN	PTR	cache2.ccu.edu.tw.
+14		IN	PTR	cache2.ccu.edu.tw.
+15		IN	PTR	cache.lab.ccu.edu.tw.
+16		IN	PTR	dns1.ccu.edu.tw.
+17		IN	PTR	dns2.ccu.edu.tw.

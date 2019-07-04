@@ -1,0 +1,81 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+webedu.ccu.edu.tw	IN SOA	dns.webedu.ccu.edu.tw. root.dns.webedu.ccu.edu.tw. (
+				2009070702 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.webedu.ccu.edu.tw.
+$ORIGIN webedu.ccu.edu.tw.
+abdon1			A	140.123.23.7
+anakin			A	140.123.230.47
+$ORIGIN anakin.webedu.ccu.edu.tw.
+*			CNAME	anakin.webedu.ccu.edu.tw.
+$ORIGIN webedu.ccu.edu.tw.
+automation2003		CNAME	LTCPA
+blog			A	140.123.230.34
+$ORIGIN blog.webedu.ccu.edu.tw.
+*			CNAME	blog.webedu.ccu.edu.tw.
+$ORIGIN webedu.ccu.edu.tw.
+c3po			A	140.123.230.43
+carlyle			A	140.123.230.46
+cogsci			A	140.123.185.196
+current			A	140.123.230.32
+cvs			CNAME	forum
+cw1			A	140.123.230.211
+cw2			A	140.123.230.212
+cw3			A	140.123.230.213
+cw4			A	140.123.230.214
+cw5			A	140.123.230.215
+cw6			A	140.123.230.216
+darkroom		A	140.123.230.222
+darth			A	140.123.230.50
+dbj			A	140.123.230.3
+dns			A	140.123.230.1
+eclass			A	140.123.230.4
+ecourse			A	140.123.23.21
+eworkshop		A	140.123.230.8
+excellent		CNAME	cogsci
+eyelab			A	140.123.185.197
+forum			CNAME	blog
+ftp			A	140.123.103.9
+garena			CNAME	blog
+genesis			A	140.123.230.238
+hansolo			A	140.123.230.49
+ilo2-1			A	140.123.230.246
+ilo2-2			A	140.123.230.245
+infantlab		CNAME	cogsci
+jedi			A	140.123.230.41
+LTCPA			A	140.123.230.9
+luke			A	140.123.230.45
+meeting			A	140.123.230.100
+ns			A	140.123.230.237
+nscdemo			A	140.123.230.11
+oldforum		A	140.123.230.33
+planetlab-1		A	140.123.230.248
+planetlab-2		A	140.123.230.249
+powermana		A	140.123.230.99
+r2d2			A	140.123.230.42
+rbl			A	140.123.230.51
+scorm			A	140.123.230.6
+scorm2			A	140.123.230.7
+server4			A	140.123.23.6
+serverj			A	140.123.230.2
+simulator		A	140.123.103.8
+twc			A	140.123.230.56
+vader			A	140.123.230.44
+virfedora		A	140.123.230.59
+virtual			A	140.123.230.57
+wargame			A	140.123.230.53
+win2k3			A	140.123.230.58
+ws2			A	140.123.230.35
+ws3			A	140.123.230.36
+ws4			A	140.123.230.37
+ws5			A	140.123.230.38
+ws6			A	140.123.230.39
+ws7			A	140.123.230.40
+wsblog			A	140.123.230.31
+www			A	140.123.23.3
+yoda			A	140.123.230.48

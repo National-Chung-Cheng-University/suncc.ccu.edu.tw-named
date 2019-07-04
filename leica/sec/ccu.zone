@@ -1,0 +1,311 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'ccu.edu.tw'   last serial 1999092901
+; from 140.123.1.2   at Wed Oct  6 15:02:02 1999
+$ORIGIN edu.tw.
+ccu		IN	SOA	suncc.ccu.edu.tw. root.suncc.ccu.edu.tw. (
+		1999100601 21600 3600 1209600 172800 )
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	leica.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+$ORIGIN ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+$ORIGIN edu.tw.
+ccu		IN	NS	s1.ccu.edu.tw.
+		IN	NS	moevax.edu.tw.
+		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	MX	10 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	A	163.28.100.2
+		IN	A	140.123.1.2
+		IN	A	140.123.7.2
+$ORIGIN ccu.edu.tw.
+dorm		IN	NS	dormdns.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+$ORIGIN automat.ccu.edu.tw.
+www		IN	CNAME	iaws5.ee.ccu.edu.tw.
+$ORIGIN ccu.edu.tw.
+bbsmailer	IN	MX	0 bbsmailer.ccu.edu.tw.
+		IN	MX	20 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	A	140.123.11.94
+www2		IN	CNAME	leica.ccu.edu.tw.
+suncc		IN	MX	0 suncc.ccu.edu.tw.
+		IN	A	140.123.1.2
+		IN	A	140.123.7.2
+		IN	A	163.28.100.2
+mgt		IN	NS	mgt.ccu.edu.tw.
+		IN	A	140.123.161.1
+		IN	NS	suncc.ccu.edu.tw.
+nas01		IN	A	140.123.76.25
+ccuftpgate	IN	MX	0 ccuftpgate.ccu.edu.tw.
+		IN	A	163.28.96.5
+sunsite		IN	MX	0 sunsite.ccu.edu.tw.
+		IN	A	140.123.1.7
+		IN	A	163.28.100.7
+		IN	A	140.123.254.7
+		IN	A	140.123.7.7
+hero2		IN	CNAME	hero.ccu.edu.tw.
+netlib		IN	CNAME	leica.ccu.edu.tw.
+news		IN	CNAME	suncc.ccu.edu.tw.
+indi		IN	A	140.123.76.181
+crm		IN	NS	crm.ccu.edu.tw.
+		IN	A	140.123.204.100
+		IN	NS	suncc.ccu.edu.tw.
+ccuproxy1	IN	MX	0 ccuproxy1.ccu.edu.tw.
+		IN	A	140.123.5.14
+ccuproxy2	IN	MX	0 ccuproxy2.ccu.edu.tw.
+		IN	A	140.123.5.15
+$ORIGIN cita.ccu.edu.tw.
+www		IN	CNAME	iaws5.ee.ccu.edu.tw.
+$ORIGIN ccu.edu.tw.
+hytelnet	IN	CNAME	suncc.ccu.edu.tw.
+dialup		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+dialup		IN	NS	s1.cy.edu.tw.
+$ORIGIN telcom.ccu.edu.tw.
+victora		IN	MX	0 victora.telcom.ccu.edu.tw.
+		IN	A	140.123.201.124
+$ORIGIN ccu.edu.tw.
+netflow		IN	CNAME	netflow.cc.ccu.edu.tw.
+gopher		IN	CNAME	leica.ccu.edu.tw.
+slow		IN	NS	slow.ccu.edu.tw.
+		IN	A	140.123.40.208
+		IN	NS	suncc.ccu.edu.tw.
+sport		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+ns		IN	CNAME	suncc.ccu.edu.tw.
+mis		IN	NS	mis.ccu.edu.tw.
+		IN	A	140.123.174.12
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	gss.mis.ccu.edu.tw.
+$ORIGIN mis.ccu.edu.tw.
+gss		IN	A	140.123.174.14
+$ORIGIN ccu.edu.tw.
+mis		IN	NS	atm.mis.ccu.edu.tw.
+$ORIGIN mis.ccu.edu.tw.
+atm		IN	A	140.123.174.11
+$ORIGIN ccu.edu.tw.
+cso		IN	CNAME	suncc.ccu.edu.tw.
+mail		IN	CNAME	ccunix.ccu.edu.tw.
+avcenter	IN	NS	avcenter.ccu.edu.tw.
+		IN	A	140.123.24.66
+		IN	NS	suncc.ccu.edu.tw.
+gopher2		IN	CNAME	leica.ccu.edu.tw.
+reader		IN	A	140.123.254.11
+		IN	A	140.123.7.11
+freebsd		IN	CNAME	reader.ccu.edu.tw.
+cc		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+stark		IN	MX	0 stark.ccu.edu.tw.
+		IN	A	140.123.254.22
+che	86400	IN	NS	dns.che.ccu.edu.tw.
+$ORIGIN che.ccu.edu.tw.
+dns	86400	IN	A	140.123.126.28
+$ORIGIN ccu.edu.tw.
+irc2		IN	CNAME	laputa.ccu.edu.tw.
+suncc2		IN	CNAME	suncc.ccu.edu.tw.
+chl		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+chl		IN	NS	suncc.ccu.edu.tw.
+cs	86400	IN	NS	cs.ccu.edu.tw.
+	86400	IN	A	140.123.101.100
+	86400	IN	NS	suncc.ccu.edu.tw.
+irc		IN	CNAME	sun36.ccunix.ccu.edu.tw.
+ee		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ee.ccu.edu.tw.
+		IN	A	140.123.106.13
+dns		IN	CNAME	suncc.ccu.edu.tw.
+coco		IN	A	140.123.11.75
+exam		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+bbs		IN	MX	0 bbs.ccu.edu.tw.
+		IN	MX	10 bbsmailer.ccu.edu.tw.
+		IN	MX	20 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	A	140.123.11.90
+java		IN	CNAME	sunsite.ccu.edu.tw.
+printersrv	IN	CNAME	ibmdb2.ccunix.ccu.edu.tw.
+lib	3600	IN	NS	lib.ccu.edu.tw.
+	3600	IN	A	140.123.22.213
+	3600	IN	NS	suncc.ccu.edu.tw.
+hero		IN	MX	0 hero.ccu.edu.tw.
+		IN	A	140.123.1.4
+		IN	A	140.123.7.4
+		IN	A	163.28.100.4
+s1		IN	MX	0 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	A	163.28.96.1
+		IN	A	140.123.254.1
+ccuproxy2-gw	IN	A	140.123.5.17
+ftpgate		IN	MX	0 leica.ccu.edu.tw.
+		IN	A	163.28.96.3
+eq		IN	NS	eq.ccu.edu.tw.
+		IN	A	140.123.66.20
+		IN	NS	suncc.ccu.edu.tw.
+bsd		IN	MX	0 bsd.ccu.edu.tw.
+		IN	A	140.123.10.248
+expo		IN	CNAME	hero.ccu.edu.tw.
+ccnet0		IN	NS	amigo.cc.ccu.edu.tw.
+$ORIGIN cc.ccu.edu.tw.
+amigo		IN	A	140.123.19.58
+$ORIGIN ccu.edu.tw.
+ccnet1		IN	NS	amigo.cc.ccu.edu.tw.
+$ORIGIN cc.ccu.edu.tw.
+amigo		IN	A	140.123.19.58
+$ORIGIN ccu.edu.tw.
+y2k		IN	CNAME	adonis.ccunix.ccu.edu.tw.
+ccnet2		IN	NS	amigo.cc.ccu.edu.tw.
+$ORIGIN cc.ccu.edu.tw.
+amigo		IN	A	140.123.19.58
+$ORIGIN ccu.edu.tw.
+econ		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+econ		IN	NS	suncc.ccu.edu.tw.
+ccnet3		IN	NS	amigo.cc.ccu.edu.tw.
+$ORIGIN cc.ccu.edu.tw.
+amigo		IN	A	140.123.19.58
+$ORIGIN ccu.edu.tw.
+dns1		IN	MX	0 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	A	163.28.96.16
+sw		IN	NS	sw.ccu.edu.tw.
+		IN	A	140.123.181.1
+		IN	NS	suncc.ccu.edu.tw.
+wgproxy		IN	A	163.28.96.9
+		IN	A	163.28.96.10
+		IN	A	163.28.96.11
+		IN	A	163.28.96.12
+		IN	A	163.28.96.13
+		IN	A	163.28.96.14
+fol		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+cache		IN	MX	0 cache.ccu.edu.tw.
+		IN	A	163.28.96.11
+		IN	A	163.28.96.12
+chem		IN	NS	chem.ccu.edu.tw.
+		IN	A	140.123.76.213
+		IN	NS	suncc.ccu.edu.tw.
+$ORIGIN libauto.ccu.edu.tw.
+www		IN	CNAME	libauto.lib.ccu.edu.tw.
+$ORIGIN ccu.edu.tw.
+ccunix		IN	NS	ccunix.ccu.edu.tw.
+		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	adonis.ccunix.ccu.edu.tw.
+$ORIGIN ccunix.ccu.edu.tw.
+adonis		IN	A	140.123.2.3
+		IN	A	140.123.3.3
+$ORIGIN ccu.edu.tw.
+psy		IN	NS	psy.ccu.edu.tw.
+		IN	A	140.123.185.50
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+english		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+apollo		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+fbsd		IN	MX	0 fbsd.ccu.edu.tw.
+		IN	A	140.123.19.28
+cc20		IN	NS	ntsrv-hp.cc.ccu.edu.tw.
+$ORIGIN cc.ccu.edu.tw.
+ntsrv-hp	IN	A	140.123.20.56
+$ORIGIN ccu.edu.tw.
+netra		IN	CNAME	sunsite.ccu.edu.tw.
+leica2		IN	CNAME	leica.ccu.edu.tw.
+ccuproxy	IN	A	140.123.5.14
+		IN	A	140.123.5.15
+aeec		IN	NS	aeec.ccu.edu.tw.
+		IN	A	140.123.33.110
+		IN	NS	suncc.ccu.edu.tw.
+lll		IN	A	140.123.40.180
+phil		IN	NS	phil.ccu.edu.tw.
+		IN	A	140.123.44.1
+webcam		IN	MX	0 webcam.ccu.edu.tw.
+		IN	A	140.123.18.13
+		IN	A	203.68.254.13
+sunchaser	IN	A	140.123.30.21
+consult		IN	CNAME	bbs.ccu.edu.tw.
+w3		IN	CNAME	fbsd.ccu.edu.tw.
+kiki		IN	A	140.123.30.6
+		IN	A	140.123.1.30
+ccuftp		IN	MX	0 ccuftpgate.ccu.edu.tw.
+		IN	A	140.123.254.5
+ccnet		IN	NS	steve75.cc.ccu.edu.tw.
+$ORIGIN cc.ccu.edu.tw.
+steve75		IN	A	140.123.19.75
+$ORIGIN ciae.ccu.edu.tw.
+www		IN	CNAME	iaws5.ee.ccu.edu.tw.
+$ORIGIN ccu.edu.tw.
+ftp2		IN	CNAME	hero.ccu.edu.tw.
+mbone		IN	CNAME	webcam.ccu.edu.tw.
+adultedu	IN	NS	adultedu.ccu.edu.tw.
+		IN	A	140.123.202.1
+		IN	NS	suncc.ccu.edu.tw.
+cache2		IN	MX	0 cache2.ccu.edu.tw.
+		IN	A	163.28.96.13
+		IN	A	163.28.96.14
+cache3		IN	MX	0 cache3.ccu.edu.tw.
+		IN	A	140.123.19.55
+laputa		IN	MX	0 laputa.ccu.edu.tw.
+		IN	A	140.123.19.95
+cba	86400	IN	NS	linux.cba.ccu.edu.tw.
+phy	86400	IN	NS	papagino.phy.ccu.edu.tw.
+$ORIGIN phy.ccu.edu.tw.
+papagino	86400	IN	A	140.123.71.9
+$ORIGIN labor.ccu.edu.tw.
+labuen		IN	A	140.123.190.70
+$ORIGIN ccu.edu.tw.
+www		IN	CNAME	hero.ccu.edu.tw.
+polsci		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+polsci		IN	NS	suncc.ccu.edu.tw.
+cc-pc		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+lab		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+ccunix		IN	A	140.123.2.5
+		IN	A	140.123.3.5
+mars		IN	MX	0 mars.ccu.edu.tw.
+		IN	MX	20 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	A	140.123.19.22
+twsport		IN	NS	suncc.ccu.edu.tw.
+proxy		IN	MX	0 proxy.ccu.edu.tw.
+		IN	A	163.28.96.9
+		IN	A	163.28.96.10
+register	IN	CNAME	reader.ccu.edu.tw.
+$ORIGIN mts.ccu.edu.tw.
+www		IN	CNAME	iaws5.ee.ccu.edu.tw.
+$ORIGIN ccu.edu.tw.
+leica		IN	MX	0 leica.ccu.edu.tw.
+		IN	A	140.123.254.3
+dormdns		IN	A	140.123.254.21
+ftp		IN	CNAME	ccuftp.ccu.edu.tw.
+math	3600	IN	NS	math.ccu.edu.tw.
+	3600	IN	A	140.123.62.1
+	3600	IN	NS	suncc.ccu.edu.tw.
+me	86400	IN	NS	me.ccu.edu.tw.
+adm		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+ccuproxy1-gw	IN	A	140.123.5.16
+pxy		IN	CNAME	fbsd.ccu.edu.tw.

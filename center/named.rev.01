@@ -1,0 +1,55 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 1.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2012072503   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+;
+; reverse domain of 140.123.1
+;
+2	IN	PTR	suncc.ccu.edu.tw.
+6	IN	PTR	dnsserveriron.ccu.edu.tw.
+7	IN	PTR	sunsite.ccu.edu.tw.
+9	IN	PTR	netflow.ccu.edu.tw.
+10	IN	PTR	ccuflow.ccu.edu.tw.
+11	IN	PTR	dns5.ccu.edu.tw.
+12	IN	PTR	dns6.ccu.edu.tw.
+13	IN	PTR	dns7.ccu.edu.tw.
+
+21	IN	PTR	ycrc.tanet.edu.tw.
+22	IN	PTR	nas.ccu.edu.tw.
+23	IN	PTR	ismrnc_ccu.ccu.edu.tw.
+27	IN	PTR	wlc.ccu.edu.tw.
+;
+50	IN	PTR	moepc.ccu.edu.tw.
+51	IN	PTR	s1.ccu.edu.tw.
+52	IN	PTR	rsATccu.ccu.edu.tw.
+53	IN	PTR	radius.ccu.edu.tw.
+54	IN	PTR	syslog.ccu.edu.tw.
+
+;security for senior high school in ycrc area
+61	IN	PTR	ewavs.ccu.edu.tw.
+62	IN	PTR	ewavs2.ccu.edu.tw.
+63	IN	PTR	scan.ccu.edu.tw.
+64	IN	PTR	spam.ccu.edu.tw.
+
+65	IN	PTR	8e6R3000.ccu.edu.tw.
+66	IN	PTR	8e6ERS.ccu.edu.tw.
+
+67	IN	PTR	wwwsec.ccu.edu.tw.
+
+;
+100	IN	PTR	dnscache2.ccu.edu.tw.
+250	IN	PTR	moerouter.ccu.edu.tw.

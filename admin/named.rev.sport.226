@@ -1,0 +1,66 @@
+
+;       leica: /var/named/named.rev
+;
+;       adm.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 226.123.140.in-addr.arpa.
+$TTL    360000
+
+@       IN      SOA     suncc.ccu.edu.tw.       root.suncc.ccu.edu.tw.  (
+                        2008110701   ; Serial
+                        21600        ; Refresh   6 hours
+                        3600         ; Retry     1 hour
+                        1209600      ; Expire   14 days
+                        172800 )     ; Minimum   2 days
+        IN      NS      suncc.ccu.edu.tw.
+
+
+99      PTR     peschool.ccu.edu.tw.
+100     PTR     epsport.ccu.edu.tw.
+150     PTR     sle.ccu.edu.tw.
+151     PTR     db-s1.sport.ccu.edu.tw.
+152     PTR     db-s2.sport.ccu.edu.tw.
+153     PTR     db-s3.sport.ccu.edu.tw.
+154     PTR     db-s4.sport.ccu.edu.tw.
+
+156     PTR     dbc1.sport.ccu.edu.tw.
+157     PTR     dbc2.sport.ccu.edu.tw.
+158     PTR     dbc3.sport.ccu.edu.tw.
+159     PTR     dbc4.sport.ccu.edu.tw.
+160     PTR     dbc5.sport.ccu.edu.tw.
+
+162     PTR     wwws1.sport.ccu.edu.tw.
+163     PTR     wwws2.sport.ccu.edu.tw.
+164     PTR     wwws3.sport.ccu.edu.tw.
+
+166     PTR     cgi-s1.sport.ccu.edu.tw.
+167     PTR     cgi-s2.sport.ccu.edu.tw.
+168     PTR     cgi-s3.sport.ccu.edu.tw.
+
+171     PTR     cwc1.sport.ccu.edu.tw.
+172     PTR     cwc2.sport.ccu.edu.tw.
+173     PTR     cwc3.sport.ccu.edu.tw.
+174     PTR     cwc4.sport.ccu.edu.tw.
+175     PTR     cwc5.sport.ccu.edu.tw.
+
+176     PTR     rcc1.sport.ccu.edu.tw.
+177     PTR     rcc2.sport.ccu.edu.tw.
+178     PTR     rcc3.sport.ccu.edu.tw.
+179     PTR     rcc4.sport.ccu.edu.tw.
+
+181     PTR     prc1.sport.ccu.edu.tw.
+182     PTR     prc2.sport.ccu.edu.tw.
+183     PTR     prc3.sport.ccu.edu.tw.
+
+186     PTR     ckc1.sport.ccu.edu.tw.
+187     PTR     ckc2.sport.ccu.edu.tw.
+188     PTR     ckc3.sport.ccu.edu.tw.
+
+191     PTR     ipc1.sport.ccu.edu.tw.
+192     PTR     ipc2.sport.ccu.edu.tw.
+193     PTR     ipc3.sport.ccu.edu.tw.
+194     PTR     ipc4.sport.ccu.edu.tw.
+195     PTR     ipc5.sport.ccu.edu.tw.
+196     PTR     ipc6.sport.ccu.edu.tw.
+
+210     PTR     pesrdc.ccu.edu.tw.

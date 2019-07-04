@@ -1,0 +1,48 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 11.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2004011001   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	ccunix.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+; ip for classroom 214
+;0	IN	PTR	r214net.cc-pc.ccu.edu.tw.
+
+69	IN	PTR	dark.cna.ccu.edu.tw.
+70	IN	PTR	Rei.dorm.ccu.edu.tw.
+71	IN	PTR	Shinji.dorm.ccu.edu.tw.
+72	IN	PTR	ASKA.dorm.ccu.edu.tw.
+73	IN	PTR	NERV.dorm.ccu.edu.tw.
+74	IN	PTR	EVA.dorm.ccu.edu.tw.
+75	IN	PTR	coco.dorm.ccu.edu.tw.
+76	IN	PTR	blueseed.dorm.ccu.edu.tw.
+77	IN	PTR	chi.dorm.ccu.edu.tw.
+78	IN	PTR	XXX.dorm.ccu.edu.tw.
+79	IN	PTR	ritax.dorm.ccu.edu.tw.
+80	IN	PTR	Luna.dorm.ccu.edu.tw.
+81	IN	PTR	StarTrek.dorm.ccu.edu.tw.
+82	IN	PTR	X-File.dorm.ccu.edu.tw.
+83	IN	PTR	pikachu.dorm.ccu.edu.tw.
+84	IN	PTR	shadow.dorm.ccu.edu.tw.
+85	IN	PTR	maruko.dorm.ccu.edu.tw.
+86	IN	PTR	tiger2.dorm.ccu.edu.tw.
+87	IN	PTR	jedi.dorm.ccu.edu.tw.
+88	IN	PTR	force.dorm.ccu.edu.tw.
+89	IN	PTR	sith.dorm.ccu.edu.tw.
+90	IN	PTR	bbs.ccu.edu.tw.
+92	IN	PTR	printers.cc.ccu.edu.tw.
+95	IN	PTR	ibmdb2.ccunix.ccu.edu.tw.
+
+201	IN	PTR	www.icm2005-hima2005.ccu.edu.tw.
+202	IN	PTR	ftp.icm2005-hima2005.ccu.edu.tw.

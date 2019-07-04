@@ -1,0 +1,12 @@
+$ORIGIN .
+$TTL 3600	; 1 hour
+162.130.140.in-addr.arpa IN SOA	dns.twu.edu.tw. root.dns.twu.edu.tw. (
+				2011080101 ; serial
+				300        ; refresh (5 minutes)
+				150        ; retry (2 minutes 30 seconds)
+				604800     ; expire (1 week)
+				3600       ; minimum (1 hour)
+				)
+			NS	dns.twu.edu.tw.
+			NS	dns1.twu.edu.tw.
+			NS	dns2.twu.edu.tw.

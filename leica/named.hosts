@@ -1,0 +1,77 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	adm.ccu.edu.tw.
+@       IN      SOA 	leica.ccu.edu.tw.     root.leica.ccu.edu.tw.  (
+			1999033001   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+            	IN      NS      leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+
+;
+;  leica.ccu.edu.tw zone hosts list
+;
+
+localhost	IN	A	127.0.0.1
+
+;"Officeof Student Affairs"
+osago4 		IN	A	140.123.35.19 
+
+;"Hggiene and Health"
+heago4 		IN	A	140.123.20.202 
+
+;"Accounting office"
+accgo4 		IN	A	140.123.31.169 
+
+;"College of Sciences"
+scigo4 		IN	A	140.123.62.199 
+
+;"College of Engineering"
+enggo4 		IN	A	140.123.101.199 
+
+;"College of Social Sciences"
+socgo4 		IN	A	140.123.189.199
+
+;"College of Mamagement"
+mgtgo4 		IN	A	140.123.161.199
+
+;"PC286 go4 testing"
+ccgo4 		IN	A	140.123.20.200 
+
+;"PC286 go4 in AV center"
+avgo4		IN	A	140.123.24.1
+
+;"PC286 go4 in Academic Studies"
+asgo4		IN	A	140.123.33.40
+
+;"PC386 go4 in Adult Education Center"
+aego4		IN	A	140.123.33.103
+
+;"PC286 go4 in Extracurricular"
+exgo4		IN	A	140.123.20.201
+
+;"PC286 go4 in Library"
+libgo4		IN	A	140.123.21.73
+
+;"PC286 go4 in General Affairs"
+gago4		IN	A	140.123.37.30
+
+;"PC286 go4 in Personnel Office"
+pogo4		IN	A	140.123.31.68
+
+;"PC286 go4 in Secretary"
+sego4		IN	A	140.123.31.39
+
+;"ais in accounting office"
+ais		IN	A	140.123.31.140
+
+;"FreeBSD server in INOFFICE"
+inoffice	IN	A	140.123.33.153
+		IN	MX	0 inoffice.adm.ccu.edu.tw.
+		IN	MX	10 s1.cy.edu.tw.

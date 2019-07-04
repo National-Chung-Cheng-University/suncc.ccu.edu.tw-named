@@ -1,0 +1,41 @@
+$ORIGIN .
+$TTL 172800	; 2 days
+182.123.140.in-addr.arpa IN SOA	sw.ccu.edu.tw. root.sw.ccu.edu.tw. (
+				2006101201 ; serial
+				21600      ; refresh (6 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	s1.ccu.edu.tw.
+			NS	sw.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+$ORIGIN 182.123.140.in-addr.arpa.
+100			PTR	ps3.sw.ccu.edu.tw.
+11			PTR	pc01.sw.ccu.edu.tw.
+12			PTR	pc02.sw.ccu.edu.tw.
+13			PTR	pc03.sw.ccu.edu.tw.
+14			PTR	pc04.sw.ccu.edu.tw.
+15			PTR	pc05.sw.ccu.edu.tw.
+16			PTR	pc06.sw.ccu.edu.tw.
+17			PTR	pc07.sw.ccu.edu.tw.
+18			PTR	pc08.sw.ccu.edu.tw.
+19			PTR	pc09.sw.ccu.edu.tw.
+20			PTR	pc10.sw.ccu.edu.tw.
+21			PTR	pc11.sw.ccu.edu.tw.
+22			PTR	pc12.sw.ccu.edu.tw.
+23			PTR	pc13.sw.ccu.edu.tw.
+24			PTR	pc14.sw.ccu.edu.tw.
+25			PTR	pc15.sw.ccu.edu.tw.
+250			PTR	router2.sw.ccu.edu.tw.
+26			PTR	pc16.sw.ccu.edu.tw.
+27			PTR	pc17.sw.ccu.edu.tw.
+28			PTR	pc18.sw.ccu.edu.tw.
+29			PTR	pc19.sw.ccu.edu.tw.
+30			PTR	pc20.sw.ccu.edu.tw.
+31			PTR	pc21.sw.ccu.edu.tw.
+32			PTR	pc22.sw.ccu.edu.tw.
+33			PTR	pc23.sw.ccu.edu.tw.
+34			PTR	pc24.sw.ccu.edu.tw.
+5			PTR	pc.sw.ccu.edu.tw.
+6			PTR	swsun1.sw.ccu.edu.tw.

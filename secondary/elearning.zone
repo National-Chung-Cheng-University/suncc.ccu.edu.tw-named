@@ -1,0 +1,52 @@
+$ORIGIN .
+$TTL 8640	; 2 hours 24 minutes
+elearning.ccu.edu.tw	IN SOA	dns.elearning.ccu.edu.tw. root.dns.elearning.ccu.edu.tw. (
+				2011030701 ; serial
+				1080       ; refresh (18 minutes)
+				360        ; retry (6 minutes)
+				604800     ; expire (1 week)
+				8640       ; minimum (2 hours 24 minutes)
+				)
+			NS	dns.elearning.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+			MX	10 mail.elearning.ccu.edu.tw.
+			MX	20 ftp.elearning.ccu.edu.tw.
+			TXT	"v=spf1 ip4:140.123.23.0/24 mx a:ftp a:mail mx:mail.elearning.ccu.edu.tw. mx:ftp.elearning.ccu.edu.tw. ~all"
+$ORIGIN elearning.ccu.edu.tw.
+abdon1			A	140.123.23.7
+atnweb			A	140.123.23.190
+content			A	140.123.23.8
+cyberccu		A	140.123.4.53
+cyberccu2		A	140.123.4.54
+dns			A	140.123.23.2
+dns2			A	140.123.23.15
+ecdemo			A	140.123.23.77
+ecourse			A	140.123.4.51
+ecourse2		A	140.123.4.52
+elearncyc		A	140.123.23.140
+ezccu			A	140.123.23.2
+ftp			A	140.123.23.79
+ice			A	140.123.230.5
+ice2			A	140.123.230.242
+island6			A	140.123.23.70
+ldap			A	140.123.4.57
+lib			A	140.123.4.58
+m2			A	140.123.23.5
+m3			CNAME	m2
+mail			A	140.123.23.3
+mediaserver		A	140.123.23.1
+mediaserver2		A	140.123.23.4
+mediaserver3		A	140.123.23.18
+mediaserver4		A	140.123.23.11
+mit			A	140.123.23.23
+mmc			A	140.123.4.56
+openmeetings		CNAME	lib
+podcast			A	140.123.4.59
+sco			A	140.123.101.125
+scorm2004		CNAME	abdon1
+server4			A	140.123.23.10
+teal			CNAME	mit
+testdns			A	140.123.23.19
+weboffice		CNAME	mmc
+www			A	140.123.4.61
+yt			A	140.123.23.180

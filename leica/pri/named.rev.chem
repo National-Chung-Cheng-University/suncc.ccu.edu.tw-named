@@ -1,0 +1,23 @@
+;
+;	leica: /var/named/named.rev
+;
+;	chem.ccu zone reverse address hosts file for server ccunix
+;	140.123.76
+;
+$ORIGIN 76.123.140.in-addr.arpa.
+@       IN      SOA     leica.ccu.edu.tw.       root.leica.ccu.edu.tw.  (
+			1998030401   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600         ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	leica.ccu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+
+76	IN	PTR	nas01.chem.ccu.edu.tw.
+99	IN	PTR	door.chem.ccu.edu.tw.
+100	IN	PTR	TCL.chm.ccu.edu.tw.
+181	IN	PTR	indi.chem.ccu.edu.tw.
+202	IN	PTR	gemini.chem.ccu.edu.tw.
+

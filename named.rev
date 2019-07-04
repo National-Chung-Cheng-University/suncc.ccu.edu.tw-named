@@ -1,0 +1,419 @@
+;
+;	reverse domain of 140.123.0.0/16
+;
+$ORIGIN 123.140.in-addr.arpa.
+
+$TTL	360000
+;
+@	IN	SOA	suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2012072503 ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+; net 140.123.1
+;30.1		IN	PTR	kiki.ccu.edu.tw.
+;4.1		IN	PTR	hero.ccu.edu.tw.
+2.1		IN	PTR	suncc.ccu.edu.tw.
+;7.1		IN	PTR	sunsite.ccu.edu.tw.
+6.1		IN	PTR	dnsserveriron.ccu.edu.tw.
+11.1		IN	PTR	dns5.ccu.edu.tw.
+12.1		IN	PTR	dns6.ccu.edu.tw.
+13.1		IN	PTR	dns7.ccu.edu.tw.
+
+; net 140.123.2
+3.2		IN	PTR	adonis.ccunix.ccu.edu.tw.
+5.2		IN	PTR	ccunix.ccu.edu.tw.
+20.2		IN	PTR	webdb.ccu.edu.tw.
+250.2		IN	PTR	ccurouter.ccu.edu.tw.
+
+; net 140.123.3
+3.3		IN	PTR	adonis.ccunix.ccu.edu.tw.
+6.3		IN	PTR	hero1-gw.ccu.edu.tw.
+
+; net 140.123.4
+;100.4		IN	PTR	eis.ccu.edu.tw.
+;8.4		IN	PTR	myhome.ccu.edu.tw.
+
+; net 140.123.7
+;1.7		IN	PTR	radius.ccu.edu.tw.
+
+; net 140.123.9
+;16.9		IN	PTR	wlc.ccu.edu.tw.
+28.9		IN	PTR	bluesocket.ccu.edu.tw.
+247.9		IN	PTR	vpn.ccu.edu.tw.
+246.9		IN	PTR	packetshaper.ccu.edu.tw.
+
+; net 140.123.10
+;251.10		IN	PTR	dns.room.ccu.edu.tw.
+
+; net 140.123.11
+70.11		IN	PTR	Rei.dorm.ccu.edu.tw.
+71.11		IN	PTR	Shinji.dorm.ccu.edu.tw.
+72.11		IN	PTR	ASKA.dorm.ccu.edu.tw.
+73.11		IN	PTR	NERV.dorm.ccu.edu.tw.
+74.11		IN	PTR	EVA.dorm.ccu.edu.tw.
+75.11		IN	PTR	coco.dorm.ccu.edu.tw.
+76.11		IN	PTR	blueseed.dorm.ccu.edu.tw.
+77.11		IN	PTR	chi.dorm.ccu.edu.tw.
+78.11		IN	PTR	XXX.dorm.ccu.edu.tw.
+79.11		IN	PTR	ritax.dorm.ccu.edu.tw.
+80.11		IN	PTR	Luna.dorm.ccu.edu.tw.
+81.11		IN	PTR	StarTrek.dorm.ccu.edu.tw.
+82.11		IN	PTR	X-File.dorm.ccu.edu.tw.
+83.11		IN	PTR	pikachu.dorm.ccu.edu.tw.
+84.11		IN	PTR	shadow.dorm.ccu.edu.tw.
+85.11		IN	PTR	maruko.dorm.ccu.edu.tw.
+86.11		IN	PTR	tiger2.dorm.ccu.edu.tw.
+87.11		IN	PTR	jedi.dorm.ccu.edu.tw.
+88.11		IN	PTR	force.dorm.ccu.edu.tw.
+89.11		IN	PTR	sith.dorm.ccu.edu.tw.
+90.11		IN	PTR	bbs.ccu.edu.tw.
+91.11		IN	PTR	consult.cc.ccu.edu.tw.
+92.11		IN	PTR	printers.cc.ccu.edu.tw.
+94.11		IN	PTR	bbsmailer.ccu.edu.tw.
+100.11		IN	PTR	bbs0.ccu.edu.tw.
+
+; net 140.123.19
+90.19		IN	PTR	slow.ccu.edu.tw.
+97.19		IN	PTR	mofficex.ccu.edu.tw.
+98.19		IN	PTR	moffice.ccu.edu.tw.
+169.19		IN	PTR	stuaff.ccu.edu.tw.
+
+; net 140.123.24
+66.24		IN	PTR	avcenter.ccu.edu.tw.
+
+; net 140.123.27
+27		IN	NS	suncc.ccu.edu.tw.
+20.27		IN	PTR	caac.ccu.edu.tw.
+25.27		IN	PTR	star.ccu.edu.tw.
+63.27		IN	PTR	sport2005.ccu.edu.tw.
+62.27		IN	PTR	edoc.ccu.edu.tw.
+
+; net 140.123.28
+250.28		IN	PTR	dhcp.wireless.ccu.edu.tw.
+
+; net 140.123.29
+121.29		IN	PTR	w3.ccu.edu.tw.
+122.29		IN	PTR	emba.ccu.edu.tw.
+
+; net 140.123.30
+22.30		IN	PTR	weekly.ccu.edu.tw.
+
+; net 140.123.31
+19.31		IN	PTR	www.phitauphi.org.tw.
+
+; net 140.123.33
+110.33		IN	PTR	aeec.ccu.edu.tw.
+5.33		IN	PTR	register.ccu.edu.tw.
+92.33		IN	PTR	2006univ.ccu.edu.tw.
+127.33		IN	PTR	academic.ccu.edu.tw.
+
+; net 140.123.35
+81.35		IN	PTR	bizwant.ccu.edu.tw.
+
+; net 140.123.37
+188.37		IN	PTR	affairs.ccu.edu.tw.
+
+; net 140.123.39
+;11.39		IN	PTR	extra.ccu.edu.tw.
+150.39		IN	PTR	club.ccu.edu.tw.
+
+; net 140.123.42
+85.42		IN	PTR	aadfll.ccu.edu.tw.
+;121.42		IN	PTR	medievalcenter.ccu.edu.tw.
+
+; net 140.123.46
+202.46		IN	PTR	linglab.ccu.edu.tw.
+86.46		IN	PTR	tsl.ccu.edu.tw.
+
+; net 140.123.47
+236.47		IN	PTR	tecapp.ccu.edu.tw.
+237.47		IN	PTR	ccutec.ccu.edu.tw.
+241.47		IN	PTR	lccourse.ccu.edu.tw.
+243.47		IN	PTR	cculc.ccu.edu.tw.
+244.47		IN	PTR	cculc-myet-main.ccu.edu.tw.
+245.47		IN	PTR	lcvod.ccu.edu.tw.
+246.47		IN	PTR	lcvoc.ccu.edu.tw.
+247.47		IN	PTR	lconline.ccu.edu.tw.
+248.47		IN	PTR	lcliveabc.ccu.edu.tw.
+
+; lost hosts gathered from dnswalk
+92.72		IN	PTR	lasercoolinglab.ccu.edu.tw.
+201.72		IN	PTR	spin.ccu.edu.tw.
+92.72		IN	PTR	lasercoolinglab.ccu.edu.tw.
+90.79		IN	PTR	chem.ccu.edu.tw.
+25.76		IN	PTR	nas01.ccu.edu.tw.
+;51.126		IN	PTR	scte.ccu.edu.tw.
+208.126		IN	PTR	dns.che.ccu.edu.tw.
+1.161		IN	PTR	mgt.ccu.edu.tw.
+1.162		IN	PTR	econ.ccu.edu.tw.
+153.162		IN	PTR	a2b.ccu.edu.tw.
+60.162		IN	PTR	lkferng.econ.ccu.edu.tw.
+92.169		IN	PTR	movie.ccu.edu.tw.
+145.169		IN	PTR	www.mkt.ccu.edu.tw.
+99.176		IN	PTR	dns.cba.ccu.edu.tw.
+145.173		IN	PTR	nuke.ccu.edu.tw.
+244.173		IN	PTR	actlinux.ccu.edu.tw.
+58.2		IN	PTR	ait.ccu.edu.tw.
+58.173		IN	PTR	ait-lab.ccu.edu.tw.
+1.201		IN	PTR	telcom.ccu.edu.tw.
+;2.201		IN	PTR	www.telcom.ccu.edu.tw.
+3.188		IN	PTR	www.telcom.ccu.edu.tw.
+8.188		IN	PTR	telecom.ccu.edu.tw.
+;3.201		IN	PTR	its.ccu.edu.tw.
+;230.201		IN	PTR	news.telcom.ccu.edu.tw.
+;241.201		IN	PTR	media.telcom.ccu.edu.tw.
+;243.201		IN	PTR	mail.telcom.ccu.edu.tw.
+;246.201		IN	PTR	xoops.telcom.ccu.edu.tw.
+1.202		IN	PTR	adultedu.ccu.edu.tw.
+152.202		IN	PTR	tpd.ccu.edu.tw.
+198.202		IN	PTR	lincourses.ccu.edu.tw.
+50.208		IN	PTR	adumlw.ccu.edu.tw.
+52.208		IN	PTR	lifelong.ace.ccu.edu.tw.
+49.208		IN	PTR	aace.ccu.edu.tw.
+48.208		IN	PTR	wanjen1.aduedu.ccu.edu.tw.
+47.208		IN	PTR	wanjen2.aduedu.ccu.edu.tw.
+46.208		IN	PTR	wanjen3.aduedu.ccu.edu.tw.
+211.202		IN	PTR	adultpsylab.adultedu.ccu.edu.tw.
+245.202		IN	PTR	lifelong.ace.ccu.edu.tw.
+;100.204		IN	PTR	crm.ccu.edu.tw.
+50.204		IN	PTR	hopeschool.ccu.edu.tw.
+200.206		IN	PTR	yonglin.ccu.edu.tw.
+9.103		IN	PTR	welearn.ccu.edu.tw.
+10.103		IN	PTR	ICS2000.ccu.edu.tw.
+235.103		IN	PTR	www.coleng.ccu.edu.tw.
+21.102		IN	PTR	disaster.ccu.edu.tw.
+157.106		IN	PTR	novel.ccu.edu.tw.
+135.108		IN	PTR	www.amte2002.ccu.edu.tw.
+;8.227		IN	PTR	sport.ccu.edu.tw.
+;99.227		IN	PTR	sport.ccu.edu.tw.
+99.226		IN	PTR	peschool.ccu.edu.tw.
+100.226		IN	PTR	epsport.ccu.edu.tw.
+150.226		IN	PTR	sle.ccu.edu.tw.
+
+
+; computer center
+1		IN	NS	suncc.ccu.edu.tw.
+2		IN	NS	ccunix.ccu.edu.tw.
+3		IN	NS	ccunix.ccu.edu.tw.
+4		IN	NS	ccunix.ccu.edu.tw.
+5		IN	NS	suncc.ccu.edu.tw.
+10		IN	NS	dns.room.ccu.edu.tw.
+;
+13		IN	NS	suncc.ccu.edu.tw.
+14		IN	NS	suncc.ccu.edu.tw.
+15		IN	NS	suncc.ccu.edu.tw.
+16		IN	NS	suncc.ccu.edu.tw.
+18		IN	NS	exchange.portal.ccu.edu.tw.
+19		IN	NS	suncc.ccu.edu.tw.
+20		IN	NS	dns.cna.ccu.edu.tw.
+23		IN	NS	dns.elearning.ccu.edu.tw.
+26		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+27		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+29		IN	NS	suncc.ccu.edu.tw.
+30		IN	NS	suncc.ccu.edu.tw.
+33		IN	NS	suncc.ccu.edu.tw.
+40		IN	NS	suncc.ccu.edu.tw.
+168		IN	NS	suncc.ccu.edu.tw.
+252		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+254		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+
+; net 140.123.165
+64.165		IN	PTR	bond.ccu.edu.tw.
+87.165		IN	PTR	mingle.ccu.edu.tw.
+; net 140.123.176
+222.176		IN	PTR	mail.ec.ccu.edu.tw.
+; net 140.123.190
+70.190		IN	PTR	labuen.labor.ccu.edu.tw.
+; net 140.123.191
+5.191		IN	PTR	www.socialsciences.ccu.edu.tw.
+; net 140.123.193
+;190.193		IN	PTR	elaw.ccu.edu.tw.
+; net 140.123.194
+;66.194		IN	PTR	felaw.ccu.edu.tw.
+
+; net 140.123.185
+199.185		IN	PTR	cogsci.ccu.edu.tw.
+
+; net 140.123.198
+57.198		IN	PTR	isia.ccu.edu.tw.
+
+; net 140.123.244
+112.244		IN	PTR	ccuincubat.ccu.edu.tw.
+146.244		IN	PTR	4kbts.ccu.edu.tw.
+172.244		IN	PTR	pcc-server.ccu.edu.tw.
+185.244		IN	PTR	mx.ookon.com.tw.
+
+; other nets
+20		IN	NS	dns.can.ccu.edu.tw.
+21	    	IN	NS	libdns.lib.ccu.edu.tw.
+	    	IN	NS	dns.lib.ccu.edu.tw.
+	    	IN	NS	suncc.ccu.edu.tw.
+22	    	IN	NS	libdns.lib.ccu.edu.tw.
+	    	IN	NS	dns.lib.ccu.edu.tw.
+	    	IN	NS	suncc.ccu.edu.tw.
+24	    	IN	NS	libdns.lib.ccu.edu.tw.
+	    	IN	NS	dns.lib.ccu.edu.tw.
+	    	IN	NS	suncc.ccu.edu.tw.
+42		IN	NS	suncc.ccu.edu.tw.
+43		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+44		IN	NS	phil.ccu.edu.tw.
+62	    	IN	NS	math.ccu.edu.tw.
+63	    	IN	NS	nova.math.ccu.edu.tw.
+66		IN	NS	eq.ccu.edu.tw.
+67		IN	NS	eq.ccu.edu.tw.
+71		IN	NS	papagino.phy.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+79		IN	NS	chem.ccu.edu.tw.
+;		IN	NS	suncc.ccu.edu.tw.
+100	     	IN	NS	ns1.gais.ccu.edu.tw.
+ 	     	IN	NS	suncc.ccu.edu.tw.
+101	     	IN	NS	dns.cs.ccu.edu.tw.
+;	     	IN	NS	suncc.ccu.edu.tw.
+102	     	IN	NS	cs.ccu.edu.tw.
+;     		IN	NS	suncc.ccu.edu.tw.
+103	     	IN	NS	cs.ccu.edu.tw.
+;     		IN	NS	suncc.ccu.edu.tw.
+104	     	IN	NS	cs.ccu.edu.tw.
+;     		IN	NS	suncc.ccu.edu.tw.
+105	     	IN	NS	cs.ccu.edu.tw.
+;     		IN	NS	suncc.ccu.edu.tw.
+106		IN	NS	dns.ee.ccu.edu.tw.
+107		IN	NS	dns.ee.ccu.edu.tw.
+110		IN	NS	dns.ee.ccu.edu.tw.
+108		IN	NS	dns.ee.ccu.edu.tw.
+111		IN	NS	dns.ee.ccu.edu.tw.
+109		IN	NS	dns.ee.ccu.edu.tw.
+112		IN	NS	dns.ee.ccu.edu.tw.
+113		IN	NS	dns.comm.ccu.edu.tw.
+114		IN	NS	dns.comm.ccu.edu.tw.
+115		IN	NS	dns.comm.ccu.edu.tw.
+116		IN	NS	dns.comm.ccu.edu.tw.
+117		IN	NS	ee.ccu.edu.tw.
+121		IN	NS	dns.me.ccu.edu.tw.
+122		IN	NS	dns.me.ccu.edu.tw.
+124		IN	NS	dns.me.ccu.edu.tw.
+126		IN	NS	dns.che.ccu.edu.tw.
+127		IN	NS	dns.che.ccu.edu.tw.
+;		IN	NS	suncc.ccu.edu.tw.
+161		IN	NS	mgt.ccu.edu.tw.
+;;162		IN	NS	ccunix.ccu.edu.tw.
+;169		IN	NS	ba.ccu.edu.tw.
+;		IN	NS	suncc.ccu.edu.tw.
+;173		IN	NS	mis.ccu.edu.tw.
+174		IN	NS	mis.ccu.edu.tw.
+175		IN	NS	mis.ccu.edu.tw.
+176		IN	NS	dns.cba.ccu.edu.tw.
+177		IN	NS	dns.room.ccu.edu.tw.
+181		IN	NS	sw.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+185		IN	NS	psydns.psy.ccu.edu.tw.
+186		IN	NS	psydns.psy.ccu.edu.tw.
+
+;188		IN	NS	telcom.ccu.edu.tw.
+189		IN	NS	ils.ccu.edu.tw.
+197		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+201		IN	NS	telcom.ccu.edu.tw.
+
+;
+; DORMNet reverse domain segment 1: 140.123.211 ~ 140.123.225
+;
+211		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+212		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+213		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+214		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+215		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+216		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+217		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+218		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+219		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+220		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+221		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+222		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+223		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+224		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+225		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+
+226		IN	NS	suncc.ccu.edu.tw.
+
+; webedu [ elearning segment ]
+230		IN	NS	ns.webedu.ccu.edu.tw.
+
+;
+; DORMNet reverse domain segment 2: 140.123.232 ~ 140.123.240
+;
+232		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+233		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+234		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+235		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+236		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+237		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+238		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+239		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+240		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+241		IN	NS	dns.dorm.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+242		IN	NS	dns.cna.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.

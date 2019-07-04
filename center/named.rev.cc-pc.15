@@ -1,0 +1,94 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 15.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.      root.suncc.ccu.edu.tw.  (
+			1999101301   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	ccunix.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+; 140.123.15.100 ~ 140.123.15.169
+
+0	IN	PTR	r123net.cc-pc.ccu.edu.tw.
+100	IN	PTR	r123-100.cc-pc.ccu.edu.tw.
+101	IN	PTR	r123-101.cc-pc.ccu.edu.tw.
+102	IN	PTR	r123-102.cc-pc.ccu.edu.tw.
+103	IN	PTR	r123-103.cc-pc.ccu.edu.tw.
+104	IN	PTR	r123-104.cc-pc.ccu.edu.tw.
+105	IN	PTR	r123-105.cc-pc.ccu.edu.tw.
+106	IN	PTR	r123-106.cc-pc.ccu.edu.tw.
+107	IN	PTR	r123-107.cc-pc.ccu.edu.tw.
+108	IN	PTR	r123-108.cc-pc.ccu.edu.tw.
+109	IN	PTR	r123-109.cc-pc.ccu.edu.tw.
+110	IN	PTR	r123-110.cc-pc.ccu.edu.tw.
+111	IN	PTR	r123-111.cc-pc.ccu.edu.tw.
+112	IN	PTR	r123-112.cc-pc.ccu.edu.tw.
+113	IN	PTR	r123-113.cc-pc.ccu.edu.tw.
+114	IN	PTR	r123-114.cc-pc.ccu.edu.tw.
+115	IN	PTR	r123-115.cc-pc.ccu.edu.tw.
+116	IN	PTR	r123-116.cc-pc.ccu.edu.tw.
+117	IN	PTR	r123-117.cc-pc.ccu.edu.tw.
+118	IN	PTR	r123-118.cc-pc.ccu.edu.tw.
+119	IN	PTR	r123-119.cc-pc.ccu.edu.tw.
+120	IN	PTR	r123-120.cc-pc.ccu.edu.tw.
+121	IN	PTR	r123-121.cc-pc.ccu.edu.tw.
+122	IN	PTR	r123-122.cc-pc.ccu.edu.tw.
+123	IN	PTR	r123-123.cc-pc.ccu.edu.tw.
+124	IN	PTR	r123-124.cc-pc.ccu.edu.tw.
+125	IN	PTR	r123-125.cc-pc.ccu.edu.tw.
+126	IN	PTR	r123-126.cc-pc.ccu.edu.tw.
+127	IN	PTR	r123-127.cc-pc.ccu.edu.tw.
+128	IN	PTR	r123-128.cc-pc.ccu.edu.tw.
+129	IN	PTR	r123-129.cc-pc.ccu.edu.tw.
+130	IN	PTR	r123-130.cc-pc.ccu.edu.tw.
+131	IN	PTR	r123-131.cc-pc.ccu.edu.tw.
+132	IN	PTR	r123-132.cc-pc.ccu.edu.tw.
+133	IN	PTR	r123-133.cc-pc.ccu.edu.tw.
+134	IN	PTR	r123-134.cc-pc.ccu.edu.tw.
+135	IN	PTR	r123-135.cc-pc.ccu.edu.tw.
+136	IN	PTR	r123-136.cc-pc.ccu.edu.tw.
+137	IN	PTR	r123-137.cc-pc.ccu.edu.tw.
+138	IN	PTR	r123-138.cc-pc.ccu.edu.tw.
+139	IN	PTR	r123-139.cc-pc.ccu.edu.tw.
+140	IN	PTR	r123-140.cc-pc.ccu.edu.tw.
+141	IN	PTR	r123-141.cc-pc.ccu.edu.tw.
+142	IN	PTR	r123-142.cc-pc.ccu.edu.tw.
+143	IN	PTR	r123-143.cc-pc.ccu.edu.tw.
+144	IN	PTR	r123-144.cc-pc.ccu.edu.tw.
+145	IN	PTR	r123-145.cc-pc.ccu.edu.tw.
+146	IN	PTR	r123-146.cc-pc.ccu.edu.tw.
+147	IN	PTR	r123-147.cc-pc.ccu.edu.tw.
+148	IN	PTR	r123-148.cc-pc.ccu.edu.tw.
+149	IN	PTR	r123-149.cc-pc.ccu.edu.tw.
+150	IN	PTR	r123-150.cc-pc.ccu.edu.tw.
+151	IN	PTR	r123-151.cc-pc.ccu.edu.tw.
+152	IN	PTR	r123-152.cc-pc.ccu.edu.tw.
+153	IN	PTR	r123-153.cc-pc.ccu.edu.tw.
+154	IN	PTR	r123-154.cc-pc.ccu.edu.tw.
+155	IN	PTR	r123-155.cc-pc.ccu.edu.tw.
+156	IN	PTR	r123-156.cc-pc.ccu.edu.tw.
+157	IN	PTR	r123-157.cc-pc.ccu.edu.tw.
+158	IN	PTR	r123-158.cc-pc.ccu.edu.tw.
+159	IN	PTR	r123-159.cc-pc.ccu.edu.tw.
+160	IN	PTR	r123-160.cc-pc.ccu.edu.tw.
+161	IN	PTR	r123-161.cc-pc.ccu.edu.tw.
+162	IN	PTR	r123-162.cc-pc.ccu.edu.tw.
+163	IN	PTR	r123-163.cc-pc.ccu.edu.tw.
+164	IN	PTR	r123-164.cc-pc.ccu.edu.tw.
+165	IN	PTR	r123-165.cc-pc.ccu.edu.tw.
+166	IN	PTR	r123-166.cc-pc.ccu.edu.tw.
+167	IN	PTR	r123-167.cc-pc.ccu.edu.tw.
+168	IN	PTR	r123-168.cc-pc.ccu.edu.tw.
+169	IN	PTR	r123-169.cc-pc.ccu.edu.tw.
+
+

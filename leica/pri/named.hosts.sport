@@ -1,0 +1,64 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	sport.ccu.edu.tw.
+@       IN      SOA 	leica.ccu.edu.tw.     root.leica.ccu.edu.tw.  (
+			1997041401   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+            	IN      NS      leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+
+;
+;  sport.ccu.edu.tw zone hosts list { sport }
+;
+
+db-s1 		IN	A	140.123.226.151
+db-s2 		IN	A	140.123.226.152
+db-s3 		IN	A	140.123.226.153
+db-s4 		IN	A	140.123.226.154
+
+dbc1 		IN	A	140.123.226.156
+dbc2 		IN	A	140.123.226.157
+dbc3 		IN	A	140.123.226.158
+dbc4 		IN	A	140.123.226.159
+dbc5 		IN	A	140.123.226.160
+
+wwws1 		IN	A	140.123.226.162
+wwws2 		IN	A	140.123.226.163
+wwws3 		IN	A	140.123.226.164
+
+cgi-s1 		IN	A	140.123.226.166
+cgi-s2 		IN	A	140.123.226.167
+cgi-s3 		IN	A	140.123.226.168
+
+cwc1 		IN	A	140.123.226.171
+cwc2 		IN	A	140.123.226.172
+cwc3 		IN	A	140.123.226.173
+cwc4 		IN	A	140.123.226.174
+cwc5 		IN	A	140.123.226.175
+
+rcc1 		IN	A	140.123.226.176
+rcc2 		IN	A	140.123.226.177
+rcc3 		IN	A	140.123.226.178
+rcc4 		IN	A	140.123.226.179
+
+prc1 		IN	A	140.123.226.181
+prc2 		IN	A	140.123.226.181
+prc3 		IN	A	140.123.226.181
+
+ckc1 		IN	A	140.123.226.186
+ckc2 		IN	A	140.123.226.187
+ckc3 		IN	A	140.123.226.188
+
+ipc1 		IN	A	140.123.226.191
+ipc2 		IN	A	140.123.226.192
+ipc3 		IN	A	140.123.226.193
+ipc4 		IN	A	140.123.226.194
+ipc5 		IN	A	140.123.226.195
+ipc6 		IN	A	140.123.226.196

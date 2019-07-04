@@ -1,0 +1,265 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 252.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.      root.suncc.ccu.edu.tw.  (
+			2000080701   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	ccunix.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+	IN	NS	s1.ccu.edu.tw.
+
+
+; terminal server 
+1	IN	PTR	ccmail.dialup.ccu.edu.tw.
+2	IN	PTR	ra4000-ts-1.dialup.ccu.edu.tw.
+3	IN	PTR	ra4000-ts-2.dialup.ccu.edu.tw.
+4	IN	PTR	annex-ts-1.dialup.ccu.edu.tw.
+5	IN	PTR	cisco5200-ts-1.dialup.ccu.edu.tw.
+
+; servers locate in 252 net
+
+;
+; remote annex 4000 140.123.252.002 -- port 01 - port 72
+; zyxel modem pools 
+; 252.11 ~ 252.82
+;
+11	IN	PTR	a002p01.dialup.ccu.edu.tw.
+12	IN	PTR	a002p02.dialup.ccu.edu.tw.
+13	IN	PTR	a002p03.dialup.ccu.edu.tw.
+14	IN	PTR	a002p04.dialup.ccu.edu.tw.
+15	IN	PTR	a002p05.dialup.ccu.edu.tw.
+16	IN	PTR	a002p06.dialup.ccu.edu.tw.
+17	IN	PTR	a002p07.dialup.ccu.edu.tw.
+18	IN	PTR	a002p08.dialup.ccu.edu.tw.
+19	IN	PTR	a002p09.dialup.ccu.edu.tw.
+10	IN	PTR	a002p10.dialup.ccu.edu.tw.
+21	IN	PTR	a002p11.dialup.ccu.edu.tw.
+22	IN	PTR	a002p12.dialup.ccu.edu.tw.
+23	IN	PTR	a002p13.dialup.ccu.edu.tw.
+24	IN	PTR	a002p14.dialup.ccu.edu.tw.
+25	IN	PTR	a002p15.dialup.ccu.edu.tw.
+26	IN	PTR	a002p16.dialup.ccu.edu.tw.
+27	IN	PTR	a002p17.dialup.ccu.edu.tw.
+28	IN	PTR	a002p18.dialup.ccu.edu.tw.
+29	IN	PTR	a002p19.dialup.ccu.edu.tw.
+30	IN	PTR	a002p20.dialup.ccu.edu.tw.
+31	IN	PTR	a002p21.dialup.ccu.edu.tw.
+32	IN	PTR	a002p22.dialup.ccu.edu.tw.
+33	IN	PTR	a002p23.dialup.ccu.edu.tw.
+34	IN	PTR	a002p24.dialup.ccu.edu.tw.
+35	IN	PTR	a002p25.dialup.ccu.edu.tw.
+36	IN	PTR	a002p26.dialup.ccu.edu.tw.
+37	IN	PTR	a002p27.dialup.ccu.edu.tw.
+38	IN	PTR	a002p28.dialup.ccu.edu.tw.
+39	IN	PTR	a002p29.dialup.ccu.edu.tw.
+40	IN	PTR	a002p30.dialup.ccu.edu.tw.
+41	IN	PTR	a002p31.dialup.ccu.edu.tw.
+42	IN	PTR	a002p32.dialup.ccu.edu.tw.
+43	IN	PTR	a002p33.dialup.ccu.edu.tw.
+44	IN	PTR	a002p34.dialup.ccu.edu.tw.
+45	IN	PTR	a002p35.dialup.ccu.edu.tw.
+46	IN	PTR	a002p36.dialup.ccu.edu.tw.
+47	IN	PTR	a002p37.dialup.ccu.edu.tw.
+48	IN	PTR	a002p38.dialup.ccu.edu.tw.
+49	IN	PTR	a002p39.dialup.ccu.edu.tw.
+50	IN	PTR	a002p40.dialup.ccu.edu.tw.
+51	IN	PTR	a002p41.dialup.ccu.edu.tw.
+52	IN	PTR	a002p42.dialup.ccu.edu.tw.
+53	IN	PTR	a002p43.dialup.ccu.edu.tw.
+54	IN	PTR	a002p44.dialup.ccu.edu.tw.
+55	IN	PTR	a002p45.dialup.ccu.edu.tw.
+56	IN	PTR	a002p46.dialup.ccu.edu.tw.
+57	IN	PTR	a002p47.dialup.ccu.edu.tw.
+58	IN	PTR	a002p48.dialup.ccu.edu.tw.
+59	IN	PTR	a002p49.dialup.ccu.edu.tw.
+60	IN	PTR	a002p50.dialup.ccu.edu.tw.
+61	IN	PTR	a002p51.dialup.ccu.edu.tw.
+62	IN	PTR	a002p52.dialup.ccu.edu.tw.
+63	IN	PTR	a002p53.dialup.ccu.edu.tw.
+64	IN	PTR	a002p54.dialup.ccu.edu.tw.
+65	IN	PTR	a002p55.dialup.ccu.edu.tw.
+66	IN	PTR	a002p56.dialup.ccu.edu.tw.
+67	IN	PTR	a002p57.dialup.ccu.edu.tw.
+68	IN	PTR	a002p58.dialup.ccu.edu.tw.
+69	IN	PTR	a002p59.dialup.ccu.edu.tw.
+70	IN	PTR	a002p60.dialup.ccu.edu.tw.
+71	IN	PTR	a002p61.dialup.ccu.edu.tw.
+72	IN	PTR	a002p62.dialup.ccu.edu.tw.
+73	IN	PTR	a002p63.dialup.ccu.edu.tw.
+74	IN	PTR	a002p64.dialup.ccu.edu.tw.
+75	IN	PTR	a002p65.dialup.ccu.edu.tw.
+76	IN	PTR	a002p66.dialup.ccu.edu.tw.
+77	IN	PTR	a002p67.dialup.ccu.edu.tw.
+78	IN	PTR	a002p68.dialup.ccu.edu.tw.
+79	IN	PTR	a002p69.dialup.ccu.edu.tw.
+80	IN	PTR	a002p70.dialup.ccu.edu.tw.
+81	IN	PTR	a002p71.dialup.ccu.edu.tw.
+82	IN	PTR	a002p72.dialup.ccu.edu.tw.
+
+;
+; remote annex 4000 140.123.252.003 -- port 01 - port 72
+; microcom modem pools  
+; 252.83 ~ 252.154
+;
+83	IN	PTR	a003p01.dialup.ccu.edu.tw.
+84	IN	PTR	a003p02.dialup.ccu.edu.tw.
+85	IN	PTR	a003p03.dialup.ccu.edu.tw.
+86	IN	PTR	a003p04.dialup.ccu.edu.tw.
+87	IN	PTR	a003p05.dialup.ccu.edu.tw.
+88	IN	PTR	a003p06.dialup.ccu.edu.tw.
+89	IN	PTR	a003p07.dialup.ccu.edu.tw.
+90	IN	PTR	a003p08.dialup.ccu.edu.tw.
+91	IN	PTR	a003p09.dialup.ccu.edu.tw.
+92	IN	PTR	a003p10.dialup.ccu.edu.tw.
+93	IN	PTR	a003p11.dialup.ccu.edu.tw.
+94	IN	PTR	a003p12.dialup.ccu.edu.tw.
+95	IN	PTR	a003p13.dialup.ccu.edu.tw.
+96	IN	PTR	a003p14.dialup.ccu.edu.tw.
+97	IN	PTR	a003p15.dialup.ccu.edu.tw.
+98	IN	PTR	a003p16.dialup.ccu.edu.tw.
+99	IN	PTR	a003p17.dialup.ccu.edu.tw.
+100	IN	PTR	a003p18.dialup.ccu.edu.tw.
+101	IN	PTR	a003p19.dialup.ccu.edu.tw.
+102	IN	PTR	a003p20.dialup.ccu.edu.tw.
+103	IN	PTR	a003p21.dialup.ccu.edu.tw.
+104	IN	PTR	a003p22.dialup.ccu.edu.tw.
+105	IN	PTR	a003p23.dialup.ccu.edu.tw.
+106	IN	PTR	a003p24.dialup.ccu.edu.tw.
+107	IN	PTR	a003p25.dialup.ccu.edu.tw.
+108	IN	PTR	a003p26.dialup.ccu.edu.tw.
+109	IN	PTR	a003p27.dialup.ccu.edu.tw.
+110	IN	PTR	a003p28.dialup.ccu.edu.tw.
+111	IN	PTR	a003p29.dialup.ccu.edu.tw.
+112	IN	PTR	a003p30.dialup.ccu.edu.tw.
+113	IN	PTR	a003p31.dialup.ccu.edu.tw.
+114	IN	PTR	a003p32.dialup.ccu.edu.tw.
+115	IN	PTR	a003p33.dialup.ccu.edu.tw.
+116	IN	PTR	a003p34.dialup.ccu.edu.tw.
+117	IN	PTR	a003p35.dialup.ccu.edu.tw.
+118	IN	PTR	a003p36.dialup.ccu.edu.tw.
+119	IN	PTR	a003p37.dialup.ccu.edu.tw.
+120	IN	PTR	a003p38.dialup.ccu.edu.tw.
+121	IN	PTR	a003p39.dialup.ccu.edu.tw.
+122	IN	PTR	a003p40.dialup.ccu.edu.tw.
+123	IN	PTR	a003p41.dialup.ccu.edu.tw.
+124	IN	PTR	a003p42.dialup.ccu.edu.tw.
+125	IN	PTR	a003p43.dialup.ccu.edu.tw.
+126	IN	PTR	a003p44.dialup.ccu.edu.tw.
+127	IN	PTR	a003p45.dialup.ccu.edu.tw.
+128	IN	PTR	a003p46.dialup.ccu.edu.tw.
+129	IN	PTR	a003p47.dialup.ccu.edu.tw.
+130	IN	PTR	a003p48.dialup.ccu.edu.tw.
+131	IN	PTR	a003p49.dialup.ccu.edu.tw.
+132	IN	PTR	a003p50.dialup.ccu.edu.tw.
+133	IN	PTR	a003p51.dialup.ccu.edu.tw.
+134	IN	PTR	a003p52.dialup.ccu.edu.tw.
+135	IN	PTR	a003p53.dialup.ccu.edu.tw.
+136	IN	PTR	a003p54.dialup.ccu.edu.tw.
+137	IN	PTR	a003p55.dialup.ccu.edu.tw.
+138	IN	PTR	a003p56.dialup.ccu.edu.tw.
+139	IN	PTR	a003p57.dialup.ccu.edu.tw.
+140	IN	PTR	a003p58.dialup.ccu.edu.tw.
+141	IN	PTR	a003p59.dialup.ccu.edu.tw.
+142	IN	PTR	a003p60.dialup.ccu.edu.tw.
+143	IN	PTR	a003p61.dialup.ccu.edu.tw.
+144	IN	PTR	a003p62.dialup.ccu.edu.tw.
+145	IN	PTR	a003p63.dialup.ccu.edu.tw.
+146	IN	PTR	a003p64.dialup.ccu.edu.tw.
+147	IN	PTR	a003p65.dialup.ccu.edu.tw.
+148	IN	PTR	a003p66.dialup.ccu.edu.tw.
+149	IN	PTR	a003p67.dialup.ccu.edu.tw.
+150	IN	PTR	a003p68.dialup.ccu.edu.tw.
+151	IN	PTR	a003p69.dialup.ccu.edu.tw.
+152	IN	PTR	a003p70.dialup.ccu.edu.tw.
+153	IN	PTR	a003p71.dialup.ccu.edu.tw.
+154	IN	PTR	a003p72.dialup.ccu.edu.tw.
+
+;
+; annex 140.123.252.004 -- port 01 - port 16
+; private zyxel modem and rolm modem pools 
+; 252.155 ~ 252.170
+;
+155	IN	PTR	a004p01.dialup.ccu.edu.tw.
+156	IN	PTR	a004p02.dialup.ccu.edu.tw.
+157	IN	PTR	a004p03.dialup.ccu.edu.tw.
+158	IN	PTR	a004p04.dialup.ccu.edu.tw.
+159	IN	PTR	a004p05.dialup.ccu.edu.tw.
+160	IN	PTR	a004p06.dialup.ccu.edu.tw.
+161	IN	PTR	a004p07.dialup.ccu.edu.tw.
+162	IN	PTR	a004p08.dialup.ccu.edu.tw.
+163	IN	PTR	a004p09.dialup.ccu.edu.tw.
+164	IN	PTR	a004p10.dialup.ccu.edu.tw.
+165	IN	PTR	a004p11.dialup.ccu.edu.tw.
+166	IN	PTR	a004p12.dialup.ccu.edu.tw.
+167	IN	PTR	a004p13.dialup.ccu.edu.tw.
+168	IN	PTR	a004p14.dialup.ccu.edu.tw.
+169	IN	PTR	a004p15.dialup.ccu.edu.tw.
+170	IN	PTR	a004p16.dialup.ccu.edu.tw.
+
+;
+; remote cisco 5200 140.123.252.005 -- port 01 - port 48
+; cisco 5200 modem pools  
+; 252.171 ~ 252.218
+;
+171	IN	PTR	c005p01.dialup.ccu.edu.tw.
+172	IN	PTR	c005p02.dialup.ccu.edu.tw.
+173	IN	PTR	c005p03.dialup.ccu.edu.tw.
+174	IN	PTR	c005p04.dialup.ccu.edu.tw.
+175	IN	PTR	c005p05.dialup.ccu.edu.tw.
+176	IN	PTR	c005p06.dialup.ccu.edu.tw.
+177	IN	PTR	c005p07.dialup.ccu.edu.tw.
+178	IN	PTR	c005p08.dialup.ccu.edu.tw.
+179	IN	PTR	c005p09.dialup.ccu.edu.tw.
+180	IN	PTR	c005p10.dialup.ccu.edu.tw.
+181	IN	PTR	c005p11.dialup.ccu.edu.tw.
+182	IN	PTR	c005p12.dialup.ccu.edu.tw.
+183	IN	PTR	c005p13.dialup.ccu.edu.tw.
+184	IN	PTR	c005p14.dialup.ccu.edu.tw.
+185	IN	PTR	c005p15.dialup.ccu.edu.tw.
+186	IN	PTR	c005p16.dialup.ccu.edu.tw.
+187	IN	PTR	c005p17.dialup.ccu.edu.tw.
+188	IN	PTR	c005p18.dialup.ccu.edu.tw.
+189	IN	PTR	c005p19.dialup.ccu.edu.tw.
+190	IN	PTR	c005p20.dialup.ccu.edu.tw.
+191	IN	PTR	c005p21.dialup.ccu.edu.tw.
+192	IN	PTR	c005p22.dialup.ccu.edu.tw.
+193	IN	PTR	c005p23.dialup.ccu.edu.tw.
+194	IN	PTR	c005p24.dialup.ccu.edu.tw.
+195	IN	PTR	c005p25.dialup.ccu.edu.tw.
+196	IN	PTR	c005p26.dialup.ccu.edu.tw.
+197	IN	PTR	c005p27.dialup.ccu.edu.tw.
+198	IN	PTR	c005p28.dialup.ccu.edu.tw.
+199	IN	PTR	c005p29.dialup.ccu.edu.tw.
+200	IN	PTR	c005p30.dialup.ccu.edu.tw.
+201	IN	PTR	c005p31.dialup.ccu.edu.tw.
+202	IN	PTR	c005p32.dialup.ccu.edu.tw.
+203	IN	PTR	c005p33.dialup.ccu.edu.tw.
+204	IN	PTR	c005p34.dialup.ccu.edu.tw.
+205	IN	PTR	c005p35.dialup.ccu.edu.tw.
+206	IN	PTR	c005p36.dialup.ccu.edu.tw.
+207	IN	PTR	c005p37.dialup.ccu.edu.tw.
+208	IN	PTR	c005p38.dialup.ccu.edu.tw.
+209	IN	PTR	c005p39.dialup.ccu.edu.tw.
+210	IN	PTR	c005p40.dialup.ccu.edu.tw.
+211	IN	PTR	c005p41.dialup.ccu.edu.tw.
+212	IN	PTR	c005p42.dialup.ccu.edu.tw.
+213	IN	PTR	c005p43.dialup.ccu.edu.tw.
+214	IN	PTR	c005p44.dialup.ccu.edu.tw.
+215	IN	PTR	c005p45.dialup.ccu.edu.tw.
+216	IN	PTR	c005p46.dialup.ccu.edu.tw.
+217	IN	PTR	c005p47.dialup.ccu.edu.tw.
+218	IN	PTR	c005p48.dialup.ccu.edu.tw.
+
+;
+; end of dialup zone
+;
+

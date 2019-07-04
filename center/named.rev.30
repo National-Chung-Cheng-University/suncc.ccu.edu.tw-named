@@ -1,0 +1,45 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 30.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2010052801   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+;
+; reverse domain of 140.123.30
+;
+6	IN	PTR	kiki-org.ccu.edu.tw.
+20	IN	PTR	stuaff.adm.ccu.edu.tw.
+21	IN	PTR	sunchaser.ccu.edu.tw.
+;23	IN	PTR	eis.ccu.edu.tw.
+;
+;	class chosing 
+;
+31	IN	PTR	alpha1.cc.ccu.edu.tw.
+32	IN	PTR	alpha2.cc.ccu.edu.tw.
+;
+51	IN	PTR	www0.cc.ccu.edu.tw.
+52	IN	PTR	www1.cc.ccu.edu.tw.
+53	IN	PTR	www2.cc.ccu.edu.tw.
+54	IN	PTR	www3.cc.ccu.edu.tw.
+55	IN	PTR	www4.cc.ccu.edu.tw.
+56	IN	PTR	gamma1.cc.ccu.edu.tw.
+57	IN	PTR	gamma2.cc.ccu.edu.tw.
+58	IN	PTR	gamma3.cc.ccu.edu.tw.
+59	IN	PTR	gamma4.cc.ccu.edu.tw.
+60	IN	PTR	gamma5.cc.ccu.edu.tw.
+;
+
+;60	IN	PTR	military.ccu.edu.tw.
+91	IN	PTR	coursemap.ccu.edu.tw.

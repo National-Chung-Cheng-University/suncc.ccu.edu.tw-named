@@ -1,0 +1,207 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'ccunix.ccu.edu.tw'   last serial 1999060502
+; from 140.123.3.5   at Sun Aug  8 15:25:28 1999
+$ORIGIN ccu.edu.tw.
+ccunix		IN	SOA	ccunix.ccu.edu.tw. root.ccunix.ccu.edu.tw. (
+		1999080601 21600 3600 1209600 172800 )
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	s1.ccu.edu.tw.
+		IN	NS	adonis.ccunix.ccu.edu.tw.
+		IN	MX	10 bbsmailer.ccu.edu.tw.
+		IN	MX	20 s1.ccu.edu.tw.
+		IN	MX	30 relay.edu.tw.
+		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.3.5
+		IN	A	140.123.2.5
+$ORIGIN ccunix.ccu.edu.tw.
+ibm3		IN	A	140.123.2.195
+		IN	WKS	140.123.2.195 udp 
+		IN	WKS	140.123.2.195 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp10e		IN	A	140.123.4.142
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp1		IN	A	140.123.2.100
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp2		IN	A	140.123.2.102
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp3		IN	A	140.123.2.104
+		IN	MX	0 ccunix.ccu.edu.tw.
+localhost	IN	A	127.0.0.1
+news		IN	CNAME	reader.ccu.edu.tw.
+sp4		IN	A	140.123.2.105
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm20		IN	A	140.123.2.60
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp5		IN	A	140.123.2.106
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp11e		IN	A	140.123.4.143
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm21		IN	A	140.123.2.61
+		IN	MX	0 ccunix.ccu.edu.tw.
+odin1		IN	CNAME	odin.ccunix.ccu.edu.tw.
+sp6		IN	A	140.123.2.107
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm22		IN	A	140.123.2.62
+		IN	MX	0 ccunix.ccu.edu.tw.
+odin2		IN	A	140.123.2.196
+		IN	WKS	140.123.2.196 udp 
+		IN	WKS	140.123.2.196 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp7		IN	A	140.123.2.108
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm23		IN	A	140.123.2.63
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp8		IN	A	140.123.2.109
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm24		IN	A	140.123.2.64
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp9		IN	A	140.123.2.110
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm25		IN	A	140.123.2.65
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm26		IN	A	140.123.2.66
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm27		IN	A	140.123.2.67
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm28		IN	A	140.123.2.68
+		IN	MX	0 ccunix.ccu.edu.tw.
+hpg60		IN	A	140.123.3.4
+		IN	WKS	140.123.3.4 udp 
+		IN	WKS	140.123.3.4 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp12e		IN	A	140.123.4.144
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm29		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.69
+sun20		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.20
+sun21		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.21
+mail		IN	CNAME	ccunix.ccu.edu.tw.
+rs570		IN	A	140.123.2.195
+		IN	WKS	140.123.2.195 udp 
+		IN	WKS	140.123.2.195 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+sun22		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.22
+sun23		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.23
+sun24		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.24
+cc		IN	CNAME	helios.ccunix.ccu.edu.tw.
+sun25		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.25
+sun26		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.26
+sun27		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.27
+sun30		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.30
+sun28		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.28
+sun31		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.31
+sun29		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.29
+sun32		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.32
+sun33		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.33
+sun34		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.34
+sun35		IN	A	140.123.2.51
+		IN	MX	0 ccunix.ccu.edu.tw.
+sun36		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.36
+sun37		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.37
+sun38		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.38
+sun39		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.39
+panku		IN	WKS	140.123.3.1 udp 
+		IN	WKS	140.123.3.1 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.3.1
+sp1e		IN	A	140.123.4.131
+		IN	MX	0 ccunix.ccu.edu.tw.
+printersrv	IN	CNAME	ibmdb2.ccunix.ccu.edu.tw.
+sp2e		IN	A	140.123.4.133
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp		IN	A	140.123.2.110
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp10		IN	A	140.123.2.111
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp11		IN	A	140.123.2.112
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp12		IN	A	140.123.2.113
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp3e		IN	A	140.123.4.135
+		IN	MX	0 ccunix.ccu.edu.tw.
+adonis2		IN	CNAME	adonis.ccunix.ccu.edu.tw.
+sp4e		IN	A	140.123.4.136
+		IN	MX	0 ccunix.ccu.edu.tw.
+graph1		IN	A	140.123.2.50
+		IN	MX	0 ccunix.ccu.edu.tw.
+u2		IN	A	140.123.2.7
+		IN	WKS	140.123.2.7 udp 
+		IN	WKS	140.123.2.7 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+graph2		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.51
+irene		IN	A	140.123.3.6
+		IN	WKS	140.123.3.6 udp 
+		IN	WKS	140.123.3.6 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+adonis		IN	WKS	140.123.2.3 udp 
+		IN	WKS	140.123.2.3 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.3.3
+		IN	A	140.123.2.3
+sp5e		IN	A	140.123.4.137
+		IN	MX	0 ccunix.ccu.edu.tw.
+rs570e		IN	A	140.123.4.145
+		IN	WKS	140.123.4.145 udp 
+		IN	WKS	140.123.4.145 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp6e		IN	A	140.123.4.138
+		IN	MX	0 ccunix.ccu.edu.tw.
+helios		IN	WKS	140.123.2.10 udp 
+		IN	WKS	140.123.2.10 tcp 
+		IN	MX	0 helios.ccunix.ccu.edu.tw.
+		IN	A	140.123.3.10
+		IN	A	140.123.2.10
+ibmdb2		IN	A	140.123.11.95
+		IN	WKS	140.123.11.95 udp 
+		IN	WKS	140.123.11.95 tcp 
+		IN	MX	0 ibmdb2.ccunix.ccu.edu.tw.
+sp7e		IN	A	140.123.4.139
+		IN	MX	0 ccunix.ccu.edu.tw.
+rs590a		IN	A	140.123.3.193
+		IN	WKS	140.123.3.193 udp 
+		IN	WKS	140.123.3.193 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+rs590b		IN	A	140.123.3.194
+		IN	WKS	140.123.3.194 udp 
+		IN	WKS	140.123.3.194 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+www		IN	CNAME	adonis.ccunix.ccu.edu.tw.
+sp8e		IN	A	140.123.4.140
+		IN	MX	0 ccunix.ccu.edu.tw.
+sp9e		IN	A	140.123.4.141
+		IN	MX	0 ccunix.ccu.edu.tw.
+ibm1		IN	WKS	140.123.2.193 udp 
+		IN	WKS	140.123.2.193 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.193
+ibm2		IN	WKS	140.123.2.194 udp 
+		IN	WKS	140.123.2.194 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.2.194
+odin		IN	WKS	140.123.3.2 udp 
+		IN	WKS	140.123.3.2 tcp 
+		IN	MX	0 ccunix.ccu.edu.tw.
+		IN	A	140.123.3.2
+		IN	A	140.123.2.2

@@ -1,0 +1,81 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 26.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2012052101   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+;
+; reverse domain of 140.123.26
+;
+1	IN	PTR	msftp.ccu.edu.tw.
+2	IN	PTR	wsus.ccu.edu.tw.
+5	IN	PTR	alumni.ccu.edu.tw.
+6	IN	PTR	alumnix.ccu.edu.tw.
+11	IN	PTR	infotest.ccu.edu.tw.
+17	IN	PTR	Veronique.ccu.edu.tw. 
+;
+
+
+31	IN	PTR	kms.ccu.edu.tw.
+;30	IN	PTR	kms1.ccu.edu.tw.
+32	IN	PTR	wireless.ccu.edu.tw.
+34	IN	PTR	soft.ccu.edu.tw.
+36	IN	PTR	consults.ccu.edu.tw.
+43	IN	PTR	isms.ccu.edu.tw.
+45	IN	PTR	citrix.ccu.edu.tw.
+; reverse domain of course system
+;
+50	IN	PTR	kiki1.ccu.edu.tw.
+;
+; reverse domain of life education project
+;
+100	IN	PTR	life-gw.ccu.edu.tw.
+101	IN	PTR	life01.ccu.edu.tw.
+102	IN	PTR	life02.ccu.edu.tw.
+103	IN	PTR	life03.ccu.edu.tw.
+104	IN	PTR	life04.ccu.edu.tw.
+110	IN	PTR	lifeworld.ccu.edu.tw.
+111	IN	PTR	lifex.ccu.edu.tw.
+
+;
+; reverse domain of myXXX.edoc.ccu.edu.tw
+;
+143	IN	PTR	my.edoc.ccu.edu.tw.
+;144	IN	PTR	my.edoc.ccu.edu.tw.
+145	IN	PTR	edoc.ccu.edu.tw.
+148	IN	PTR	www.stafflearn.ccu.edu.tw.
+149	IN	PTR	sslvpn.ccu.edu.tw.
+156	IN	PTR	search.edoc.ccu.edu.tw.
+161	IN	PTR	edocsys.ccu.edu.tw.
+;162	IN	PTR	mycvs.edoc.ccu.edu.tw.
+;
+; reverse domain of misXX.cc.ccu.edu.tw
+;
+150	IN	PTR	mis.cc.ccu.edu.tw.
+151	IN	PTR	misshare.cc.ccu.edu.tw.
+152	IN	PTR	miswww1.cc.ccu.edu.tw.
+153	IN	PTR	miswww2.cc.ccu.edu.tw.
+154	IN	PTR	miswww3.cc.ccu.edu.tw.
+
+;
+; reverse domain of xxx.nopam.ccu.edu.tw
+;
+155	IN	PTR	nopam2.ccu.edu.tw.
+
+;
+245	IN	PTR	ips.ccu.edu.tw.
+246	IN	PTR	ips2.ccu.edu.tw.
+247	IN	PTR	tpsms.ccu.edu.tw.
+253	IN	PTR	sce.ccu.edu.tw.

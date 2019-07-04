@@ -1,0 +1,39 @@
+$ORIGIN .
+$TTL 600	; 10 minutes
+175.123.140.in-addr.arpa IN SOA	mis.ccu.edu.tw. root.mis.ccu.edu.tw. (
+				2010072201 ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				86400      ; minimum (1 day)
+				)
+			NS	mis.ccu.edu.tw.
+			NS	ns2.mis.ccu.edu.tw.
+$ORIGIN 175.123.140.in-addr.arpa.
+1			PTR	bbs.mis.ccu.edu.tw.
+			PTR	bala.mis.ccu.edu.tw.
+10			PTR	backupmis.mis.ccu.edu.tw.
+175.111			PTR	mimilu.mis.ccu.edu.tw.
+175.117			PTR	mcism.mis.ccu.edu.tw.
+12			PTR	mis.ccu.edu.tw.
+123			PTR	miscamp.mis.ccu.edu.tw.
+175.132			PTR	xenyu.mis.ccu.edu.tw.
+14			PTR	mail.mis.ccu.edu.tw.
+142			PTR	349-142.mis.ccu.edu.tw.
+170			PTR	nasp.mis.ccu.edu.tw.
+172			PTR	nast.mis.ccu.edu.tw.
+174			PTR	poppy.mis.ccu.edu.tw.
+175			PTR	dona.mis.ccu.edu.tw.
+176.181			PTR	mimrc.mis.ccu.edu.tw.
+214			PTR	dsslab.mis.ccu.edu.tw.
+215			PTR	www.issurvey.mis.ccu.edu.tw.
+			PTR	cclab.mis.ccu.edu.tw.
+			PTR	issurvey.mis.ccu.edu.tw.
+226			PTR	submission.mis.ccu.edu.tw.
+227			PTR	cmca.mis.ccu.edu.tw.
+25			PTR	ms.mis.ccu.edu.tw.
+28			PTR	ns2.mis.ccu.edu.tw.
+3			PTR	mailer.mis.ccu.edu.tw.
+7			PTR	www.mis.ccu.edu.tw.
+8			PTR	jennan.mis.ccu.edu.tw.
+96			PTR	sa.mis.ccu.edu.tw.

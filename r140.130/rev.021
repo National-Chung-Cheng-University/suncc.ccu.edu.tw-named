@@ -1,0 +1,10 @@
+$ORIGIN .
+$TTL 38400	; 10 hours 40 minutes
+21.130.140.in-addr.arpa	IN SOA	dns.nfu.edu.tw. root.dns.nfu.edu.tw. (
+				2010082711 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				86400      ; expire (1 day)
+				38400      ; minimum (10 hours 40 minutes)
+				)
+			NS	dns.nfu.edu.tw.

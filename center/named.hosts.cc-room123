@@ -1,0 +1,21 @@
+;
+;	laputa: /var/named/named.hosts.cc
+;
+;	laputa.ccu.edu.tw zone hosts file for cc.ccu.edu.tw
+;
+$ORIGIN	cc-room123.ccu.edu.tw.
+$TTL	360000
+@       IN      SOA 	suncc.ccu.edu.tw.     root.suncc.ccu.edu.tw.  (
+			2002052301   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+; room 123 for computer center
+pc05	IN	A	140.123.15.5
+pc15	IN	A	140.123.15.15
+pc16	IN	A	140.123.15.16

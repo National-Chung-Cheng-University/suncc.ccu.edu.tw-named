@@ -1,0 +1,95 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	lab.ccu.edu.tw.
+$TTL	360000
+
+@       IN      SOA 	suncc.ccu.edu.tw.     root.suncc.ccu.edu.tw.  (
+			20000922801   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+
+
+alphonse	IN	A	140.123.19.91
+news		IN	CNAME	alphonse.lab.ccu.edu.tw.
+
+atlas		IN	A	140.123.19.92
+
+lodoss		IN	A	140.123.19.93
+		IN	MX	0 lodoss.lab.ccu.edu.tw.
+
+norma		IN	A	140.123.19.94
+
+linux		IN	A	140.123.19.156
+		IN	MX	0 suncc.ccu.edu.tw.
+sybase		IN	CNAME	linux.lab.ccu.edu.tw.
+
+gaia		IN	A	140.123.19.157
+		IN	MX	0 suncc.ccu.edu.tw.
+freebsd		IN	CNAME	gaia.lab.ccu.edu.tw.
+
+chen		IN	A	140.123.19.158
+
+sustain		IN	A	140.123.40.207
+
+slow		IN	A	140.123.40.208
+                IN      MX      0  slow.ccu.edu.tw.
+		IN	MX	10 suncc.ccu.edu.tw.
+                IN      MX      20 relay.ccu.edu.tw.
+                IN      MX      30 relay.edu.tw.
+
+sparc		IN	A	140.123.19.160
+tek		IN	A	140.123.19.180
+
+cache		IN	A	163.28.96.15
+		IN	MX	0 suncc.ccu.edu.tw.
+
+alpha		IN	CNAME	cache.lab.ccu.edu.tw.
+
+
+kitty		IN	A	140.123.19.96
+daniel		IN	A	140.123.19.97
+
+kittyfamily	IN	CNAME	misftp.cc.ccu.edu.tw.
+;kittyfamily	IN	A	140.123.19.96
+;		IN	A	140.123.19.97
+
+kittyland	IN	A	140.123.19.96
+ 		IN	A	140.123.19.97
+
+lab80		IN	A	140.123.19.80
+lab81		IN	A	140.123.19.81
+lab82		IN	A	140.123.19.82
+lab83		IN	A	140.123.19.83
+lab84		IN	A	140.123.19.84
+lab85		IN	A	140.123.19.85
+lab86		IN	A	140.123.19.86
+lab87		IN	A	140.123.19.87
+lab88		IN	A	140.123.19.88
+lab89		IN	A	140.123.19.89
+lab90		IN	A	140.123.19.90
+lab231		IN	A	140.123.19.231
+lab232		IN	A	140.123.19.232
+lab233		IN	A	140.123.19.233
+lab234		IN	A	140.123.19.234
+lab235		IN	A	140.123.19.235
+lab236		IN	A	140.123.19.236
+lab237		IN	A	140.123.19.237
+lab238		IN	A	140.123.19.238
+lab239		IN	A	140.123.19.239
+lab240		IN	A	140.123.19.240
+lab241		IN	A	140.123.19.241
+lab242		IN	A	140.123.19.242
+lab243		IN	A	140.123.19.243
+lab244		IN	A	140.123.19.244
+lab245		IN	A	140.123.19.245
+lab246		IN	A	140.123.19.246
+lab247		IN	A	140.123.19.247
+lab248		IN	A	140.123.19.248

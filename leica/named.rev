@@ -1,0 +1,36 @@
+;
+;	leica: /var/named/named.rev
+;
+;	adm.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 123.140.in-addr.arpa.
+@       IN      SOA     leica.ccu.edu.tw.       root.leica.ccu.edu.tw.  (
+			1999033001   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600         ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	leica.ccu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+
+
+19.35.123.140.in-addr.arpa.	PTR	osago4.adm.ccu.edu.tw.
+202.20.123.140.in-addr.arpa.	PTR	heago4.adm.ccu.edu.tw.
+169.31.123.140.in-addr.arpa.	PTR	accgo4.adm.ccu.edu.tw.
+199.62.123.140.in-addr.arpa.	PTR	scigo4.adm.ccu.edu.tw.
+199.101.123.140.in-addr.arpa.	PTR	enggo4.adm.ccu.edu.tw.
+199.189.123.140.in-addr.arpa.	PTR	socgo4.adm.ccu.edu.tw.
+199.161.123.140.in-addr.arpa.	PTR	mgtgo4.adm.ccu.edu.tw.
+200.10.123.140.in-addr.arpa.	PTR	xxgo4.adm.ccu.edu.tw.
+200.20.123.140.in-addr.arpa.	PTR	ccgo4.adm.ccu.edu.tw.
+1.24.123.140.in-addr.arpa.	PTR	avgo4.adm.ccu.edu.tw.
+40.33.123.140.in-addr.arpa.	PTR	asgo4.adm.ccu.edu.tw.
+103.33.123.140.in-addr.arpa.	PTR	aego4.adm.ccu.edu.tw.
+201.20.123.140.in-addr.arpa.	PTR     exgo4.adm.ccu.edu.tw.
+30.37.123.140.in-addr.arpa.	PTR	gago4.adm.ccu.edu.tw.
+73.21.123.140.in-addr.arpa.	PTR	libgo4.adm.ccu.edu.tw.
+68.31.123.140.in-addr.arpa.	PTR	pogo4.adm.ccu.edu.tw.
+39.31.123.140.in-addr.arpa.	PTR	sego4.adm.ccu.edu.tw.
+202.76.123.140.in-addr.arpa.	PTR	chemgo4.adm.ccu.edu.tw.
+140.31.123.140.in-addr.arpa.	PTR	ais.adm.ccu.edu.tw.
+

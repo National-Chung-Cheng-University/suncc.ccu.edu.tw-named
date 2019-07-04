@@ -1,0 +1,15 @@
+;
+;	suncc: /var/named/named.local
+;
+;	ccu zone named.local for server suncc
+;
+;
+$ORIGIN 0.0.127.in-addr.arpa.
+@	IN	SOA	suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			1999072901 ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+1		IN	PTR	localhost.

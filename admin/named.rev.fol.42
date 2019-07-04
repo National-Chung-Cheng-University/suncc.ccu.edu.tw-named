@@ -1,0 +1,28 @@
+;
+;	leica: /var/named/named.rev
+;
+;	adm.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 42.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.       root.suncc.ccu.edu.tw.  (
+			2009022401   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600         ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+
+
+1	PTR	apollo.fol.ccu.edu.tw.
+2	PTR	www.english.ccu.edu.tw.
+3	PTR	english.ccu.edu.tw.
+;2	PTR	www2.apollo.ccu.edu.tw.
+;3	PTR	www3.apollo.ccu.edu.tw.
+68	PTR	allen.fol.ccu.edu.tw.
+84	PTR	aadfll.ccu.edu.tw.
+99	PTR	wenjia.apollo.ccu.edu.tw.
+;121	PTR	medievalcenter.ccu.edu.tw.
+;123	PTR	postcolonialcenter.ccu.edu.tw.
+

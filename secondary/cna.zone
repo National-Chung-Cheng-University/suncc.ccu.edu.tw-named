@@ -1,0 +1,154 @@
+$ORIGIN .
+$TTL 172800	; 2 days
+cna.ccu.edu.tw		IN SOA	dns.cna.ccu.edu.tw. root.cna.ccu.edu.tw. (
+				2011053103 ; serial
+				21600      ; refresh (6 hours)
+				10800      ; retry (3 hours)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	dns.cna.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+			A	140.123.241.15
+			MX	0 Mail.cna.ccu.edu.tw.
+$ORIGIN cna.ccu.edu.tw.
+Aeolian			A	140.123.242.24
+Apr			A	140.123.20.34
+Aug			A	140.123.20.38
+BBS			A	140.123.20.9
+BLACKTEA		A	140.123.242.104
+BSD-01			A	140.123.20.11
+BSD-02			A	140.123.20.12
+BSD-03			A	140.123.20.13
+BSD-04			A	140.123.20.14
+BSD-05			A	140.123.20.15
+BSD-06			A	140.123.20.16
+BSD-07			A	140.123.20.17
+BSD-08			A	140.123.20.18
+BSD-09			A	140.123.20.19
+BSD-10			A	140.123.20.20
+CCNA			CNAME	BBS
+CCUWF			CNAME	Rebecca
+CD			A	140.123.20.230
+			MX	0 140.123.20.230
+CDMail			A	140.123.20.130
+CIA			A	140.123.20.99
+Clover			A	140.123.242.50
+COFFEE			A	140.123.242.103
+Craps			A	140.123.20.119
+CVSup			CNAME	ftp
+Dec			A	140.123.20.42
+DNS			A	140.123.241.5
+Drill			A	140.123.20.201
+ds			A	140.123.242.101
+edupack			A	140.123.29.14
+EE90			CNAME	Rebecca
+Esor			A	140.123.214.8
+Feb			A	140.123.20.32
+force			A	140.123.20.58
+FourLeaf		A	140.123.242.178
+FreeBSD			A	140.123.20.73
+Fri			A	140.123.20.47
+FTP			A	140.123.20.4
+			A	140.123.20.100
+garma			A	140.123.20.69
+Gateway			A	140.123.20.250
+GFEC			A	140.123.20.119
+Green			A	140.123.242.10
+Hackerslab		A	140.123.20.200
+hermitage		A	140.123.20.63
+homeni			A	140.123.20.140
+icemango		A	140.123.242.29
+injoy			A	140.123.20.91
+IRC			A	140.123.20.8
+ISTREAM			A	140.123.242.110
+ItsMe			A	140.123.20.61
+Jan			A	140.123.20.31
+jedi			A	140.123.20.57
+jim			A	140.123.242.82
+jimftp1			A	140.123.242.83
+jimftp2			A	140.123.242.84
+Jul			A	140.123.20.37
+Jun			A	140.123.20.36
+knight			A	140.123.29.29
+Kudo			A	140.123.20.62
+linux			CNAME	ds
+LINUX-01		A	140.123.20.21
+LINUX-02		A	140.123.20.22
+LINUX-03		A	140.123.20.23
+LINUX-04		A	140.123.20.24
+LINUX-05		A	140.123.20.25
+LINUX-06		A	140.123.20.26
+LINUX-07		A	140.123.20.27
+LINUX-08		A	140.123.20.28
+LINUX-09		A	140.123.20.29
+LINUX-10		A	140.123.20.30
+Loved12			CNAME	Yier
+Luna			A	140.123.20.51
+Mail			A	140.123.241.15
+Mar			A	140.123.20.33
+maruko			A	140.123.20.55
+$TTL 60	; 1 minute
+maximum			A	140.123.242.20
+$TTL 172800	; 2 days
+May			A	140.123.20.35
+Memory7			CNAME	Seven
+MILKTEA			A	140.123.242.105
+Mon			A	140.123.20.43
+MUDWF			CNAME	Rebecca
+nadia			A	140.123.20.68
+NetFlow			A	140.123.20.7
+NEWS			A	140.123.20.6
+nickle			A	140.123.242.2
+nicklela		A	140.123.242.3
+Nov			A	140.123.20.41
+Oct			A	140.123.20.40
+OEVEIPO			A	140.123.20.232
+oocat			A	140.123.20.90
+OSs			A	140.123.20.201
+Phoenix			A	140.123.20.66
+Photo			CNAME	Mail
+pikachu			A	140.123.20.54
+Pilot			A	140.123.20.50
+Polaris			A	140.123.242.130
+POP3			CNAME	Mail
+PROXY			A	140.123.20.5
+rebecca			A	140.123.242.123
+rk87			A	140.123.29.15
+			MX	0 rk87mail
+rk87app			NS	DNS
+rk87m			A	140.123.29.68
+			MX	0 rk87m
+rk87mail		A	140.123.29.12
+rosemary		A	140.123.242.111
+Sat			A	140.123.20.48
+Sep			A	140.123.20.39
+Seven			A	140.123.20.77
+sith			A	140.123.20.59
+SMTP			CNAME	Mail
+StarTrek		A	140.123.20.52
+Sun			A	140.123.20.49
+TAMA			A	140.123.20.107
+TEA			A	140.123.242.102
+TEC			A	140.123.20.100
+Thu			A	140.123.20.46
+tiger2			A	140.123.20.56
+TIME			A	140.123.20.10
+Tue			A	140.123.20.44
+waltdisney		A	140.123.20.111
+WarGame			A	140.123.20.200
+$ORIGIN WarGame.cna.ccu.edu.tw.
+Admin			CNAME	WarGame.cna.ccu.edu.tw.
+$ORIGIN cna.ccu.edu.tw.
+Wed			A	140.123.20.45
+week			CNAME	Mail
+WF			CNAME	Rebecca
+Wiki			CNAME	Mail
+Windward		CNAME	Aeolian
+WWW			CNAME	Mail
+X-File			A	140.123.20.53
+xhosts			A	140.123.29.19
+Yeah			A	140.123.242.168
+Yggdrasil		CNAME	maximum
+yier			A	140.123.242.121
+YP			A	140.123.20.3

@@ -1,0 +1,14 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'edu.tw'   last serial 199910041
+; from 140.111.1.2   at Tue Oct  5 21:07:46 1999
+$ORIGIN tw.
+edu		IN	SOA	moevax.edu.tw. sanger.moers4.edu.tw. (
+		199910051 21600 7200 3600000 172800 )
+	518400	IN	NS	moesun.edu.tw.
+	518400	IN	NS	moevax.edu.tw.
+$ORIGIN edu.tw.
+moesun	518400	IN	A	163.28.1.101
+	518400	IN	A	140.111.1.20
+moevax	518400	IN	A	140.111.1.2
+	518400	IN	A	163.28.1.2

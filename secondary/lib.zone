@@ -1,0 +1,65 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+lib.ccu.edu.tw		IN SOA	lib.ccu.edu.tw. root.lib.ccu.edu.tw. (
+				2012052801 ; serial
+				3600       ; refresh (1 hour)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.lib.ccu.edu.tw.
+			NS	libdns.lib.ccu.edu.tw.
+			A	140.123.22.212
+			MX	10 ASPMX.L.GOOGLE.COM.
+			MX	20 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	20 ALT2.ASPMX.L.GOOGLE.COM.
+			MX	30 ASPMX2.GOOGLEMAIL.COM.
+			MX	30 ASPMX3.GOOGLEMAIL.COM.
+			MX	30 ASPMX4.GOOGLEMAIL.COM.
+			MX	30 ASPMX5.GOOGLEMAIL.COM.
+			TXT	"v=spf1 ip4:140.123.0.0/16 a:outgoing.ccu.edu.tw a:mail118.ccu.edu.tw a:mail119.ccu.edu.tw include:_spf.google.com ~all"
+$ORIGIN lib.ccu.edu.tw.
+aleph			A	140.123.21.27
+bluesway		A	140.123.21.21
+booksearch		A	140.123.21.39
+ccur			A	140.123.22.7
+ccuur			A	140.123.22.17
+cdrom			A	140.123.21.10
+dns			A	140.123.21.212
+elearning		A	140.123.24.11
+eso			A	140.123.21.31
+ethesys			A	140.123.21.164
+findit			CNAME	meta
+gallery			A	140.123.24.7
+googleffffffff94db710c	CNAME	google.com.
+joy			A	140.123.22.214
+libapps			A	140.123.24.59
+libdns			A	140.123.22.212
+libdue			A	140.123.22.19
+libmail			CNAME	lib.ccu.edu.tw.
+libproxy		A	140.123.22.13
+libserroom		A	140.123.21.17
+libwebpac		A	140.123.21.6
+life			A	140.123.22.33
+ltcs			A	140.123.21.169
+m			A	140.123.22.192
+mahout			A	140.123.24.68
+mail			CNAME	ghs.l.google.com.
+media			A	140.123.24.8
+meta			A	140.123.21.28
+muse			A	140.123.22.230
+nas			A	140.123.21.246
+nsc			CNAME	7-up
+photo			A	140.123.22.9
+proxy			A	140.123.22.20
+$ORIGIN proxy.lib.ccu.edu.tw.
+*			A	140.123.22.20
+$ORIGIN lib.ccu.edu.tw.
+ri			A	140.123.21.26
+room			A	140.123.22.40
+service			CNAME	libserroom
+sites			CNAME	ghs.google.com.
+speech			A	140.123.22.31
+vcat			A	140.123.22.10
+webpac			A	140.123.21.5
+www			A	140.123.22.215

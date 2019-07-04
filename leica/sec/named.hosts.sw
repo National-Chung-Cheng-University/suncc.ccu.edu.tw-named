@@ -1,0 +1,202 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'sw.ccu.edu.tw'   last serial 1999063001
+; from 140.123.181.1   at Mon Aug  9 10:04:59 1999
+$ORIGIN ccu.edu.tw.
+sw		IN	SOA	sw.ccu.edu.tw. root.sw.ccu.edu.tw. (
+		1999063002 21600 3600 1209600 172800 )
+		IN	NS	sw.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+		IN	NS	leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+		IN	A	140.123.181.1
+		IN	MX	0 sw.ccu.edu.tw.
+$ORIGIN sw.ccu.edu.tw.
+sow353		IN	A	140.123.181.10
+www2		IN	CNAME	tiger.sw.ccu.edu.tw.
+sow357		IN	A	140.123.181.24
+localhost	IN	A	127.0.0.1
+sow36601	IN	A	140.123.182.101
+sow33001	IN	A	140.123.182.111
+sow36602	IN	A	140.123.182.103
+sow365		IN	A	140.123.182.152
+		IN	A	140.123.182.153
+sow33002	IN	A	140.123.182.112
+sow36603	IN	A	140.123.182.105
+sow33003	IN	A	140.123.182.113
+sow36604	IN	A	140.123.182.107
+sow33004	IN	A	140.123.182.114
+sow36605	IN	A	140.123.182.109
+sow33005	IN	A	140.123.182.115
+sow33006	IN	A	140.123.182.116
+gopher		IN	CNAME	isw2.sw.ccu.edu.tw.
+		IN	MX	0 sw.ccu.edu.tw.
+sow33007	IN	A	140.123.182.117
+york		IN	CNAME	mice.sw.ccu.edu.tw.
+sow33010	IN	A	140.123.182.120
+sow33008	IN	A	140.123.182.118
+sow33011	IN	A	140.123.182.121
+sow33009	IN	A	140.123.182.119
+pc		IN	A	140.123.181.148
+sow33012	IN	A	140.123.182.122
+mis		IN	A	140.123.181.50
+		IN	WKS	140.123.181.50 udp 
+		IN	WKS	140.123.181.50 tcp 
+		IN	MX	0 mis.sw.ccu.edu.tw.
+		IN	MX	5 sw.ccu.edu.tw.
+sow33013	IN	A	140.123.182.123
+sow33014	IN	A	140.123.182.124
+sow33015	IN	A	140.123.182.125
+tiger		IN	A	140.123.182.222
+		IN	WKS	140.123.182.222 udp 
+		IN	WKS	140.123.182.222 tcp 
+		IN	MX	0 tiger.sw.ccu.edu.tw.
+		IN	MX	5 sw.ccu.edu.tw.
+cd		IN	A	140.123.181.7
+director	IN	A	140.123.181.53
+mice		IN	A	140.123.181.27
+		IN	MX	0 mice.sw.ccu.edu.tw.
+router2		IN	A	140.123.182.250
+sow234		IN	A	140.123.181.62
+sow235		IN	A	140.123.181.63
+isw2		IN	A	140.123.181.2
+anress		IN	A	140.123.181.222
+isw5		IN	A	140.123.181.5
+		IN	CNAME	isw5.sw.ccu.edu.tw.
+		IN	MX	0 isw5.sw.ccu.edu.tw.
+		IN	MX	5 sw.ccu.edu.tw.
+isw6		IN	A	140.123.181.6
+		IN	MX	0 isw6.sw.ccu.edu.tw.
+		IN	MX	5 sw.ccu.edu.tw.
+sow243		IN	A	140.123.181.79
+linux		IN	CNAME	swsun1.sw.ccu.edu.tw.
+		IN	WKS	140.123.181.149 udp 
+		IN	WKS	140.123.181.149 255 
+		IN	MX	0 swsun1.sw.ccu.edu.tw.sw.ccu.edu.tw.
+sow244		IN	A	140.123.181.78
+daemon		IN	A	140.123.181.3
+		IN	WKS	140.123.181.3 udp 
+		IN	WKS	140.123.181.3 tcp 
+		IN	MX	0 sw.ccu.edu.tw.
+router		IN	A	140.123.181.250
+sow245		IN	A	140.123.181.77
+isw9		IN	A	140.123.181.9
+		IN	WKS	140.123.181.9 udp 
+		IN	WKS	140.123.181.9 tcp 
+		IN	MX	0 sw.ccu.edu.tw.
+sow246		IN	A	140.123.181.76
+sow247		IN	A	140.123.181.75
+sow35401	IN	A	140.123.182.11
+sow35402	IN	A	140.123.182.12
+sow251		IN	A	140.123.181.69
+sow35403	IN	A	140.123.182.13
+sow252		IN	A	140.123.181.68
+sow35404	IN	A	140.123.182.14
+sow35405	IN	A	140.123.182.15
+sow254		IN	A	140.123.181.66
+tmw		IN	A	140.123.181.11
+		IN	HINFO	"P2-300" "PC"
+sow35406	IN	A	140.123.182.16
+sow35407	IN	A	140.123.182.17
+pro		IN	A	140.123.181.100
+		IN	WKS	140.123.181.100 udp 
+		IN	WKS	140.123.181.100 tcp 
+		IN	MX	0 sw.ccu.edu.tw.
+sow256		IN	A	140.123.181.64
+sow35410	IN	A	140.123.182.20
+sow35408	IN	A	140.123.182.18
+pc01		IN	A	140.123.181.121
+sow24902	IN	A	140.123.181.41
+sow35411	IN	A	140.123.182.21
+sow35409	IN	A	140.123.182.19
+swsun1		IN	A	140.123.181.149
+pc02		IN	A	140.123.181.122
+sow24903	IN	A	140.123.181.42
+pc03		IN	A	140.123.181.123
+pc04		IN	A	140.123.181.124
+mis2		IN	A	140.123.181.49
+		IN	WKS	140.123.181.49 udp 
+		IN	WKS	140.123.181.49 tcp 
+		IN	MX	0 mis2.sw.ccu.edu.tw.
+		IN	MX	5 sw.ccu.edu.tw.
+sow36501	IN	A	140.123.182.102
+pc05		IN	A	140.123.181.125
+sow36502	IN	A	140.123.182.104
+pc06		IN	A	140.123.181.126
+sow36503	IN	A	140.123.182.106
+pc07		IN	A	140.123.181.127
+sow36504	IN	A	140.123.182.108
+pc10		IN	A	140.123.181.130
+pc08		IN	A	140.123.181.128
+sow36505	IN	A	140.123.182.110
+pc11		IN	A	140.123.181.131
+pc09		IN	A	140.123.181.129
+sw		IN	WKS	140.123.181.1 tcp 
+		IN	WKS	140.123.181.1 udp 
+		IN	MX	0 sw.ccu.edu.tw.
+		IN	A	140.123.181.1
+pc12		IN	A	140.123.181.132
+pc13		IN	A	140.123.181.133
+ps3		IN	A	140.123.182.100
+pc14		IN	A	140.123.181.134
+pc15		IN	A	140.123.181.135
+yeh		IN	A	140.123.181.33
+pc16		IN	A	140.123.181.136
+pc17		IN	A	140.123.181.137
+pc20		IN	A	140.123.181.140
+pc18		IN	A	140.123.181.138
+pc21		IN	A	140.123.181.141
+pc19		IN	A	140.123.181.139
+pc22		IN	A	140.123.181.142
+pc23		IN	A	140.123.181.143
+sjs		IN	A	140.123.181.80
+pc24		IN	A	140.123.181.144
+isw		IN	CNAME	sw.sw.ccu.edu.tw.
+pcroom		IN	CNAME	pc.sw.ccu.edu.tw.
+		IN	WKS	140.123.181.148 udp 
+		IN	WKS	140.123.181.148 tcp 
+		IN	MX	0 sw.ccu.edu.tw.
+welfare		IN	A	140.123.181.8
+		IN	MX	0 sw.ccu.edu.tw.
+teapot		IN	A	140.123.182.133
+runner		IN	CNAME	jrc.sw.ccu.edu.tw.
+hcc		IN	A	140.123.181.45
+		IN	WKS	140.123.181.45 udp 
+		IN	WKS	140.123.181.45 tcp 
+		IN	MX	0 hcc.sw.ccu.edu.tw.
+		IN	MX	5 sw.ccu.edu.tw.
+swlab		IN	A	140.123.181.101
+sow36201	IN	A	140.123.182.126
+sow330		IN	A	140.123.182.151
+sow23001	IN	A	140.123.181.51
+sow23002	IN	A	140.123.181.52
+sow23003	IN	A	140.123.181.54
+www		IN	CNAME	sw.sw.ccu.edu.tw.
+sow333		IN	A	140.123.181.23
+lab		IN	CNAME	pro.sw.ccu.edu.tw.
+sow335		IN	A	140.123.181.22
+sow340		IN	A	140.123.181.20
+gateway		IN	A	140.123.181.255
+sow341		IN	A	140.123.181.19
+sow342		IN	A	140.123.181.18
+pico		IN	A	140.123.181.4
+		IN	WKS	140.123.181.4 tcp 
+		IN	WKS	140.123.181.4 udp 
+		IN	MX	0 sw.ccu.edu.tw.
+		IN	A	140.123.182.1
+		IN	WKS	140.123.182.1 255 
+		IN	WKS	140.123.182.1 tcp 
+sow343		IN	A	140.123.181.17
+cat		IN	A	140.123.181.26
+		IN	WKS	140.123.181.26 udp 
+		IN	WKS	140.123.181.26 tcp 
+		IN	MX	0 cat.sw.ccu.edu.tw.
+		IN	MX	5 sw.ccu.edu.tw.
+ftp		IN	CNAME	sw.sw.ccu.edu.tw.
+sow345		IN	A	140.123.181.16
+jrc		IN	A	140.123.181.25
+		IN	HINFO	"K6-233" "PC"
+sow347		IN	A	140.123.181.15
+sow350		IN	A	140.123.181.13
+sow351		IN	A	140.123.181.12
+sow349		IN	A	140.123.181.14

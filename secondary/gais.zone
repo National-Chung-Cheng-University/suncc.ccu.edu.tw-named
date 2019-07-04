@@ -1,0 +1,43 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+gais.ccu.edu.tw		IN SOA	gais.ccu.edu.tw. tht96.gais.cs.ccu.edu.tw. (
+				2010123101 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.gais.ccu.edu.tw.
+			NS	ns1.gais.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+			A	140.123.100.1
+$ORIGIN gais.ccu.edu.tw.
+dns			A	140.123.100.1
+mk1			CNAME	gais.ccu.edu.tw.
+mk10			A	140.123.100.10
+mk11			A	140.123.100.11
+mk12			A	140.123.100.12
+mk13			A	140.123.100.13
+mk14			A	140.123.100.14
+mk15			A	140.123.100.15
+mk16			A	140.123.100.16
+mk17			A	140.123.100.17
+mk18			A	140.123.100.18
+mk19			A	140.123.100.19
+mk2			A	140.123.100.2
+mk20			A	140.123.100.20
+mk21			A	140.123.100.21
+mk22			A	140.123.100.22
+mk23			A	140.123.100.23
+mk24			A	140.123.100.24
+mk25			A	140.123.100.25
+mk26			A	140.123.100.26
+mk3			A	140.123.100.3
+mk4			A	140.123.100.4
+mk5			A	140.123.100.5
+mk6			A	140.123.100.6
+mk7			A	140.123.100.7
+mk8			A	140.123.100.8
+mk9			A	140.123.100.9
+netkvm			A	140.123.100.30
+ns1			A	140.123.100.1

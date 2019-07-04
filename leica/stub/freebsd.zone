@@ -1,0 +1,33 @@
+; BIND version named 8.1.2 Tue Jun  9 13:26:47 CST 1998
+; BIND version shchen@leica:/leica/center/root/bind/src/bin/named
+; zone 'freebsd.org'   last serial 99093000
+; from 204.216.27.3   at Mon Oct 11 09:01:21 1999
+$ORIGIN org.
+freebsd		IN	SOA	implode.root.com. hostmaster.freebsd.org. (
+		99101000 3600 900 604800 3600 )
+		IN	NS	who.cdrom.com.
+		IN	NS	ns1.crl.com.
+		IN	NS	ns2.crl.com.
+		IN	NS	ns1.iafrica.com.
+		IN	NS	ns2.iafrica.com.
+		IN	NS	ns.gnome.co.uk.
+		IN	NS	ns1.root.com.
+; Ignoring info about who.cdrom.com, not in zone freebsd.org.
+; $ORIGIN cdrom.com.
+; who		IN	A	204.216.27.3
+; Ignoring info about ns1.crl.com, not in zone freebsd.org.
+; $ORIGIN crl.com.
+; ns1	123429	IN	A	165.113.1.36
+; Ignoring info about ns2.crl.com, not in zone freebsd.org.
+; ns2	123429	IN	A	165.113.61.37
+; Ignoring info about ns1.iafrica.com, not in zone freebsd.org.
+; $ORIGIN iafrica.com.
+; ns1	10898	IN	A	196.7.0.139
+; Ignoring info about ns2.iafrica.com, not in zone freebsd.org.
+; ns2	10194	IN	A	196.7.142.133
+; Ignoring info about ns.gnome.co.uk, not in zone freebsd.org.
+; $ORIGIN gnome.co.uk.
+; ns	69911	IN	A	193.243.228.142
+; Ignoring info about ns1.root.com, not in zone freebsd.org.
+; $ORIGIN root.com.
+; ns1	43200	IN	A	209.102.106.178

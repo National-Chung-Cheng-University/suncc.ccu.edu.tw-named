@@ -1,0 +1,10 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+100.113.120.in-addr.arpa IN SOA	dns.nfu.edu.tw. postmaster.dns.nfu.edu.tw. (
+				1311843252 ; serial
+				43200      ; refresh (12 hours)
+				3600       ; retry (1 hour)
+				604800     ; expire (1 week)
+				38400      ; minimum (10 hours 40 minutes)
+				)
+			NS	dns.nfu.edu.tw.

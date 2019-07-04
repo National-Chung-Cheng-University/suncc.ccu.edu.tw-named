@@ -1,0 +1,10 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+89.130.140.in-addr.arpa	IN SOA	dns.bme.ncyu.edu.tw. root.dns.bme.ncyu.edu.tw. (
+				2002012001 ; serial
+				10800      ; refresh (3 hours)
+				3600       ; retry (1 hour)
+				3600000    ; expire (5 weeks 6 days 16 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	dns.bme.ncyu.edu.tw.

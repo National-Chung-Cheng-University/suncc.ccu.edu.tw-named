@@ -1,0 +1,45 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	exam.ccu.edu.tw.
+$TTL	360000
+
+@       IN      SOA 	suncc.ccu.edu.tw.     root.suncc.ccu.edu.tw.  (
+			2007110502   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	ccunix.ccu.edu.tw.
+
+www	IN	A	140.123.33.51
+
+www1	IN	A	140.123.33.50
+
+www2	IN	A	140.123.33.57
+
+atm	IN	A	140.123.33.51
+
+server	IN	A	140.123.33.57
+	IN	MX	0 server.exam.ccu.edu.tw.
+
+server1	IN	A	140.123.33.58
+	IN	MX	0 server1.exam.ccu.edu.tw.
+
+server3	IN	A	140.123.33.59
+www3	IN	CNAME	server3.exam.ccu.edu.tw.
+
+server4	IN	A	140.123.33.60
+www4	IN	CNAME	server4.exam.ccu.edu.tw.
+
+s1	IN	A	140.123.33.61
+www5	IN	CNAME	s1.exam.ccu.edu.tw.
+server5	IN	CNAME	s1.exam.ccu.edu.tw.
+
+s2	IN	A	140.123.33.62
+www6	IN	CNAME	s2.exam.ccu.edu.tw.
+server6	IN	CNAME	s2.exam.ccu.edu.tw.
+

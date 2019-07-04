@@ -1,0 +1,51 @@
+$ORIGIN .
+$TTL 600	; 10 minutes
+chem.ccu.edu.tw		IN SOA	www.chem.ccu.edu.tw. root.chem.ccu.edu.tw. (
+				2010042712 ; serial
+				28800      ; refresh (8 hours)
+				14400      ; retry (4 hours)
+				720000     ; expire (1 week 1 day 8 hours)
+				86400      ; minimum (1 day)
+				)
+			NS	www.chem.ccu.edu.tw.
+$ORIGIN chem.ccu.edu.tw.
+account			A	140.123.79.60
+Apollo			A	140.123.79.77
+Ares			A	140.123.79.94
+Athena			A	140.123.79.75
+Atlantis		A	140.123.79.92
+capricorn		A	140.123.79.59
+cefiro			A	140.123.79.63
+Challenger		A	140.123.79.85
+cluster			A	140.123.79.69
+Columbia		A	140.123.79.84
+diesel			A	140.123.79.70
+Discovery		A	140.123.79.91
+Enterprise		A	140.123.79.83
+faraday			A	140.123.79.73
+galaxy			A	140.123.79.81
+gemini			A	140.123.79.80
+Hercules		A	140.123.79.76
+Hubble			A	140.123.79.95
+irene			A	140.123.79.65
+juice			A	140.123.79.71
+kay			A	140.123.79.78
+lab409			A	140.123.79.88
+Libra			A	140.123.79.79
+MPI			A	140.123.79.56
+NFS			A	140.123.79.82
+nhnc			A	140.123.79.46
+odin			A	140.123.79.62
+orion			A	140.123.79.57
+oscar			A	140.123.79.89
+parallel		A	140.123.79.64
+sirius			A	140.123.79.72
+snoopy			A	140.123.79.66
+stargazer		A	140.123.79.67
+supernova		A	140.123.79.68
+Titan			A	140.123.79.93
+Venus			A	140.123.79.74
+virgo			A	140.123.79.58
+webmo			A	140.123.79.86
+www			A	140.123.79.90
+Zeus			A	140.123.79.61

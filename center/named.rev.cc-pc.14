@@ -1,0 +1,75 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 14.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.      root.suncc.ccu.edu.tw.  (
+			2010091601   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	ccunix.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+0	IN	PTR	r109net.cc-pc.ccu.edu.tw.
+1	IN	PTR	r109-01.cc-pc.ccu.edu.tw.
+2	IN	PTR	r109-02.cc-pc.ccu.edu.tw.
+3	IN	PTR	r109-03.cc-pc.ccu.edu.tw.
+4	IN	PTR	r109-04.cc-pc.ccu.edu.tw.
+5	IN	PTR	r109-05.cc-pc.ccu.edu.tw.
+6	IN	PTR	r109-06.cc-pc.ccu.edu.tw.
+7	IN	PTR	r109-07.cc-pc.ccu.edu.tw.
+8	IN	PTR	r109-08.cc-pc.ccu.edu.tw.
+9	IN	PTR	r109-09.cc-pc.ccu.edu.tw.
+10	IN	PTR	r109-10.cc-pc.ccu.edu.tw.
+11	IN	PTR	r109-11.cc-pc.ccu.edu.tw.
+12	IN	PTR	r109-12.cc-pc.ccu.edu.tw.
+13	IN	PTR	r109-13.cc-pc.ccu.edu.tw.
+14	IN	PTR	r109-14.cc-pc.ccu.edu.tw.
+15	IN	PTR	r109-15.cc-pc.ccu.edu.tw.
+16	IN	PTR	r109-16.cc-pc.ccu.edu.tw.
+17	IN	PTR	r109-17.cc-pc.ccu.edu.tw.
+18	IN	PTR	r109-18.cc-pc.ccu.edu.tw.
+19	IN	PTR	r109-19.cc-pc.ccu.edu.tw.
+20	IN	PTR	r109-20.cc-pc.ccu.edu.tw.
+21	IN	PTR	r109-21.cc-pc.ccu.edu.tw.
+22	IN	PTR	r109-22.cc-pc.ccu.edu.tw.
+23	IN	PTR	r109-23.cc-pc.ccu.edu.tw.
+24	IN	PTR	r109-24.cc-pc.ccu.edu.tw.
+25	IN	PTR	r109-25.cc-pc.ccu.edu.tw.
+26	IN	PTR	r109-26.cc-pc.ccu.edu.tw.
+27	IN	PTR	r109-27.cc-pc.ccu.edu.tw.
+28	IN	PTR	r109-28.cc-pc.ccu.edu.tw.
+29	IN	PTR	r109-29.cc-pc.ccu.edu.tw.
+30	IN	PTR	r109-30.cc-pc.ccu.edu.tw.
+31	IN	PTR	r109-31.cc-pc.ccu.edu.tw.
+32	IN	PTR	r109-32.cc-pc.ccu.edu.tw.
+33	IN	PTR	r109-33.cc-pc.ccu.edu.tw.
+34	IN	PTR	r109-34.cc-pc.ccu.edu.tw.
+35	IN	PTR	r109-35.cc-pc.ccu.edu.tw.
+36	IN	PTR	r109-36.cc-pc.ccu.edu.tw.
+37	IN	PTR	r109-37.cc-pc.ccu.edu.tw.
+38	IN	PTR	r109-38.cc-pc.ccu.edu.tw.
+39	IN	PTR	r109-39.cc-pc.ccu.edu.tw.
+40	IN	PTR	r109-40.cc-pc.ccu.edu.tw.
+41	IN	PTR	r109-41.cc-pc.ccu.edu.tw.
+42	IN	PTR	r109-42.cc-pc.ccu.edu.tw.
+;
+;育成中心
+;120	IN	PTR	pcc-server.ccu.edu.tw.
+;104	IN	PTR	ccuincubat.ccu.edu.tw.
+;133	IN	PTR	ccuincubat.ccu.edu.tw.
+130	IN	PTR	pdc-eserver.ccu.edu.tw.
+140	IN	PTR	nrws.ccu.edu.tw.
+;
+179	IN	PTR	handson.ccu.edu.tw.
+;196	IN	PTR	nano.ccu.edu.tw.
+182	IN	PTR	mx.ookon.com.
+;
+245	IN	PTR	lucy.cc.ccu.edu.tw.

@@ -1,0 +1,29 @@
+;
+;	laputa: /var/named/named.hosts.cc
+;
+;	laputa.ccu.edu.tw zone hosts file for cc.ccu.edu.tw
+;
+$ORIGIN	nopam.ccu.edu.tw.
+$TTL	360000
+@       IN      SOA 	suncc.ccu.edu.tw.     root.suncc.ccu.edu.tw.  (
+			2011052501   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	A	140.123.5.120
+
+; nopam subdomain
+
+www	IN	A	140.123.5.120
+spdb	IN	A	140.123.5.120
+;proxy	IN	A	140.123.26.155
+proxy	IN	A	140.123.5.152
+asp	IN	A	140.123.26.155
+proxy1 	IN	A 	140.123.5.154
+
+gsd  	IN	A	140.123.5.121
+gsd01	IN	A	140.123.5.121
+dns	IN	A	140.123.5.122
+warehouse	IN	A	140.123.5.123

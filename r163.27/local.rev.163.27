@@ -1,0 +1,494 @@
+$ORIGIN .
+$TTL 36000	; 10 hours
+27.163.in-addr.arpa	IN SOA	s1.ccu.edu.tw. root.s1.ccu.edu.tw. (
+				2010092401 ; serial
+				21600      ; refresh (6 hours)
+				1800       ; retry (30 minutes)
+				1209600    ; expire (2 weeks)
+				259200     ; minimum (3 days)
+				)
+			NS	s1.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+1			NS	dns.cy.edu.tw.
+$ORIGIN 1.27.163.in-addr.arpa.
+2			PTR	dns.cy.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+10			NS	dns.cy.edu.tw.
+100			NS	dns.cyc.edu.tw.
+101			NS	dns.cyc.edu.tw.
+102			NS	dns.cyc.edu.tw.
+103			NS	dns.cyc.edu.tw.
+104			NS	dns.cyc.edu.tw.
+105			NS	dns.cyc.edu.tw.
+106			NS	dns.cyc.edu.tw.
+107			NS	dns.cyc.edu.tw.
+108			NS	dns.cyc.edu.tw.
+109			NS	dns.cyc.edu.tw.
+11			NS	dns.cy.edu.tw.
+110			NS	dns.cyc.edu.tw.
+111			NS	dns.cyc.edu.tw.
+112			NS	dns.cyc.edu.tw.
+113			NS	dns.cyc.edu.tw.
+114			NS	dns.cyc.edu.tw.
+115			NS	dns.cyc.edu.tw.
+116			NS	dns.cyc.edu.tw.
+117			NS	dns.cyc.edu.tw.
+118			NS	dns.cyc.edu.tw.
+119			NS	dns.cyc.edu.tw.
+12			NS	dns.cy.edu.tw.
+120			NS	dns.tkvs.ylc.edu.tw.
+$ORIGIN 120.27.163.in-addr.arpa.
+1			PTR	dns.tkvs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+121			NS	tcvhs.ylc.edu.tw.
+$ORIGIN 121.27.163.in-addr.arpa.
+1			PTR	tcvhs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+122			NS	dns.ddvs.ylc.edu.tw.
+$ORIGIN 122.27.163.in-addr.arpa.
+1			PTR	dns.ddvs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+123			NS	dns.svsh.ylc.edu.tw.
+$ORIGIN 123.27.163.in-addr.arpa.
+1			PTR	dns.svsh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+124			NS	dns.tlhc.ylc.edu.tw.
+$ORIGIN 124.27.163.in-addr.arpa.
+1			PTR	dns.tlhc.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+125			NS	dns.tlsh.ylc.edu.tw.
+$ORIGIN 125.27.163.in-addr.arpa.
+1			PTR	dns.tlsh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+126			NS	ultra1.pksh.ylc.edu.tw.
+$ORIGIN 126.27.163.in-addr.arpa.
+1			PTR	ultra1.pksh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+127			NS	u1.pkvs.ylc.edu.tw.
+$ORIGIN 127.27.163.in-addr.arpa.
+1			PTR	u1.pkvs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+128			NS	ms1.gces.ylc.edu.tw.
+$ORIGIN 128.27.163.in-addr.arpa.
+1			PTR	ms1.gces.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+129			NS	ms1.tljh.ylc.edu.tw.
+$ORIGIN 129.27.163.in-addr.arpa.
+1			PTR	ms1.tljh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+13			NS	dns.cy.edu.tw.
+130			NS	ms1.sljh.ylc.edu.tw.
+$ORIGIN 130.27.163.in-addr.arpa.
+1			PTR	ms1.sljh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+131			NS	ms1.yles.ylc.edu.tw.
+$ORIGIN 131.27.163.in-addr.arpa.
+1			PTR	ms1.yles.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+132			NS	dns.yljh.ylc.edu.tw.
+$ORIGIN 132.27.163.in-addr.arpa.
+1			PTR	dns.yljh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+133			NS	ms1.jces.ylc.edu.tw.
+$ORIGIN 133.27.163.in-addr.arpa.
+1			PTR	ms1.jces.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+134			NS	ms1.jdps.ylc.edu.tw.
+$ORIGIN 134.27.163.in-addr.arpa.
+1			PTR	ms1.jdps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+135			NS	ms1.jnes.ylc.edu.tw.
+$ORIGIN 135.27.163.in-addr.arpa.
+1			PTR	ms1.jnes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+136			NS	ms1.kkes.ylc.edu.tw.
+$ORIGIN 136.27.163.in-addr.arpa.
+1			PTR	ms1.kkes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+137			NS	ms1.kkjh.ylc.edu.tw.
+$ORIGIN 137.27.163.in-addr.arpa.
+1			PTR	ms1.kkjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+138			NS	dns.thjh.ylc.edu.tw.
+$ORIGIN 138.27.163.in-addr.arpa.
+1			PTR	dns.thjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+139			NS	ms1.lnps.ylc.edu.tw.
+$ORIGIN 139.27.163.in-addr.arpa.
+1			PTR	ms1.lnps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+14			NS	dns.cy.edu.tw.
+140			NS	dns.imjh.ylc.edu.tw.
+$ORIGIN 140.27.163.in-addr.arpa.
+1			PTR	dns.imjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+141			NS	ms1.tnps.ylc.edu.tw.
+$ORIGIN 141.27.163.in-addr.arpa.
+1			PTR	ms1.tnps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+142			NS	ms1.tnjh.ylc.edu.tw.
+$ORIGIN 142.27.163.in-addr.arpa.
+1			PTR	ms1.tnjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+143			NS	ms1.tmjh.ylc.edu.tw.
+$ORIGIN 143.27.163.in-addr.arpa.
+1			PTR	ms1.tmjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+144			NS	ms1.cjnes.ylc.edu.tw.
+$ORIGIN 144.27.163.in-addr.arpa.
+1			PTR	ms1.cjnes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+145			NS	dns.ttps.ylc.edu.tw.
+$ORIGIN 145.27.163.in-addr.arpa.
+1			PTR	dns.ttps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+146			NS	dns.ttjh.ylc.edu.tw.
+$ORIGIN 146.27.163.in-addr.arpa.
+1			PTR	dns.ttjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+147			NS	ms1.dpps.ylc.edu.tw.
+$ORIGIN 147.27.163.in-addr.arpa.
+1			PTR	ms1.dpps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+148			NS	ms1.dpjh.ylc.edu.tw.
+$ORIGIN 148.27.163.in-addr.arpa.
+1			PTR	ms1.dpjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+149			NS	ms1.csps.ylc.edu.tw.
+$ORIGIN 149.27.163.in-addr.arpa.
+1			PTR	ms1.csps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+15			NS	dns.cy.edu.tw.
+150			NS	ms1.sljhs.ylc.edu.tw.
+$ORIGIN 150.27.163.in-addr.arpa.
+1			PTR	ms1.sljhs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+151			NS	dns.tnajh.ylc.edu.tw.
+$ORIGIN 151.27.163.in-addr.arpa.
+4			PTR	dns.tnajh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+152			NS	ms1.elps.ylc.edu.tw.
+$ORIGIN 152.27.163.in-addr.arpa.
+1			PTR	ms1.elps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+153			NS	ms1.eljh.ylc.edu.tw.
+$ORIGIN 153.27.163.in-addr.arpa.
+1			PTR	ms1.eljh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+154			NS	ms1.ljes.ylc.edu.tw.
+$ORIGIN 154.27.163.in-addr.arpa.
+1			PTR	ms1.ljes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+155			NS	ms1.hwes.ylc.edu.tw.
+$ORIGIN 155.27.163.in-addr.arpa.
+1			PTR	ms1.hwes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+156			NS	dns.hwjh.ylc.edu.tw.
+$ORIGIN 156.27.163.in-addr.arpa.
+1			PTR	dns.hwjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+157			NS	ms1.cdjh.ylc.edu.tw.
+$ORIGIN 157.27.163.in-addr.arpa.
+1			PTR	ms1.cdjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+158			NS	ms1.tkps.ylc.edu.tw.
+$ORIGIN 158.27.163.in-addr.arpa.
+1			PTR	ms1.tkps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+159			NS	dns.tkjh.ylc.edu.tw.
+$ORIGIN 159.27.163.in-addr.arpa.
+1			PTR	dns.tkjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+16			NS	dns.cy.edu.tw.
+160			NS	ms1.mkps.ylc.edu.tw.
+$ORIGIN 160.27.163.in-addr.arpa.
+1			PTR	ms1.mkps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+161			NS	ms1.mkjh.ylc.edu.tw.
+$ORIGIN 161.27.163.in-addr.arpa.
+1			PTR	ms1.mkjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+162			NS	ms1.bcps.ylc.edu.tw.
+$ORIGIN 162.27.163.in-addr.arpa.
+1			PTR	ms1.bcps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+163			NS	ms1.pcjh.ylc.edu.tw.
+$ORIGIN 163.27.163.in-addr.arpa.
+1			PTR	ms1.pcjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+164			NS	ms1.tsps.ylc.edu.tw.
+$ORIGIN 164.27.163.in-addr.arpa.
+1			PTR	ms1.tsps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+165			NS	ms1.tsjhs.ylc.edu.tw.
+$ORIGIN 165.27.163.in-addr.arpa.
+1			PTR	ms1.tsjhs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+166			NS	ms1.tsies.ylc.edu.tw.
+$ORIGIN 166.27.163.in-addr.arpa.
+1			PTR	ms1.tsies.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+167			NS	ms1.tsjh.ylc.edu.tw.
+$ORIGIN 167.27.163.in-addr.arpa.
+1			PTR	ms1.tsjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+168			NS	ms1.lpes.ylc.edu.tw.
+$ORIGIN 168.27.163.in-addr.arpa.
+1			PTR	ms1.lpes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+169			NS	dns.lpjh.ylc.edu.tw.
+$ORIGIN 169.27.163.in-addr.arpa.
+1			PTR	dns.lpjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+17			NS	dns.cy.edu.tw.
+170			NS	ms1.mles.ylc.edu.tw.
+$ORIGIN 170.27.163.in-addr.arpa.
+1			PTR	ms1.mles.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+171			NS	ms1.mljh.ylc.edu.tw.
+$ORIGIN 171.27.163.in-addr.arpa.
+1			PTR	ms1.mljh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+172			NS	ms1.bces.ylc.edu.tw.
+$ORIGIN 172.27.163.in-addr.arpa.
+1			PTR	ms1.bces.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+173			NS	dns.pljh.ylc.edu.tw.
+$ORIGIN 173.27.163.in-addr.arpa.
+1			PTR	dns.pljh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+174			NS	ms1.nyes.ylc.edu.tw.
+$ORIGIN 174.27.163.in-addr.arpa.
+1			PTR	ms1.nyes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+175			NS	ms1.jgjh.ylc.edu.tw.
+$ORIGIN 175.27.163.in-addr.arpa.
+1			PTR	ms1.jgjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+176			NS	ms1.yjes.ylc.edu.tw.
+$ORIGIN 176.27.163.in-addr.arpa.
+1			PTR	ms1.yjes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+177			NS	ms1.yjjh.ylc.edu.tw.
+$ORIGIN 177.27.163.in-addr.arpa.
+1			PTR	ms1.yjjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+178			NS	dns.shes.ylc.edu.tw.
+$ORIGIN 178.27.163.in-addr.arpa.
+1			PTR	dns.shes.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+179			NS	dns.shjh.ylc.edu.tw.
+$ORIGIN 179.27.163.in-addr.arpa.
+1			PTR	dns.shjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+18			NS	dns.cy.edu.tw.
+180			NS	ms1.fsjh.ylc.edu.tw.
+$ORIGIN 180.27.163.in-addr.arpa.
+1			PTR	ms1.fsjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+181			NS	ms1.khps.ylc.edu.tw.
+$ORIGIN 181.27.163.in-addr.arpa.
+1			PTR	ms1.khps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+182			NS	ms1.khjh.ylc.edu.tw.
+$ORIGIN 182.27.163.in-addr.arpa.
+1			PTR	ms1.khjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+183			NS	ms1.ywjh.ylc.edu.tw.
+$ORIGIN 183.27.163.in-addr.arpa.
+1			PTR	ms1.ywjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+184			NS	ms1.sles.ylc.edu.tw.
+$ORIGIN 184.27.163.in-addr.arpa.
+1			PTR	ms1.sles.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+185			NS	ms1.sljs.ylc.edu.tw.
+$ORIGIN 185.27.163.in-addr.arpa.
+1			PTR	ms1.sljs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+186			NS	ms1.nsjh.ylc.edu.tw.
+$ORIGIN 186.27.163.in-addr.arpa.
+1			PTR	ms1.nsjh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+187			NS	dns.ylc.edu.tw.
+188			NS	dns.ylc.edu.tw.
+189			NS	dns.ylc.edu.tw.
+19			NS	dns.cyc.edu.tw.
+190			NS	dns.ylc.edu.tw.
+191			NS	dns.ylc.edu.tw.
+192			NS	dns.ylc.edu.tw.
+193			NS	dns.ylc.edu.tw.
+194			NS	dns.ylc.edu.tw.
+195			NS	dns.ylc.edu.tw.
+196			NS	dns.ylc.edu.tw.
+197			NS	dns.ylc.edu.tw.
+198			NS	dns.ylc.edu.tw.
+199			NS	dns.ylc.edu.tw.
+2			NS	dns.cy.edu.tw.
+20			NS	dns.cyc.edu.tw.
+200			NS	dns.ylc.edu.tw.
+201			NS	dns.ylc.edu.tw.
+202			NS	dns.ylc.edu.tw.
+203			NS	dns.ylc.edu.tw.
+204			NS	dns.ylc.edu.tw.
+205			NS	dns.ylc.edu.tw.
+206			NS	dns.ylc.edu.tw.
+207			NS	dns.ylc.edu.tw.
+208			NS	dns.ylc.edu.tw.
+209			NS	dns.ylc.edu.tw.
+21			NS	dns.cyc.edu.tw.
+210			NS	dns.ylc.edu.tw.
+211			NS	dns.ylc.edu.tw.
+212			NS	dns.ylc.edu.tw.
+213			NS	dns.ylc.edu.tw.
+214			NS	dns.ylc.edu.tw.
+215			NS	dns.ylc.edu.tw.
+216			NS	dns.ylc.edu.tw.
+217			NS	dns.ylc.edu.tw.
+218			NS	dns.ylc.edu.tw.
+219			NS	dns.ylc.edu.tw.
+22			NS	dns.cyc.edu.tw.
+220			NS	dns.ylc.edu.tw.
+221			NS	dns.ylc.edu.tw.
+222			NS	dns.ylc.edu.tw.
+223			NS	dns.ylc.edu.tw.
+224			NS	dns.ylc.edu.tw.
+225			NS	dns.ylc.edu.tw.
+226			NS	dns.ylc.edu.tw.
+227			NS	dns.ylc.edu.tw.
+228			NS	dns.ylc.edu.tw.
+229			NS	dns.ylc.edu.tw.
+23			NS	dns.cyc.edu.tw.
+230			NS	dns.ylc.edu.tw.
+$ORIGIN 230.27.163.in-addr.arpa.
+1			PTR	dns.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+231			NS	dns.shsh.ylc.edu.tw.
+$ORIGIN 231.27.163.in-addr.arpa.
+1			PTR	dns.shsh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+232			NS	dns.ynhs.ylc.edu.tw.
+$ORIGIN 232.27.163.in-addr.arpa.
+1			PTR	dns.ynhs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+233			NS	dns.hlvs.ylc.edu.tw.
+$ORIGIN 233.27.163.in-addr.arpa.
+1			PTR	dns.hlvs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+234			NS	dns.tssh.ylc.edu.tw.
+$ORIGIN 234.27.163.in-addr.arpa.
+1			PTR	dns.tssh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+235			NS	dns.hwsh.ylc.edu.tw.
+$ORIGIN 235.27.163.in-addr.arpa.
+1			PTR	dns.hwsh.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+236			NS	dns.hwaivs.ylc.edu.tw.
+$ORIGIN 236.27.163.in-addr.arpa.
+1			PTR	dns.hwaivs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+237			NS	dns.thhs.ylc.edu.tw.
+$ORIGIN 237.27.163.in-addr.arpa.
+1			PTR	dns.thhs.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+238			NS	dns.ylc.edu.tw.
+239			NS	dns.ylc.edu.tw.
+24			NS	dns.cyc.edu.tw.
+240			NS	dns.ylc.edu.tw.
+241			NS	dns.ylc.edu.tw.
+242			NS	ms1.dlps.ylc.edu.tw.
+$ORIGIN 242.27.163.in-addr.arpa.
+1			PTR	ms1.dlps.ylc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+243			NS	dns.ylc.edu.tw.
+244			NS	dns.ylc.edu.tw.
+245			NS	dns.ylc.edu.tw.
+246			NS	dns.ylc.edu.tw.
+247			NS	dns.ylc.edu.tw.
+248			NS	dns.ylc.edu.tw.
+25			NS	dns.cyc.edu.tw.
+26			NS	dns.cyc.edu.tw.
+27			NS	dns.cyc.edu.tw.
+28			NS	dns.cyc.edu.tw.
+29			NS	dns.cyc.edu.tw.
+3			NS	dns.cy.edu.tw.
+30			NS	dns.cyc.edu.tw.
+31			NS	dns.cyc.edu.tw.
+32			NS	dns.cyc.edu.tw.
+33			NS	dns.cyc.edu.tw.
+34			NS	dns.cyc.edu.tw.
+35			NS	dns.cy.edu.tw.
+36			NS	dns.cy.edu.tw.
+37			NS	dns.cy.edu.tw.
+38			NS	dns.cy.edu.tw.
+39			NS	dns.cy.edu.tw.
+4			NS	dns.cy.edu.tw.
+40			NS	dns.cy.edu.tw.
+41			NS	dns.cy.edu.tw.
+42			NS	dns.cy.edu.tw.
+43			NS	dns.cy.edu.tw.
+44			NS	dns.cy.edu.tw.
+45			NS	dns.cy.edu.tw.
+46			NS	dns.cy.edu.tw.
+47			NS	dns.cy.edu.tw.
+48			NS	dns.cy.edu.tw.
+49			NS	dns.cy.edu.tw.
+5			NS	dns.cy.edu.tw.
+50			NS	dns.cy.edu.tw.
+51			NS	dns.cy.edu.tw.
+52			NS	dns.cy.edu.tw.
+53			NS	dns.cy.edu.tw.
+54			NS	dns.cy.edu.tw.
+55			NS	dns.cy.edu.tw.
+56			NS	dns.cy.edu.tw.
+57			NS	dns.cy.edu.tw.
+58			NS	dns.cy.edu.tw.
+59			NS	dns.cy.edu.tw.
+6			NS	dns.cy.edu.tw.
+60			NS	dns.cy.edu.tw.
+61			NS	dns.cyc.edu.tw.
+62			NS	dns.cyc.edu.tw.
+63			NS	dns.cyc.edu.tw.
+64			NS	dns.cyc.edu.tw.
+65			NS	dns.cyc.edu.tw.
+66			NS	dns.cyc.edu.tw.
+67			NS	dns.cyc.edu.tw.
+68			NS	dns.cyc.edu.tw.
+69			NS	dns.cyc.edu.tw.
+7			NS	dns.cy.edu.tw.
+70			NS	dns.cyc.edu.tw.
+$ORIGIN 70.27.163.in-addr.arpa.
+1			PTR	dns.cyc.edu.tw.
+$ORIGIN 27.163.in-addr.arpa.
+71			NS	dns.cyc.edu.tw.
+72			NS	dns.cyc.edu.tw.
+73			NS	dns.cyc.edu.tw.
+74			NS	dns.cyc.edu.tw.
+75			NS	dns.cyc.edu.tw.
+76			NS	dns.cyc.edu.tw.
+77			NS	dns.cyc.edu.tw.
+78			NS	dns.cyc.edu.tw.
+79			NS	dns.cyc.edu.tw.
+8			NS	dns.cy.edu.tw.
+80			NS	dns.cyc.edu.tw.
+81			NS	dns.cyc.edu.tw.
+82			NS	dns.cyc.edu.tw.
+83			NS	dns.cyc.edu.tw.
+84			NS	dns.cyc.edu.tw.
+85			NS	dns.cyc.edu.tw.
+86			NS	dns.cyc.edu.tw.
+87			NS	dns.cyc.edu.tw.
+88			NS	dns.cyc.edu.tw.
+89			NS	dns.cyc.edu.tw.
+9			NS	dns.cy.edu.tw.
+90			NS	dns.cyc.edu.tw.
+91			NS	dns.cyc.edu.tw.
+92			NS	dns.cyc.edu.tw.
+93			NS	dns.cyc.edu.tw.
+94			NS	dns.cyc.edu.tw.
+95			NS	dns.cyc.edu.tw.
+96			NS	dns.cyc.edu.tw.
+97			NS	dns.cyc.edu.tw.
+98			NS	dns.cyc.edu.tw.
+99			NS	dns.cyc.edu.tw.

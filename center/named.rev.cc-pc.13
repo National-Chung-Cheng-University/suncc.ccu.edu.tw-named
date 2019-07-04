@@ -1,0 +1,43 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 13.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.      root.suncc.ccu.edu.tw.  (
+			1999101301   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+	IN	NS	ccunix.ccu.edu.tw.
+	IN	NS	dns2.ccu.edu.tw.
+
+
+0	IN	PTR	r216net.cc-pc.ccu.edu.tw.
+1	IN	PTR	r216-01.cc-pc.ccu.edu.tw.
+2	IN	PTR	r216-02.cc-pc.ccu.edu.tw.
+3	IN	PTR	r216-03.cc-pc.ccu.edu.tw.
+4	IN	PTR	r216-04.cc-pc.ccu.edu.tw.
+5	IN	PTR	r216-05.cc-pc.ccu.edu.tw.
+6	IN	PTR	r216-06.cc-pc.ccu.edu.tw.
+7	IN	PTR	r216-07.cc-pc.ccu.edu.tw.
+8	IN	PTR	r216-08.cc-pc.ccu.edu.tw.
+9	IN	PTR	r216-09.cc-pc.ccu.edu.tw.
+10	IN	PTR	r216-10.cc-pc.ccu.edu.tw.
+
+
+101	IN	PTR	r216-101.cc-pc.ccu.edu.tw.
+102	IN	PTR	r216-102.cc-pc.ccu.edu.tw.
+103	IN	PTR	r216-103.cc-pc.ccu.edu.tw.
+104	IN	PTR	r216-104.cc-pc.ccu.edu.tw.
+105	IN	PTR	r216-105.cc-pc.ccu.edu.tw.
+106	IN	PTR	r216-106.cc-pc.ccu.edu.tw.
+107	IN	PTR	r216-107.cc-pc.ccu.edu.tw.
+108	IN	PTR	r216-108.cc-pc.ccu.edu.tw.
+109	IN	PTR	r216-109.cc-pc.ccu.edu.tw.
+110	IN	PTR	r216-110.cc-pc.ccu.edu.tw.
+

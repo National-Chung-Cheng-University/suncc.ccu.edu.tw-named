@@ -1,0 +1,51 @@
+;
+;	ccunix: /var/named/named.hosts
+;
+;	ccunix.ccu.edu.tw zone hosts file for server ccunix
+;
+$ORIGIN	phil.ccu.edu.tw.
+@       IN      SOA 	leica.ccu.edu.tw.     root.leica.ccu.edu.tw.  (
+			1997102201   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600      ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+            	IN      NS      leica.ccu.edu.tw.
+		IN	NS	suncc.ccu.edu.tw.
+
+
+;
+;  leica.ccu.edu.tw zone hosts list (philosophy department)
+;
+
+houng	IN	A	140.123.44.102
+teng	IN	A	140.123.44.104
+selig	IN	A	140.123.44.107
+shei	IN	A	140.123.44.115
+tai	IN	A	140.123.44.119
+shei	IN	A	140.123.44.115
+peng	IN	A	140.123.44.135
+palma	IN	A	140.123.44.199
+
+ling	IN	A	140.123.44.120
+yi	IN	A	140.123.44.121
+er	IN	A	140.123.44.122
+san	IN	A	140.123.44.123
+si	IN	A	140.123.44.124
+wu	IN	A	140.123.44.125
+liu	IN	A	140.123.44.126
+qi	IN	A	140.123.44.127
+ba	IN	A	140.123.44.128
+jiu	IN	A	140.123.44.129
+shi	IN	A	140.123.44.130
+shiyi	IN	A	140.123.44.131
+shier	IN	A	140.123.44.132
+shisan	IN	A	140.123.44.133
+shisi	IN	A	140.123.44.134
+shiwu	IN	A	140.123.44.135
+shiliu	IN	A	140.123.44.136
+shiqi	IN	A	140.123.44.137
+shiba	IN	A	140.123.44.138
+shijiu	IN	A	140.123.44.139
+
+

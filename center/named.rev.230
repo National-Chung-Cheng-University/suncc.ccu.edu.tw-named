@@ -1,0 +1,23 @@
+;
+;	ccunix: /var/named/named.rev
+;
+;	ccunix.ccu zone reverse address hosts file for server ccunix
+;
+$ORIGIN 230.123.140.in-addr.arpa.
+$TTL	360000
+
+@       IN      SOA     suncc.ccu.edu.tw.	root.suncc.ccu.edu.tw.  (
+			2000102701   ; Serial
+			21600	     ; Refresh	 6 hours
+			3600	     ; Retry	 1 hour
+			1209600	     ; Expire	14 days
+			172800 )     ; Minimum	 2 days
+	IN	NS	suncc.ccu.edu.tw.
+
+
+; distance learning
+1	IN	PTR	ns.webedu.ccu.edu.tw.
+10	IN	PTR	ale.cc.ccu.edu.tw.
+20	IN	PTR	welearn.cc.ccu.edu.tw.
+100	IN	PTR	webguider.cc.ccu.edu.tw.
+101    	IN	PTR	ale2.cc.ccu.edu.tw.

@@ -1,0 +1,185 @@
+;
+;	reverse domain for 120.113.0.0
+;
+$ORIGIN 113.120.in-addr.arpa.
+
+$TTL	360000
+@                       IN   SOA   suncc.ccu.edu.tw.  root.suncc.ccu.edu.tw.  (
+			2010080201 ; Serial
+			21600      ; Refresh	 6 hours
+			3600	   ; Retry	 1 hour
+			1209600	   ; Expire	14 days
+			172800 )   ; Minimum	 2 days
+		IN	NS	suncc.ccu.edu.tw.
+		IN	NS	dns2.ccu.edu.tw.
+;		IN	NS	s1.ccu.edu.tw.
+;		IN	NS	moevax.edu.tw.
+
+;
+; reverse domain of 120.113
+;
+; for wfu 120.113.1 - 140.130.23
+;
+0	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+1	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+2	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+3	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+4	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+5	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+6	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+7	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+8	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+9	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+10	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+11	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+12	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+13	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+14	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+15	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+16	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+17	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+18	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+19	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+20	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+21	IN	NS	dns.eo.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+22	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+23	IN	NS	dns.wfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+;
+;
+; for nfu 120.113.64 - 140.130.127
+;
+64	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+65	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+66	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+67	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+68	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+69	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+70	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+71	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+72	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+73	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+74	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+75	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+76	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+77	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+78	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+79	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+80	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+91	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+92	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+93	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+94	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+95	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+96	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+97	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+98	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+99	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+100	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+101	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+102	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+103	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+104	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+105	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+106	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+107	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+108	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+109	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+110	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+111	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+112	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+113	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+114	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+115	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+116	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+117	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+118	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+119	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+120	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+121	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+122	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+123	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+124	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+125	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+126	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+127	IN	NS	dns.nfu.edu.tw.
+	IN	NS	suncc.ccu.edu.tw.
+;
+;
+;

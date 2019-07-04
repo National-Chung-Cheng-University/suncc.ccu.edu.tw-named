@@ -1,0 +1,24 @@
+$ORIGIN .
+$TTL 21600	; 6 hours
+his.ccu.edu.tw		IN SOA	dns.his.ccu.edu.tw. ky.mail.his.ccu.edu.tw. (
+				2005051102 ; serial
+				3600       ; refresh (1 hour)
+				1800       ; retry (30 minutes)
+				604800     ; expire (1 week)
+				21600      ; minimum (6 hours)
+				)
+			NS	dns.his.ccu.edu.tw.
+			A	140.123.41.133
+			MX	10 dns.his.ccu.edu.tw.
+$ORIGIN his.ccu.edu.tw.
+bbs			A	140.123.41.150
+dns			A	140.123.41.133
+hero			A	140.123.41.138
+jacky2			A	140.123.41.139
+localhost		A	127.0.0.1
+loopback		CNAME	localhost.
+mail			A	140.123.41.143
+sayYes			A	140.123.41.137
+TOMCAT			A	140.123.41.131
+wtc			A	140.123.41.136
+www			CNAME	TOMCAT

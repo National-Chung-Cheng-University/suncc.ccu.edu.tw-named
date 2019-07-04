@@ -1,0 +1,27 @@
+$ORIGIN .
+$TTL 259200	; 3 days
+241.123.140.in-addr.arpa IN SOA	dorm.ccu.edu.tw. root.dorm.ccu.edu.tw. (
+				2010053001 ; serial
+				21600      ; refresh (6 hours)
+				7200       ; retry (2 hours)
+				1209600    ; expire (2 weeks)
+				172800     ; minimum (2 days)
+				)
+			NS	dorm.ccu.edu.tw.
+			NS	suncc.ccu.edu.tw.
+$ORIGIN 241.123.140.in-addr.arpa.
+1			PTR	www.dorm.ccu.edu.tw.
+10			PTR	project.dorm.ccu.edu.tw.
+100			PTR	www.gc.ccu.edu.tw.
+11			PTR	slave.dorm.ccu.edu.tw.
+15			PTR	mail.cna.ccu.edu.tw.
+2			PTR	netflow.dorm.ccu.edu.tw.
+242			PTR	splunklog.dorm.ccu.edu.tw.
+3			PTR	ftp.dorm.ccu.edu.tw.
+4			PTR	mail.dorm.ccu.edu.tw.
+5			PTR	dns.cna.ccu.edu.tw.
+70			PTR	ocsa.ccu.edu.tw.
+8			PTR	gateway.dorm.ccu.edu.tw.
+80			PTR	mocsa.ccu.edu.tw.
+9			PTR	dsf.dorm.ccu.edu.tw.
+99			PTR	Career.ccu.edu.tw.

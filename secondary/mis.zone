@@ -1,0 +1,47 @@
+$ORIGIN .
+$TTL 600	; 10 minutes
+mis.ccu.edu.tw		IN SOA	mis.ccu.edu.tw. root.mis.ccu.edu.tw. (
+				2010122201 ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				86400      ; minimum (1 day)
+				)
+			NS	mis.ccu.edu.tw.
+			NS	ns2.mis.ccu.edu.tw.
+			A	140.123.174.12
+			MX	10 ASPMX.L.GOOGLE.COM.
+			MX	20 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	20 ALT2.ASPMX.L.GOOGLE.COM.
+			MX	30 ASPMX2.GOOGLEMAIL.COM.
+			MX	30 ASPMX3.GOOGLEMAIL.COM.
+			MX	30 ASPMX4.GOOGLEMAIL.COM.
+			MX	30 ASPMX5.GOOGLEMAIL.COM.
+$ORIGIN mis.ccu.edu.tw.
+349-142			A	140.123.174.142
+backupmis		A	140.123.174.10
+bala			A	140.123.174.1
+bbs			A	140.123.174.1
+cclab			A	140.123.174.215
+cmca			A	140.123.176.227
+dona			A	140.123.174.175
+dsslab			A	140.123.174.214
+issurvey		A	140.123.174.215
+$ORIGIN issurvey.mis.ccu.edu.tw.
+www			A	140.123.174.215
+$ORIGIN mis.ccu.edu.tw.
+mail			A	140.123.174.14
+			MX	10 mail
+mcism			A	140.123.175.117
+mimilu			A	140.123.175.111
+mimrc			A	140.123.176.181
+ms			A	140.123.174.25
+			MX	10 ms
+nasg			A	140.123.174.173
+nasp			A	140.123.174.170
+nast			A	140.123.174.172
+ns2			A	140.123.174.28
+poppy			A	140.123.174.174
+sa			A	140.123.174.96
+submission		A	140.123.174.226
+www			A	140.123.174.7
